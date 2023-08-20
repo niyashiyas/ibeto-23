@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg1 {
+  background-image: radial-gradient(
+      farthest-side at bottom left,
+      #1f1d3bac,
+      transparent 900px
+    ),
+    radial-gradient(
+      farthest-corner at bottom right,
+      #3a233f,
+      transparent 1000px
+    );
+}
+.bg2 {
+  background-image: radial-gradient(
+      farthest-side at bottom left,
+      #63255a57,
+      transparent 400px
+    ),
+    radial-gradient(farthest-corner at bottom right, #4820519b, transparent 800px),
+    radial-gradient(farthest-side at top left, #27235aa9, transparent 900px),
+    radial-gradient(farthest-corner at top right, #1d184dac, transparent 900px);
+}
+.bg3 {
+  background-image: radial-gradient(
+      farthest-side at top left,
+      #63255a57,
+      transparent 400px
+    ),
+    radial-gradient(farthest-corner at top right, #4820519b, transparent 800px);
+    background: linear-gradient(180deg,#b6cbff,rgba(218, 218, 218, 0));
+    
+   
+}
+.bg4 {
+  background-image: radial-gradient(
+      farthest-side at bottom center,
+      #30256357,
+      transparent 400px
+    ),
+    radial-gradient(farthest-corner at center center, #4820519b, transparent 800px);
+    
+   
+}
+
+
+.bg5 {
+  background-image: radial-gradient(
+      farthest-side at top center,
+      #30256357,
+      transparent 400px
+    ),
+    radial-gradient(farthest-corner at center center, #4820519b, transparent 800px);
+    
+   
+}
+.card{
+background-image: radial-gradient(
+      farthest-side at bottom left,
+      #41256357,
+      transparent 400px
+    ),
+    radial-gradient(farthest-corner at bottom right, #4820519b, transparent 00px),
+    radial-gradient(farthest-side at top left, #27235aa9, transparent 100px),
+    radial-gradient(farthest-corner at top right, #1d184dac, transparent 100px);
+  transition: background-image 3s ease-in-out;
+
+  clip-path: polygon(12% 0%, 100% 0, 100% 85%, 85% 100%, 1% 100%, 0% 15%);
+  border: 1px solid #afbfe477;
+}
+
+
+.card:hover{
+    transition-delay: 5s; /* Add a delay of 0.5 seconds before the transition starts */
+ background-image: radial-gradient(
+
+      farthest-side at bottom left,
+      #1c116457,
+      transparent 600px
+    ),
+    radial-gradient(farthest-corner at bottom right, #4820519b, transparent 100px),
+    radial-gradient(farthest-side at top left, #27235aa9, transparent 100px),
+    radial-gradient(farthest-corner at top right, #1d184dac, transparent 100px);
+}
+
+
+.card1{
+background-image: radial-gradient(
+      farthest-side at bottom left,
+      #41256357,
+      transparent 400px
+    ),
+    radial-gradient(farthest-corner at bottom right, #4820519b, transparent 00px),
+    radial-gradient(farthest-side at top left, #27235aa9, transparent 100px),
+    radial-gradient(farthest-corner at top right, #1d184dac, transparent 100px);
+  transition: background-image 3s ease-in-out;
+
+  border: 1px solid #afbfe477;
+}
+
+
+.card1:hover{
+    transition-delay: 5s; /* Add a delay of 0.5 seconds before the transition starts */
+ background-image: radial-gradient(
+
+      farthest-side at bottom left,
+      #1c116457,
+      transparent 600px
+    ),
+    radial-gradient(farthest-corner at bottom right, #4820519b, transparent 100px),
+    radial-gradient(farthest-side at top left, #27235aa9, transparent 100px),
+    radial-gradient(farthest-corner at top right, #1d184dac, transparent 100px);
+}
+.fonts {
+  font-size: clamp(2.1rem, 7vw, 4rem);
+  font-weight: 300;
+  line-height: 100%;
+  letter-spacing: -0.03rem;
+}
+
+.colo{
+  stop-color: var(--color-cyan-500);
+}
+.colo1{
+stop-color: var(--color-purple-500);
+}
+.button{
+  background: linear-gradient(180deg,#120c20,rgba(36, 24, 98, 0));
+  border: 1px solid #afbfe477;
+  transition: background 0.2s ease-in-out;
+}
