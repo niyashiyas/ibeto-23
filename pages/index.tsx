@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Aos from "aos";
 import { useEffect } from "react";
 import Roadmap from "@/components/Roadmap";
+import Timeline from "@/components/Timeline";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -29,6 +30,7 @@ export default function Home() {
       <div id="start"  className="relative top-[85vh]">
         <Getstarted />
         <Roadmap />
+        <Timeline />
         <Footer />
       </div>
     </>
