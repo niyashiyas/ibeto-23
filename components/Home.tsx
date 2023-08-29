@@ -5,8 +5,6 @@ import "aos/dist/aos.css";
 import Link from "next/link";
 import Social from "./Social";
 import Navbar from "./Navbar";
-import Model from "./Model";
-
 
 export default function landingpagebanner() {
   useEffect(() => {
@@ -16,19 +14,27 @@ export default function landingpagebanner() {
   }, []);
 
   return (
-    <div className="mt-0 bg-[url('../public/bg7.svg')] sm:bg-[url('../public/bg.svg')]  fixed w-full bg-hero h-screen bg-no-repeat bg-cover bg-center">
+    <div className="mt-0  bg-[url('../public/bg7.svg')] sm:bg-[url('../public/bg.svg')]  fixed w-full bg-hero h-screen bg-no-repeat bg-cover bg-center">
       <div className="right-0 hidden l-0 bottom-[30%] absolute h-full sm:flex mr-4 items-end pb-8">
         <Social />
       </div>{" "}
-      <div className="w-full min-h-screen font-sans text-gray-900">
+      <video
+        autoPlay
+        loop
+        muted
+        className="absolute z-10 opacity-40 w-screen h-screen object-cover max-w-none"
+      >
+        <source src="/bg.mp4" type="video/mp4" />
+      </video>{" "}
+      <div className="w-full z-40 absolute min-h-screen font-sans text-gray-900">
         <div className="h-screen bg2 flex justify-center bg-[#00000086]  ">
-          <Model />
-          <div className="px-0 absolute w-full  flex justify-center py-2 pt-60 sm:px-12 mx-auto sm:max-w-6xl 2xl:max-w-7xl">
+          {/* <Model /> */}
+          <div className="px-0 absolute w-full  flex justify-center py-2 pt-24 sm:px-12 mx-auto sm:max-w-7xl 2xl:max-w-7xl">
             <div
               data-aos="zoom-in"
               className="flex w-full flex-col-reverse gap-1 sm:gap-8 items-center justify-start md:flex-row lg:items-center"
             >
-              <div className="pt-4 sm:px-5 pr-0 items-center sm:pr-8 pb-24 text-left px-10 md:pb-12 md:w-2/3 sm:text-left">
+              <div className="pt-4 sm:px-5 pr-0 w-full items-center sm:pr-8 pb-24 text-left px-10 md:pb-12 md:w-2/3 sm:text-left">
                 <h1 className="relative fonts  font-body2 font-normal z-10 text-white font-display">
                   Innovations for a Better Tomorrow{" "}
                 </h1>
@@ -43,6 +49,13 @@ export default function landingpagebanner() {
                    Register Now
                   </Link>
                 </div> */}
+              </div>
+              <div className="flex p-2 sm:p-0 items-center sm:w-2/3 w-full mt-3 border-gray-400">
+                <img
+                  className="  scale-95 accent-neutral-100"
+                  src="/hero.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>

@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed rounded-b-[13%] w-full z-50 bg-gradient-to-b from-[#95b3f9] to-[#deb4ff] sm:bg-gradient-to-b sm:from-[#092a7e] sm:to-[#8698fa]">
+    <header className="fixed  w-full z-50 bg-gradient-to-b from-[#d4def6] to-[#ebdaf7] sm:bg-gradient-to-b sm:from-[#e1e8f7] sm:to-[#dce1fc]">
       <div className="absolute min-w-7xl inset-0">
         <img
           className="object-cover w-full h-full opacity-30"
@@ -50,7 +50,7 @@ const Navbar = () => {
               <button
                 onClick={opening}
                 type="button"
-                className="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 focus:text-black hover:text-black hover:bg-gray-100"
+                className="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 focus:text-black hover:text-black hover:bg-gray-100"
               >
                 <svg
                   className="block w-6 h-6 "
@@ -132,7 +132,7 @@ const Navbar = () => {
                 <div>
                   <button
                     type="button"
-                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-white  "
+                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black  "
                     id="menu-button"
                     aria-expanded="true"
                     aria-haspopup="true"
@@ -145,7 +145,7 @@ const Navbar = () => {
                 <div>
                   <button
                     type="button"
-                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-white  "
+                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black  "
                     id="menu-button"
                     aria-expanded="true"
                     aria-haspopup="true"
@@ -158,7 +158,7 @@ const Navbar = () => {
                 <div>
                   <button
                     type="button"
-                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-white  "
+                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black  "
                     id="menu-button"
                     aria-expanded="true"
                     aria-haspopup="true"
@@ -171,7 +171,7 @@ const Navbar = () => {
                 <div>
                   <button
                     type="button"
-                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-white  "
+                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black  "
                     id="menu-button"
                     aria-expanded="true"
                     aria-haspopup="true"
@@ -184,7 +184,7 @@ const Navbar = () => {
                 <div>
                   <button
                     type="button"
-                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-white  "
+                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black  "
                     id="menu-button"
                     aria-expanded="true"
                     aria-haspopup="true"

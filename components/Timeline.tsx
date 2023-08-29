@@ -67,38 +67,42 @@ export default function Timeline() {
     },
   ]
   return (
-    <section className="py-12 rounded-lg bg-gray-300 sm:py-16 lg:py-20">
-      <div className="timeline" id="timeline">
-      <div className="timeline__container">
-        <h2 className="text-black text-center text-3xl font-bold pb-3 sm:pb-7">Timeline</h2>
+    <section className="py-12 relative  bg-[#EAE9FF]  sm:py-16 lg:py-20 px-16">
+      <div className="timeline border-t-4   border-slate-300/60" id="timeline">
+        <div className="timeline__container">
+          <h2 className="text-black mt-24 font-body2 text-center text-3xl font-bold pb-3 sm:pb-7">
+            Timeline
+          </h2>
 
-        <div className="timeline__section" data-aos="zoom-in">
-          <div className='ml-2 mr-4 sm:mx-0'>
-            <VerticalTimeline lineColor="white" >
-            {timeline.map((t, i) => {
-              return (
-                <VerticalTimelineElement
-                  key={i}
-                  contentStyle={{borderRadius: "5px"}}
-                  className="vertical-timeline-element--work"
-                  contentArrowStyle={{borderRight: "7px solid  black"}}
-                  date={t.date}
-                >
-                  {t.title ? (
-                    <React.Fragment>
-                      <h3 className="vertical-timeline-element-title font-bold">{t.title}</h3>
-                      <div className=""></div>
-                      <h6 className="py-3">{t.para}</h6>
-                    </React.Fragment>
-                  ) : undefined}
-                </VerticalTimelineElement>
-              );
-            })}
-            </VerticalTimeline>
+          <div className="timeline__section" data-aos="zoom-in">
+            <div className="ml-2 mr-4 sm:mx-0">
+              <VerticalTimeline lineColor="white">
+                {timeline.map((t, i) => {
+                  return (
+                    <VerticalTimelineElement
+                      key={i}
+                      contentStyle={{ borderRadius: "5px" }}
+                      className="vertical-timeline-element--work"
+                      contentArrowStyle={{ borderRight: "7px solid  black" }}
+                      date={t.date}
+                    >
+                      {t.title ? (
+                        <React.Fragment>
+                          <h3 className="vertical-timeline-element-title font-bold">
+                            {t.title}
+                          </h3>
+                          <div className=""></div>
+                          <h6 className="py-3">{t.para}</h6>
+                        </React.Fragment>
+                      ) : undefined}
+                    </VerticalTimelineElement>
+                  );
+                })}
+              </VerticalTimeline>
+            </div>
           </div>
         </div>
       </div>
-    </div>
     </section>
   );
 }

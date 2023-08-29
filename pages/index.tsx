@@ -27,7 +27,7 @@ export default function Home() {
       <div className="fixed">
         <Home1 />
       </div>
-      <div id="start"  className="relative top-[85vh]">
+      <div id="start"  className="relative top-[88vh]">
         <Getstarted />
         <Roadmap />
         <Timeline />

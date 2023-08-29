@@ -2,26 +2,24 @@ import React from 'react'
 
 export default function Roadmap() {
   return (
-    <section className="py-12 bg-gray-900 sm:py-16 lg:py-20">
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <section className="py-12 bg-[#EAE9FF] rounded-t-[60px] relative w-full -mt-14 sm:py-16 lg:py-20 lg:py-16 sm:pb-16">
+      <div className="px-4 mx-auto max-w-6xl sm:px-6 lg:px-8">
         <div className="text-center lg:text-left lg:flex lg:items-center lg:justify-between">
-          <h2 className="text-3xl font-bold text-white">Full Roadmap</h2>
-          <p className="max-w-xs mx-auto mt-4 text-base font-medium text-gray-400 lg:mx-0 lg:mt-0">
-            In a creative workplace, employees with responsibly try different
-            solutions
-          </p>
+          <h2 className="text-3xl font-bold font-body1 text-black">
+            Full Roadmap
+          </h2>
         </div>
 
         <div className="mt-12 sm:px-16 lg:px-0">
-          <div className="grid grid-cols-1 overflow-hidden border border-gray-700 divide-y divide-gray-700 lg:divide-y-0 lg:divide-x lg:grid-cols-3 rounded-xl">
+          <div className="grid grid-cols-1 overflow-hidden border-2 border-slate-400 divide-y-2 divide-slate-400 lg:divide-y-0 lg:divide-x lg:grid-cols-3 rounded-xl">
             <div className="p-6 sm:p-8 lg:px-10">
-              <p className="text-sm font-semibold tracking-wide text-gray-400 uppercase">
+              <p className="text-sm font-semibold tracking-wide text-indigo-900 uppercase">
                 Phase 1
               </p>
-              <p className="mt-3 text-xl font-bold text-white">Launch</p>
+              <p className="mt-3 text-xl font-bold text-gray-800">Launch</p>
 
               <ul className="space-y-3 mt-7">
-                <li className="flex items-center px-4 py-3 bg-gray-800 rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +40,7 @@ export default function Roadmap() {
                   </span>
                 </li>
 
-                <li className="flex items-center px-4 py-3 bg-gray-800 rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-indigo-400/70 rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +61,7 @@ export default function Roadmap() {
                   </span>
                 </li>
 
-                <li className="flex items-center px-4 py-3 bg-gray-800 rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     xmlns="http://www.w3.org/2000/svg"
@@ -87,13 +85,13 @@ export default function Roadmap() {
             </div>
 
             <div className="p-6 sm:p-8 lg:px-10">
-              <p className="text-sm font-semibold tracking-wide text-gray-400 uppercase">
+              <p className="text-sm font-semibold tracking-wide text-indigo-900 uppercase">
                 Phase 2
               </p>
-              <p className="mt-3 text-xl font-bold text-white">Investment</p>
+              <p className="mt-3 text-xl font-bold text-gray-800">Investment</p>
 
               <ul className="space-y-3 mt-7">
-                <li className="flex items-center px-4 py-3 bg-gray-800 rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"
@@ -114,7 +112,7 @@ export default function Roadmap() {
                   </span>
                 </li>
 
-                <li className="flex items-center px-4 py-3 bg-gray-800 rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"
@@ -135,7 +133,7 @@ export default function Roadmap() {
                   </span>
                 </li>
 
-                <li className="flex items-center px-4 py-3 bg-gray-800 rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"
@@ -159,13 +157,13 @@ export default function Roadmap() {
             </div>
 
             <div className="p-6 sm:p-8 lg:px-10">
-              <p className="text-sm font-semibold tracking-wide text-gray-400 uppercase">
+              <p className="text-sm font-semibold tracking-wide text-indigo-900 uppercase">
                 Phase 3
               </p>
-              <p className="mt-3 text-xl font-bold text-white">Growing</p>
+              <p className="mt-3 text-xl font-bold text-gray-800">Growing</p>
 
               <ul className="space-y-3 mt-7">
-                <li className="flex items-center px-4 py-3 bg-gray-800 rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"
@@ -186,7 +184,7 @@ export default function Roadmap() {
                   </span>
                 </li>
 
-                <li className="flex items-center px-4 py-3 bg-gray-800 rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"
@@ -207,7 +205,7 @@ export default function Roadmap() {
                   </span>
                 </li>
 
-                <li className="flex items-center px-4 py-3 bg-gray-800 rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"
