@@ -67,7 +67,7 @@ export default function Timeline() {
     },
   ]
   return (
-    <section className="py-12 rounded-lg bg-gray-300 sm:py-16 lg:py-20">
+    <section className="py-12 rounded-t-lg bg-gray-300 sm:py-16 lg:py-20">
       <div className="timeline" id="timeline">
       <div className="timeline__container">
         <h2 className="text-black text-center text-3xl font-bold pb-3 sm:pb-7">Timeline</h2>

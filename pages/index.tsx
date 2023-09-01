@@ -8,6 +8,7 @@ import Aos from "aos";
 import { useEffect } from "react";
 import Roadmap from "@/components/Roadmap";
 import Timeline from "@/components/Timeline";
+import Rewards from "@/components/Rewards";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -22,7 +23,7 @@ export default function Home() {
       
   return (
     <>
-      <title>Ibeto</title>
+      <title>IBeTo | Excel 2023</title>
       <Navbar />
       <div className="fixed">
         <Home1 />
@@ -31,6 +32,7 @@ export default function Home() {
         <Getstarted />
         <Roadmap />
         <Timeline />
+        <Rewards/>
         <Footer />
       </div>
     </>
