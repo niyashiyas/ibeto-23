@@ -26,11 +26,7 @@ const Navbar = () => {
   return (
     <header className="fixed  w-full rounded-b-[66px] z-50 bg-gradient-to-b from-[#d4def6] to-[#ebdaf7] sm:bg-gradient-to-b sm:from-[#e1e8f7] sm:to-[#dce1fc]">
       <div className="absolute min-w-7xl inset-0">
-        <img
-          className="object-cover rounded-b-[66px] w-full h-full opacity-30"
-          src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png"
-          alt=""
-        />
+       
       </div>{" "}
       <div className="px-0 py-1 sm:px-0 mx-auto sm:max-w-6xl 2xl:max-w-7xl">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
