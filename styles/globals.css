@@ -2,15 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+body::-webkit-scrollbar {
+  display: none;
+}
 .bg1 {
   background-image: radial-gradient(
       farthest-side at bottom left,
-      #1f1d3bac,
+      #7c68d73b,
       transparent 900px
     ),
     radial-gradient(
       farthest-corner at bottom right,
-      #3a233f,
+      #bdaef490,
       transparent 1000px
     );
 }
@@ -115,7 +119,7 @@ background-image: radial-gradient(
     radial-gradient(farthest-corner at top right, #1d184dac, transparent 100px);
 }
 .fonts {
-  font-size: clamp(2.1rem, 7vw, 4rem);
+  font-size: clamp(2.1rem, 7vw, 3.7rem);
   font-weight: 300;
   line-height: 100%;
   letter-spacing: -0.03rem;
