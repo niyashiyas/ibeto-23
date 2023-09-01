@@ -33,11 +33,11 @@ export default function landingpagebanner() {
               className="flex w-full flex-col-reverse gap-1 sm:gap-8 items-center justify-start md:flex-row lg:items-center"
             >
               <div className="pt-6 sm:px-5 pr-0 w-full items-center sm:pr-8 pb-24 text-left px-10 md:pb-12 md:w-2/3 sm:text-left">
-                <h1 className="relative fonts  font-body2 font-normal z-10 text-white font-display">
+                <h1 className="relative fonts shadow-sm  font-body2 font-normal z-10 text-white font-display">
                   Innovations for a Better Tomorrow{" "}
                 </h1>
-                <p className="pt-4 sm:pt-6 font-body1 text-sm sm:text-[1.2rem] leading-relaxed text-white md:max-w-md md:text-xl">
-                  Register today for innovations that shape a better tomorrow.                </p>
+                <p className="pt-4 sm:pt-6 font-body1 text-sm sm:text-[1.2rem] leading-relaxed text-white md:max-w-md md:text-lg">
+                  Register now for innovations that shape a better..                </p>
                 <div className="flex flex-col sm:flex-row gap-5 justify-center  items-start pt-5 sm:pt-5 space-x-6 md:justify-start">
                   <Link
                     href="#start"
