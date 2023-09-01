@@ -8,6 +8,8 @@ import Aos from "aos";
 import { useEffect } from "react";
 import Roadmap from "@/components/Roadmap";
 import Timeline from "@/components/Timeline";
+import Sponsors from "@/components/Sponsors";
+import Contact from "@/components/Contact";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -31,6 +33,8 @@ export default function Home() {
         <Getstarted />
         <Roadmap />
         <Timeline />
+        <Sponsors />
+        <Contact />
         <Footer />
       </div>
     </>

@@ -67,7 +67,7 @@ export default function Timeline() {
     },
   ]
   return (
-    <section className="py-12 relative  bg-[#EAE9FF]  sm:py-16 lg:py-20 px-16">
+    <section className="py-12 z-10 relative rounded-b-[66px]  bg-[#EAE9FF]  sm:py-16 lg:py-20 px-16">
       <div className="timeline border-t-4   border-slate-300/60" id="timeline">
         <div className="timeline__container">
           <h2 className="text-black mt-24 font-body2 text-center text-3xl font-bold pb-3 sm:pb-7">
@@ -76,14 +76,14 @@ export default function Timeline() {
 
           <div className="timeline__section" data-aos="zoom-in">
             <div className="ml-2 mr-4 sm:mx-0">
-              <VerticalTimeline lineColor="white">
+              <VerticalTimeline lineColor="white" className='rounded-full'>
                 {timeline.map((t, i) => {
                   return (
                     <VerticalTimelineElement
                       key={i}
-                      contentStyle={{ borderRadius: "5px" }}
+                      contentStyle={{ borderRadius: "25px" }}
                       className="vertical-timeline-element--work"
-                      contentArrowStyle={{ borderRight: "7px solid  black" }}
+                      contentArrowStyle={{ borderRight: "7px solid  black",borderRadius:"66px" }}
                       date={t.date}
                     >
                       {t.title ? (

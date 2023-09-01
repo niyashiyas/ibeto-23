@@ -5,12 +5,12 @@
 .bg1 {
   background-image: radial-gradient(
       farthest-side at bottom left,
-      #303ea53b,
+      #7c68d73b,
       transparent 900px
     ),
     radial-gradient(
       farthest-corner at bottom right,
-      #b372de90,
+      #d6aef490,
       transparent 1000px
     );
 }

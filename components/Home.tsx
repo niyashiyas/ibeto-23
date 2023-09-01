@@ -29,7 +29,7 @@ export default function landingpagebanner() {
       <div className="w-full z-40 absolute min-h-screen font-sans text-gray-900">
         <div className="h-screen bg2 flex justify-center bg-[#00000086]  ">
           {/* <Model /> */}
-          <div className="px-0 absolute w-full  flex justify-center py-2 pt-24 sm:px-12 mx-auto sm:max-w-7xl 2xl:max-w-7xl">
+          <div className="px-0 absolute w-full h-full  flex justify-center py-2 sm:px-12 mx-auto sm:max-w-7xl 2xl:max-w-7xl">
             <div
               data-aos="zoom-in"
               className="flex w-full flex-col-reverse gap-1 sm:gap-8 items-center justify-start md:flex-row lg:items-center"
