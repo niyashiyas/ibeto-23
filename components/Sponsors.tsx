@@ -25,7 +25,7 @@ export default function Sponsors() {
 
             <hr className="mt-8 border-gray-800 sm:mt-12" />
             <div className="flex mb-8 w-full justify-center">
-              <div className="inline-grid grid-cols-2 gap-8 mt-8 sm:gap-x-12 sm:gap-y-10 sm:grid-cols-4 sm:mt-12">
+              <div className="inline-grid grid-cols-2 gap-8 mb-5 mt-8 sm:gap-x-12 sm:gap-y-10 sm:grid-cols-4 sm:mt-12">
                 <img
                   className="object-contain h-8 max-w-full sm:h-10 w-44"
                   src="https://landingfoliocom.imgix.net/store/collection/dusk/images/cloud-logos/1/logo-waverio.svg"

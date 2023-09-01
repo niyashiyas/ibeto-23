@@ -74,7 +74,7 @@ export default function Timeline() {
             Timeline
           </h2>
 
-          <div className="timeline__section" data-aos="zoom-in">
+          {/* <div className="timeline__section" data-aos="zoom-in">
             <div className="ml-2 mr-4 sm:mx-0">
               <VerticalTimeline lineColor="white" className="rounded-full">
                 {timeline.map((t, i) => {
@@ -103,7 +103,7 @@ export default function Timeline() {
                 })}
               </VerticalTimeline>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

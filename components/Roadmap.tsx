@@ -95,7 +95,7 @@ export default function Roadmap() {
               </p>
 
               <ul className="space-y-3 mt-7">
-                <li className="flex items-center px-4 py-3 bg-gray-400/70  rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-pink-400/70  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"
