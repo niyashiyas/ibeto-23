@@ -79,7 +79,7 @@ export default function Getstarted() {
                       href="https://www.hyperlane.xyz/"
                       target="_blank"
                       title=""
-                      className="relative border-2 scale-95 border-r-0 pr-16  border-gray-400 text-md font-body1 font-semibold inline-flex items-center justify-center px-8 py-2 text-base text-white  rounded-full"
+                      className="relative border-2 scale-95 border-r-0 pr-16  border-gray-400 text-md font-body2 font-normal inline-flex items-center justify-center px-8 py-2 text-base text-white  rounded-full"
                       role="button"
                     >
                       Guidelines{" "}
@@ -88,7 +88,7 @@ export default function Getstarted() {
                       href="https://www.hyperlane.xyz/"
                       target="_blank"
                       title=""
-                      className="relative hover:scale-110 text-md -ml-12 font-body1 font-semibold inline-flex items-center justify-center px-8 scale-105 py-2 text-base text-white bg-gradient-to-r from-[#7383d3] to-purple-500  rounded-full"
+                      className="relative hover:scale-110 text-md -ml-12 font-body2 font-normal inline-flex items-center justify-center px-8 scale-105 py-2 text-base text-white bg-gradient-to-r from-[#7383d3] to-purple-500  rounded-full"
                       role="button"
                     >
                       Register now

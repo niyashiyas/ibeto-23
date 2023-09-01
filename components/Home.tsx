@@ -15,9 +15,7 @@ export default function landingpagebanner() {
 
   return (
     <div className="mt-0  bg-[url('../public/bg7.svg')] sm:bg-[url('../public/bg.svg')]  fixed w-full bg-hero h-screen bg-no-repeat bg-cover bg-center">
-      <div className="right-0 hidden l-0 bottom-[30%] absolute h-full sm:flex mr-4 items-end pb-8">
-        <Social />
-      </div>{" "}
+      <div className="right-0 hidden l-0 bottom-[30%] absolute h-full sm:flex mr-4 items-end pb-8"></div>{" "}
       <video
         autoPlay
         loop
@@ -34,21 +32,20 @@ export default function landingpagebanner() {
               data-aos="zoom-in"
               className="flex w-full flex-col-reverse gap-1 sm:gap-8 items-center justify-start md:flex-row lg:items-center"
             >
-              <div className="pt-4 sm:px-5 pr-0 w-full items-center sm:pr-8 pb-24 text-left px-10 md:pb-12 md:w-2/3 sm:text-left">
-                <h1 className="relative fonts  font-body2 font-normal z-10 text-white font-display">
+              <div className="pt-6 sm:px-5 pr-0 w-full items-center sm:pr-8 pb-24 text-left px-10 md:pb-12 md:w-2/3 sm:text-left">
+                <h1 className="relative fonts shadow-sm  font-body2 font-normal z-10 text-white font-display">
                   Innovations for a Better Tomorrow{" "}
                 </h1>
-                {/* <p className="pt-4 sm:pt-8 font-body1 text-sm sm:text-[1.3rem] leading-relaxed text-white md:max-w-md md:text-xl">
-                  Learn how to ride the interchain highway ⏩️{" "}
-                </p> */}
-                {/* <div className="flex flex-col sm:flex-row gap-5 justify-center  items-start pt-5 sm:pt-5 space-x-6 md:justify-start">
+                <p className="pt-4 sm:pt-6 font-body1 text-sm sm:text-[1.2rem] leading-relaxed text-white md:max-w-md md:text-lg">
+                  Register now for innovations that shape a better..                </p>
+                <div className="flex flex-col sm:flex-row gap-5 justify-center  items-start pt-5 sm:pt-5 space-x-6 md:justify-start">
                   <Link
                     href="#start"
-                    className="flex justify-center font-semibold font-body1 text-md items-center py-3 px-9 hover:bg-[#441350] tracking-wide leading-7 text-white bg-[#bad4ff77]	rounded-3xl hover:shadow-xl z-50"
+                    className="flex justify-center font-normal font-body2 text-md items-center py-3 px-9 hover:bg-[#441350] tracking-wide leading-7 text-white bg-[#bac7ff90]	rounded-full hover:shadow-xl z-50"
                   >
-                   Register Now
+                    Register Now
                   </Link>
-                </div> */}
+                </div>
               </div>
               <div className="flex p-2 sm:p-0 items-center sm:w-2/3 w-full mt-3 border-gray-400">
                 <img
