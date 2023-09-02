@@ -17,7 +17,7 @@ export default function Getstarted() {
               <div
                 data-aos="zoom-in"
                 className="relative   overflow-hidden bg-gradient-to-b from-[#435686ad] to-[#000c27bd] md:flex rounded-3xl"
-              >
+                >
                 <div className="absolute right-0 transform -translate-y-1/2 translate-x-80 md:translate-x-36 top-1/2 md:top-0 md:-translate-y-24">
                   <svg
                     className="blur-3xl backdrop-blur-65 opacity-40 filter"

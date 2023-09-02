@@ -9,8 +9,8 @@ export default function Faq() {
           src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png"
           alt=""
         />
-      </div>{" "}
-      <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+        </div>{" "}
+       <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="mt-4 font-body2 text-black text-3xl font-normal text-blcak sm:text-4xl lg:text-5xl">
             Questions & Answers

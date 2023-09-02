@@ -11,6 +11,7 @@ import Timeline from "@/components/Timeline";
 import Sponsors from "@/components/Sponsors";
 import Contact from "@/components/Contact";
 import Faq from "@/components/Faq";
+import Rewards from "@/components/Rewards";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -34,9 +35,14 @@ export default function Home() {
         <Getstarted />
         <Roadmap />
         <Timeline />
-        <Footer />
+        <Rewards/>
+        <Sponsors />
+        <div className="absolute w-full z-50">
+          <Faq />
+          <Contact />
+          <Footer />
+        </div>
       </div>
     </>
   );
 }
-
