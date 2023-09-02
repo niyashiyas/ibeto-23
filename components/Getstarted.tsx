@@ -76,7 +76,7 @@ export default function Getstarted() {
                   <div className="relative  rounded-full inline-flex items-center justify-center mt-8 sm:mt-12 group">
                     <div className="absolute w-1/2 transition-all duration-200 rounded-full -inset-px "></div>
                     <Link
-                      href="https://www.hyperlane.xyz/"
+                      href=""
                       target="_blank"
                       title=""
                       className="relative border-2 scale-95 border-r-0 pr-16  border-gray-400 text-md font-body2 font-normal inline-flex items-center justify-center px-8 py-2 text-base text-white  rounded-full"
@@ -85,7 +85,7 @@ export default function Getstarted() {
                       Guidelines{" "}
                     </Link>{" "}
                     <Link
-                      href="https://www.hyperlane.xyz/"
+                      href=""
                       target="_blank"
                       title=""
                       className="relative hover:scale-110 text-md -ml-12 font-body2 font-normal inline-flex items-center justify-center px-8 scale-105 py-2 text-base text-white bg-gradient-to-r from-[#7383d3] to-purple-500  rounded-full"

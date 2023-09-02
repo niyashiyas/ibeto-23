@@ -14,13 +14,13 @@ export default function landingpagebanner() {
   }, []);
 
   return (
-    <div className="mt-0  bg-[url('../public/bg7.svg')] sm:bg-[url('../public/bg.svg')]  fixed w-full bg-hero h-screen bg-no-repeat bg-cover bg-center">
+    <div className="mt-0  bg-[url('../public/bg7.svg')] sm:bg-[url('../public/bg1.svg')]  fixed w-full bg-hero h-screen bg-no-repeat bg-cover bg-center">
       <div className="right-0 hidden l-0 bottom-[30%] absolute h-full sm:flex mr-4 items-end pb-8"></div>{" "}
       <video
         autoPlay
         loop
         muted
-        className="absolute z-10 opacity-40 w-screen h-screen object-cover max-w-none"
+        className="absolute z-10 opacity-90 sm:opacity-40 w-screen h-screen object-cover max-w-none"
       >
         <source src="/bg.mp4" type="video/mp4" />
       </video>{" "}
