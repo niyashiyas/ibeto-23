@@ -8,10 +8,11 @@ export default function Getstarted() {
 
     
   return (
-    <div className="relative  bg-[#ffffff] rounded-t-[12%]  ">
-      <div className="w-full bg4 font-sans  text-gray-900">
-        <div className="h-full  bg3 flex bg-white justify-center  rounded-t-[12%] ">
-          <section className="py-12 w-full bg-base-900 sm:py-16 lg:py-20 xl:py-24">
+    <div className="relative  bg-[#ffffff] rounded-t-[60px]  ">
+      <div className="w-full font-sans  text-gray-900">
+        <div className="h-full  bg3 flex bg-white justify-center  rounded-t-[60px] ">
+          <section className="py-12 w-full bg-base-900 sm:py-16 mb-24 lg:py-20 xl:py-24">
+            <hr className="h-1 rounded-full -mt-16 w-44 items-center mb-12 bg-gray-200 mx-auto" />
             <div className="px-4 mx-auto sm:max-w-6xl 2xl:max-w-7xl sm:px-6 lg:px-8">
               <div
                 data-aos="zoom-in"
@@ -72,28 +73,25 @@ export default function Getstarted() {
                     that fosters technical innovation. Ideas that reimagine the
                     technology we have and create meaningful impacts on a social
                   </p>
-                  <div className="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
-                    <div className="absolute w-1/2 transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-[#7383d3] to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-400/20"></div>
+                  <div className="relative  rounded-full inline-flex items-center justify-center mt-8 sm:mt-12 group">
+                    <div className="absolute w-1/2 transition-all duration-200 rounded-full -inset-px "></div>
                     <Link
                       href="https://www.hyperlane.xyz/"
                       target="_blank"
                       title=""
-                      className="relative text-md font-body1 font-semibold inline-flex items-center justify-center px-8 py-2 text-base text-white bg-black/40 border border-transparent rounded-full"
+                      className="relative border-2 scale-95 border-r-0 pr-16  border-gray-400 text-md font-body2 font-normal inline-flex items-center justify-center px-8 py-2 text-base text-white  rounded-full"
                       role="button"
                     >
-                      Regiater Now
-                    
+                      Guidelines{" "}
                     </Link>{" "}
-                    <div className="absolute transition-all duration-200 rounded-full -inset-px bg-gradient-to-r from-[#7383d3] to-purple-500 group-hover:shadow-lg group-hover:shadow-cyan-400/20"></div>
                     <Link
                       href="https://www.hyperlane.xyz/"
                       target="_blank"
                       title=""
-                      className="relative text-md font-body1 font-semibold inline-flex items-center justify-center px-8 py-2 text-base text-white bg-black/40 border border-transparent rounded-full"
+                      className="relative hover:scale-110 text-md -ml-12 font-body2 font-normal inline-flex items-center justify-center px-8 scale-105 py-2 text-base text-white bg-gradient-to-r from-[#7383d3] to-purple-500  rounded-full"
                       role="button"
                     >
                       Register now
-                     
                     </Link>
                   </div>
                 </div>
