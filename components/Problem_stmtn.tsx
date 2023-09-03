@@ -16,7 +16,7 @@ export default function Problem_stmnt() {
 
                 <div className="grid grid-cols-1 g gap-12 mt-12 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3 lg:px-14 ">
                     <div>
-                        <h3 className="text-lg font-bold text-gray-900 font-body2">Towards Zero Carbon Emission</h3>
+                        <h3 className="text-lg font-bold text-gray-900 font-body2  transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 ">Towards Zero Carbon Emission</h3>
                         <hr className="mt-4 border-t-2 border-slate-800" />
 
                         <ul className="mt-6 space-y-6">
@@ -36,7 +36,7 @@ export default function Problem_stmnt() {
                     </div>
 
                     <div>
-                        <h3 className="text-lg font-bold text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-blue-900  font-body2">Waste management</h3>
+                        <h3 className="text-lg font-bold text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900  font-body2">Waste management</h3>
                         <hr className="mt-4 border-t-2 border-gray-900" />
 
                         <ul className="mt-6 space-y-6">
@@ -55,7 +55,7 @@ export default function Problem_stmnt() {
                     </div>
 
                     <div>
-                        <h3 className="text-lg font-bold text-gray-900 font-body2">Disaster Management</h3>
+                        <h3 className="text-lg font-bold text-gray-900 font-body2 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 ">Disaster Management</h3>
                         <hr className="mt-4 border-t-2 border-gray-900" />
 
                         <ul className="mt-6 space-y-6">
@@ -77,7 +77,7 @@ export default function Problem_stmnt() {
                     </div>
 
                     <div>
-                        <h3 className="text-lg font-bold text-gray-900">Education for all</h3>
+                        <h3 className="text-lg font-bold text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 ">Education for all</h3>
                         <hr className="mt-4 border-t-2 border-gray-900" />
 
                         <ul className="mt-6 space-y-6">
@@ -101,7 +101,7 @@ export default function Problem_stmnt() {
 
 
                     <div>
-                        <h3 className="text-lg font-bold text-gray-900">Transforming Finance</h3>
+                        <h3 className="text-lg font-bold text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 ">Transforming Finance</h3>
                         <hr className="mt-4 border-t-2 border-gray-900" />
 
                         <ul className="mt-6 space-y-6">
@@ -122,7 +122,7 @@ export default function Problem_stmnt() {
                             </li>
                         </ul>
                     </div> <div>
-                        <h3 className="text-lg font-bold text-gray-900">Open Innovation</h3>
+                        <h3 className="text-lg font-bold text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 ">Open Innovation</h3>
                         <hr className="mt-4 border-t-2 border-gray-900" />
 
                         <ul className="mt-6 space-y-6">
