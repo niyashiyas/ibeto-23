@@ -189,45 +189,42 @@ export default function Problem_stmnt() {
 
 
             {activeModal === "waste" && (
-                <Modal title="Towards zero carbon emissions" 
+                <Modal title="Efficient Waste Management:" 
                 content=
-                "Towards zero carbon emissions is a broad strategy intended to reduce or completely stop the atmospheric release of carbon dioxide and other greenhouse gases. It entails switching from fossil fuels to renewable energy sources, implementing energy-saving technology, promoting environmentally friendly business and transportation practices, and encouraging global cooperation. By reducing the effects of climate change and protecting the environment for future generations, the objective is to build a sustainable and resilient future."
+                "Although effective waste management is crucial for creating sustainable and livable communities, many developing nations and cities still struggle with it. India generates 62 million tonnes of waste each year out of which 31 million tonnes are dumped in landfill sites. According to a survey, the cost of efficient waste management typically accounts for 20% to 50% of municipal budgets. This necessitates significant improvements in our nation's efficient technical waste management systems."
                 onClose={closeModal}>
                 </Modal>
-
-
-
             )}
             
              {activeModal === "finance" && (
-                <Modal title="Towards zero carbon emissions" 
+                <Modal title="Transforming Finance" 
                 content=
-                "Towards zero carbon emissions is a broad strategy intended to reduce or completely stop the atmospheric release of carbon dioxide and other greenhouse gases. It entails switching from fossil fuels to renewable energy sources, implementing energy-saving technology, promoting environmentally friendly business and transportation practices, and encouraging global cooperation. By reducing the effects of climate change and protecting the environment for future generations, the objective is to build a sustainable and resilient future."
-                onClose={closeModal}>
+                "Finance transformation is a combination of processes, systems, and organisational change implemented across a corporation using new technologies, training, and analysis. Automating financial and accounting processes has become very significant in every economy. It formalizes workflows enforces financial controls, and ensures uniform reports and analyses. "                onClose={closeModal}>
                 </Modal>
             )}
 
 
             {activeModal === "disaster" && (
-                <Modal title="Towards zero carbon emissions" 
+                <Modal title="Disaster Recovery" 
                 content=
-                "Towards zero carbon emissions is a broad strategy intended to reduce or completely stop the atmospheric release of carbon dioxide and other greenhouse gases. It entails switching from fossil fuels to renewable energy sources, implementing energy-saving technology, promoting environmentally friendly business and transportation practices, and encouraging global cooperation. By reducing the effects of climate change and protecting the environment for future generations, the objective is to build a sustainable and resilient future."
+                " Unprecedented calamities always lead to catastrophic consequences, a huge blow to the country’s development. Solutions on how to handle the disaster are very important for ensuring that it has minimal effect on the nation. Moreover, measures are necessary in order to avoid and eliminate the chances of a catastrophe to a large extent."
                 onClose={closeModal}>
                 </Modal>
             )}
 
 
-            {activeModal === "education" && (
-                <Modal title="Towards zero carbon emissions" 
+            {activeModal === "open" && (
+                <Modal title="Open Innovation" 
                 content=
-                "Towards zero carbon emissions is a broad strategy intended to reduce or completely stop the atmospheric release of carbon dioxide and other greenhouse gases. It entails switching from fossil fuels to renewable energy sources, implementing energy-saving technology, promoting environmentally friendly business and transportation practices, and encouraging global cooperation. By reducing the effects of climate change and protecting the environment for future generations, the objective is to build a sustainable and resilient future."
+                "This problem statement is looking for teams that can come up with inventive responses to real-world problems, are open to typical concepts, and have solutions that will leave an impact on crucial areas that control our daily lives."
                 onClose={closeModal}>
                 </Modal>
-            )} {activeModal === "open" && (
-                <Modal title="Towards zero carbon emissions" 
+            )}
+            
+             {activeModal === "education" && (
+                <Modal title="Education for all" 
                 content=
-                "Towards zero carbon emissions is a broad strategy intended to reduce or completely stop the atmospheric release of carbon dioxide and other greenhouse gases. It entails switching from fossil fuels to renewable energy sources, implementing energy-saving technology, promoting environmentally friendly business and transportation practices, and encouraging global cooperation. By reducing the effects of climate change and protecting the environment for future generations, the objective is to build a sustainable and resilient future."
-                onClose={closeModal}>
+"A country’s well-being is mostly reflected by the quality of education it provides to the people. As time passes, it is high time to move on from traditional techniques and work for an all-inclusive education, aiming to ensure that all sections of society have access to necessary education. This calls for technological innovations and requisite advancements in the sector."                onClose={closeModal}>
                 </Modal>
             )}
 
