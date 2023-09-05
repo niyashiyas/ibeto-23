@@ -67,7 +67,7 @@ export default function Timeline() {
     },
   ]
   return (
-    <section id="timeline" className="py-4 z-10 relative rounded-b-[40px] sm:rounded-b-[60px]  bg-[#EAE9FF]  sm:py-16 lg:py-20 px-16">
+    <section id="timeline" className="py-4 z-10 relative    bg-[#EAE9FF]  sm:py-16 lg:py-20 px-16">
       <div 
         className="timeline border-t-1 border-slate-300/60"
       >
