@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Faq() {
   return (
-    <section className="py-10 bg-[#dedef5]  rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24">
+    <section id="faq" className="py-10 bg-[#dedef5]  rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24">
       <div className="absolute min-w-7xl inset-0">
         <img
           className="object-cover rounded-b-[66px] w-full h-full opacity-[15%]"

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Sponsors() {
   return (
-    <>
+    <div id="sponsors">
       <video
         autoPlay
         loop
@@ -72,6 +72,6 @@ export default function Sponsors() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

@@ -19,35 +19,43 @@ export default function Footer() {
 
             <nav className="flex items-center justify-center space-x-6 sm:space-x-16 xl:space-x-20">
               <a
-                href="#"
+                href="#start"
                 title=""
-                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
+                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white	"
               >
                 About
               </a>
 
               <a
-                href="#"
+                href="#roadmap"
                 title=""
                 className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
               >
-                About
+                Roadmap
               </a>
 
               <a
-                href="#"
+                href="#timeline"
                 title=""
                 className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
               >
-                About
+                Timeline
               </a>
 
               <a
-                href="#"
+                href="#sponsors"
                 title=""
                 className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
               >
-                About
+                Sponsors
+              </a>
+
+              <a
+                href="#faq"
+                title=""
+                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
+              >
+                FAQ
               </a>
             </nav>
 

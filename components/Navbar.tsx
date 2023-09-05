@@ -130,67 +130,77 @@ const Navbar = () => {
               </Link> */}
               <div className="relative inline-block text-left">
                 <div>
-                  <button
-                    type="button"
-                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black  "
-                    id="menu-button"
-                    aria-expanded="true"
-                    aria-haspopup="true"
-                  >
-                    About
-                  </button>
+                  <Link href="#start">
+                    <button
+                      type="button"
+                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black hover:text-white "
+                      id="menu-button"
+                      aria-expanded="true"
+                      aria-haspopup="true"
+                    >
+                      About
+                    </button>
+                    </Link>
                 </div>
               </div>
               <div className="relative inline-block text-left">
                 <div>
+                <Link href="#roadmap">
                   <button
                     type="button"
-                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black  "
+                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black hover:text-white "
                     id="menu-button"
                     aria-expanded="true"
                     aria-haspopup="true"
                   >
-                    About
+                    Roadmap
                   </button>
+                </Link>
                 </div>
               </div>{" "}
               <div className="relative inline-block text-left">
                 <div>
-                  <button
-                    type="button"
-                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black  "
-                    id="menu-button"
-                    aria-expanded="true"
-                    aria-haspopup="true"
-                  >
-                    About
-                  </button>
+                  <Link href="#timeline">
+                    <button
+                      type="button"
+                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black hover:text-white "
+                      id="menu-button"
+                      aria-expanded="true"
+                      aria-haspopup="true"
+                    >
+                      Timeline
+                    </button>
+                  </Link>
                 </div>
               </div>{" "}
               <div className="relative inline-block text-left">
                 <div>
-                  <button
-                    type="button"
-                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black  "
-                    id="menu-button"
-                    aria-expanded="true"
-                    aria-haspopup="true"
-                  >
-                    About
-                  </button>
+                  <Link href="#sponsors">
+                    <button
+                      type="button"
+                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black hover:text-white "
+                      id="menu-button"
+                      aria-expanded="true"
+                      aria-haspopup="true"
+                    >
+                      Sponsors
+                    </button>
+                  </Link>
                 </div>
               </div>{" "}
               <div className="relative inline-block text-left">
                 <div>
-                  <button
-                    type="button"
-                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black  "
-                    id="menu-button"
-                    aria-expanded="true"
-                    aria-haspopup="true"
-                  >
-                    About
-                  </button>
+                  <Link href="#faq">
+                    <button
+                      type="button"
+                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black hover:text-white "
+                      id="menu-button"
+                      aria-expanded="true"
+                      aria-haspopup="true"
+                    >
+                      FAQ
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
