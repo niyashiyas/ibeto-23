@@ -31,15 +31,15 @@ export default function Problem_stmnt() {
 
     return (
         <>
-            <section className="py-12 bg-[#EAE9FF] rounded-t-[60px] relative w-full -mt-14 sm:py-16 lg:py-20  sm:pb-16">
-                <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+            <section className="py-12 bg-[#EAE9FF] rounded-t-[40px] sm:rounded-t-[60px] relative w-full -mt-14 sm:py-16 lg:py-20  sm:pb-16">
+                <div className="px-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="max-w-md mx-auto text-left sm:text-center">
-                        <h2 className="mt-4 font-body2 text-3xl text-black font-normal text-blcak sm:text-3xl lg:text-4xl">
+                        <h2 className="mt-4 text-center font-body2 text-3xl text-black font-normal text-blcak sm:text-3xl lg:text-4xl">
                             Problem statement</h2>
                         {/* <p className="mt-4 text-base font-medium text-gray-500">In a creative workplace, employees responsibly try different solutions</p> */}
                     </div>
 
-                    <div className="grid grid-cols-1 g gap-12 mt-12 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3 lg:px-14 ">
+                    <div className="px-6 grid grid-cols-1 g gap-12 mt-12 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3 lg:px-14 ">
                         <div>
                             <h3 className="text-lg font-bold text-gray-900 font-body2  transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900" onClick={() => openModal("Carbon")}>Towards Zero Carbon Emission</h3>
                             <hr className="mt-4 border-t-2 border-slate-800" />
@@ -156,7 +156,7 @@ export default function Problem_stmnt() {
                                 <li className="flex items-start">
                                     <img src="./bulb.svg" alt="co2 logo" className="  w-7 aspect-square" />
 
-                                    <span className="ml-3 text-sm font-medium text-gray-500">
+                                    <span className="ml-2 sm:ml-3 text-sm font-medium text-gray-500">
                                         What difficulty is faced by dyslexic students that we can solve with technology? What about students with ADD?
 
                                     </span>
@@ -165,7 +165,7 @@ export default function Problem_stmnt() {
                                 <li className="flex items-start">
                                     <img src="./bulb.svg" alt="co2 logo" className="  w-7 aspect-square" />
 
-                                    <span className="ml-3 text-sm font-medium text-gray-500">
+                                    <span className="ml-2 sm:ml-3 text-sm font-medium text-gray-500">
                                         What technologies could we build that will aid differently-abled students in learning?                                </span>
                                 </li>
                             </ul>

@@ -8,12 +8,12 @@ export default function Getstarted() {
 
     
   return (
-    <div className="relative  bg-[#ffffff] rounded-t-[60px]  ">
+    <div className="relative  bg-[#ffffff] rounded-t-[40px] sm:rounded-t-[60px]  ">
       <div className="w-full font-sans  text-gray-900">
-        <div className="h-full  bg3 flex bg-white justify-center  rounded-t-[60px] ">
-          <section className="py-12 w-full bg-base-900 sm:py-16 mb-24 lg:py-20 xl:py-24">
-            <hr className="h-1 rounded-full -mt-16 w-44 items-center mb-12 bg-gray-200 mx-auto" />
-            <div className="px-4 mx-auto sm:max-w-6xl 2xl:max-w-7xl sm:px-6 lg:px-8">
+        <div className="h-full  bg3 flex bg-white justify-center rounded-t-[40px] sm:rounded-t-[60px] ">
+          <section className="py-12 w-full bg-base-900 sm:py-16 mb-12 sm:mb-24 lg:py-20 xl:py-24">
+            <hr className="h-1 rounded-full -mt-1 sm:-mt-16 w-44 items-center mb-12 bg-gray-200 mx-auto" />
+            <div className="px-6 mx-auto -mt-2.5 sm:mt-0 sm:max-w-6xl 2xl:max-w-7xl sm:px-6 lg:px-8">
               <div
                 data-aos="zoom-in"
                 className="relative   overflow-hidden bg-gradient-to-b from-[#435686ad] to-[#000c27bd] md:flex rounded-3xl"
@@ -91,7 +91,7 @@ export default function Getstarted() {
                       className="relative hover:scale-110 text-md -ml-12 font-body2 font-normal inline-flex items-center justify-center px-8 scale-105 py-2 text-base text-white bg-gradient-to-r from-[#7383d3] to-purple-500  rounded-full"
                       role="button"
                     >
-                      Register now
+                      Register
                     </Link>
                   </div>
                 </div>
