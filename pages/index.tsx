@@ -12,6 +12,7 @@ import Sponsors from "@/components/Sponsors";
 import Contact from "@/components/Contact";
 import Faq from "@/components/Faq";
 import Rewards from "@/components/Rewards";
+import Problem_stmnt from "@/components/Problem_stmtn";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -31,11 +32,13 @@ export default function Home() {
       <div className="fixed">
         <Home1 />
       </div>
-      <div id="start" className="relative top-[88vh]">
+      <div id="start" className="relative top-[90vh] sm:top-[88vh]">
         <Getstarted />
         <Roadmap />
+        <Problem_stmnt />
         <Timeline />
         <Rewards/>
+
         <Sponsors />
         <div className="absolute w-full z-50">
           <Faq />

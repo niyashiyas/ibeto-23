@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <footer className="py-12  z-40 bg1   -mt-16 bg-[#edf1fd] sm:pt-28 lg:pt-32">
+      <footer className="py-12  z-40 bg1 -mt-8 sm:-mt-16 bg-[#edf1fd] sm:pt-28 lg:pt-32">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex flex-col items-center space-y-10 lg:justify-between lg:space-y-0 lg:flex-row">
             <div className="shrink-0">
@@ -19,36 +19,37 @@ export default function Footer() {
 
             <nav className="flex items-center justify-center space-x-6 sm:space-x-16 xl:space-x-20">
               <a
-                href="#"
+                href="#start"
                 title=""
-                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
+                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-cyan-600	"
               >
                 About
               </a>
 
               <a
-                href="#"
+                href="#roadmap"
                 title=""
-                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
+                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-cyan-600"
               >
-                About
+                Roadmap
               </a>
 
               <a
-                href="#"
+                href="#timeline"
                 title=""
-                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
+                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-cyan-600"
               >
-                About
+                Timeline
               </a>
 
               <a
-                href="#"
+                href="#sponsors"
                 title=""
-                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
+                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-cyan-600"
               >
-                About
+                Sponsors
               </a>
+
             </nav>
 
             <ul className="flex items-center justify-end space-x-3">
