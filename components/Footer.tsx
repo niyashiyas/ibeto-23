@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <footer className="py-12  z-40 bg1   -mt-16 bg-[#edf1fd] sm:pt-28 lg:pt-32">
+      <footer className="py-12  z-40 bg1 -mt-8 sm:-mt-16 bg-[#edf1fd] sm:pt-28 lg:pt-32">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex flex-col items-center space-y-10 lg:justify-between lg:space-y-0 lg:flex-row">
             <div className="shrink-0">
@@ -21,7 +21,7 @@ export default function Footer() {
               <a
                 href="#start"
                 title=""
-                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white	"
+                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-cyan-600	"
               >
                 About
               </a>
@@ -29,7 +29,7 @@ export default function Footer() {
               <a
                 href="#roadmap"
                 title=""
-                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
+                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-cyan-600"
               >
                 Roadmap
               </a>
@@ -37,7 +37,7 @@ export default function Footer() {
               <a
                 href="#timeline"
                 title=""
-                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
+                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-cyan-600"
               >
                 Timeline
               </a>
@@ -45,18 +45,11 @@ export default function Footer() {
               <a
                 href="#sponsors"
                 title=""
-                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
+                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-cyan-600"
               >
                 Sponsors
               </a>
 
-              <a
-                href="#faq"
-                title=""
-                className="text-base font-medium font-body1 text-black transition-all duration-200 hover:-translate-y-1 hover:text-white"
-              >
-                FAQ
-              </a>
             </nav>
 
             <ul className="flex items-center justify-end space-x-3">

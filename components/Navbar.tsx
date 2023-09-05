@@ -24,10 +24,10 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed  w-full rounded-b-[66px] z-40 bg-gradient-to-b from-[#d4def6] to-[#ebdaf7] sm:bg-gradient-to-b sm:from-[#e1e8f7] sm:to-[#dce1fc]">
+    <header className="fixed  w-full rounded-b-[40px] sm:rounded-b-[66px] z-40 bg-gradient-to-b from-[#e1e8f7] to-[#dce1fc] sm:bg-gradient-to-b sm:from-[#e1e8f7] sm:to-[#dce1fc]">
       <div className="absolute min-w-7xl inset-0">
         <img
-          className="object-cover rounded-b-[66px] w-full h-full opacity-10"
+          className="object-cover rounded-b-[40px] sm:rounded-b-[66px] w-full h-full opacity-10"
           src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png"
           alt=""
         />
@@ -39,7 +39,7 @@ const Navbar = () => {
               <div className="flex-shrink-0">
                 <Link href="/" title="" className="flex">
                   <img
-                    className="w-auto h-7 lg:h-16"
+                    className="pl-2 w-auto h-12 sm:h-14 lg:h-16 lg:pl-0"
                     src="https://ibeto.excelmec.org/static/media/excellogowithtext.5937280d5965b8c122a0.png"
                     alt=""
                   />
@@ -53,7 +53,7 @@ const Navbar = () => {
                 className="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 focus:text-black hover:text-black hover:bg-gray-100"
               >
                 <svg
-                  className="block w-6 h-6 "
+                  className="block w-6 h-6 mr-3 "
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -86,7 +86,7 @@ const Navbar = () => {
               <button
                 type="button"
                 onClick={opening}
-                className="inline-flex p-2 px-4 text-white font-bold transition-all duration-200 rounded-md lg:hidden focus:bg-[#0b0a26] hover:text-white hover:bg-gray-100"
+                className="inline-flex p-2 px-4 text-white font-bold transition-all duration-200 rounded-md lg:hidden focus:bg-[#0b0a26] hover:text-cyan-600 hover:bg-gray-100"
               >
                 X
               </button>
@@ -133,7 +133,7 @@ const Navbar = () => {
                   <Link href="#start">
                     <button
                       type="button"
-                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black hover:text-white "
+                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-3 py-2 text-black hover:text-cyan-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
@@ -148,7 +148,7 @@ const Navbar = () => {
                 <Link href="#roadmap">
                   <button
                     type="button"
-                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black hover:text-white "
+                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-3 py-2 text-black hover:text-cyan-600 "
                     id="menu-button"
                     aria-expanded="true"
                     aria-haspopup="true"
@@ -163,7 +163,7 @@ const Navbar = () => {
                   <Link href="#timeline">
                     <button
                       type="button"
-                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black hover:text-white "
+                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-3 py-2 text-black hover:text-cyan-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
@@ -178,7 +178,7 @@ const Navbar = () => {
                   <Link href="#sponsors">
                     <button
                       type="button"
-                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black hover:text-white "
+                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-3 py-2 text-black hover:text-cyan-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
@@ -193,7 +193,7 @@ const Navbar = () => {
                   <Link href="#faq">
                     <button
                       type="button"
-                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-4 py-2 text-black hover:text-white "
+                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-3 py-2 text-black hover:text-cyan-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
