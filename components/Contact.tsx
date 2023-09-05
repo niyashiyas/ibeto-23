@@ -1,4 +1,6 @@
 import React from 'react'
+import { FiPhoneCall, FiLinkedin, FiMail } from "react-icons/fi";
+
 
 export default function Contact() {
   return (
@@ -40,12 +42,9 @@ export default function Contact() {
                       href=""
                       title=""
                       target="_blank"
-                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-slate-800 hover:text-white focus:text-white hover:bg-slate-800 hover:border-slate-800 focus:border-slate-800"
                     >
-                      <img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"
-                        className="w-4  h-4"
-                      />
+                      <FiPhoneCall className="contact_social_icon" />
                     </a>
                   </li>
 
@@ -54,12 +53,9 @@ export default function Contact() {
                       href=""
                       title=""
                       target="_blank"
-                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-slate-800 hover:text-white focus:text-white hover:bg-slate-800 hover:border-slate-800 focus:border-slate-800"
                     >
-                      <img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"
-                        className="w-4  h-4"
-                      />
+                      <FiMail className="contact_social_icon" />
                     </a>
                   </li>
                   <li>
@@ -67,12 +63,9 @@ export default function Contact() {
                       href=""
                       title=""
                       target="_blank"
-                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-slate-800 hover:text-white focus:text-white hover:bg-slate-800 hover:border-slate-800 focus:border-slate-800"
                     >
-                      <img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"
-                        className="w-4  h-4"
-                      />
+                      <FiLinkedin className="contact_social_icon" />
                     </a>
                   </li>
                 </ul>
@@ -95,18 +88,15 @@ export default function Contact() {
                 Chairperson
               </h4>
               <div className="flex mt-2 justify-center">
-                <ul className="flex px-3 z-50 gap-2  items-center md:order-3 sm:mt-0">
+              <ul className="flex px-3 z-50 gap-2  items-center md:order-3 sm:mt-0">
                   <li>
                     <a
                       href=""
                       title=""
                       target="_blank"
-                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-slate-800 hover:text-white focus:text-white hover:bg-slate-800 hover:border-slate-800 focus:border-slate-800"
                     >
-                      <img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"
-                        className="w-4  h-4"
-                      />
+                      <FiPhoneCall className="contact_social_icon" />
                     </a>
                   </li>
 
@@ -115,12 +105,9 @@ export default function Contact() {
                       href=""
                       title=""
                       target="_blank"
-                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-slate-800 hover:text-white focus:text-white hover:bg-slate-800 hover:border-slate-800 focus:border-slate-800"
                     >
-                      <img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"
-                        className="w-4  h-4"
-                      />
+                      <FiMail className="contact_social_icon" />
                     </a>
                   </li>
                   <li>
@@ -128,12 +115,9 @@ export default function Contact() {
                       href=""
                       title=""
                       target="_blank"
-                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-slate-800 hover:text-white focus:text-white hover:bg-slate-800 hover:border-slate-800 focus:border-slate-800"
                     >
-                      <img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"
-                        className="w-4  h-4"
-                      />
+                      <FiLinkedin className="contact_social_icon" />
                     </a>
                   </li>
                 </ul>
@@ -156,18 +140,15 @@ export default function Contact() {
                 Chairperson
               </h4>
               <div className="flex mt-2 justify-center">
-                <ul className="flex px-3 z-50 gap-2  items-center md:order-3 sm:mt-0">
+              <ul className="flex px-3 z-50 gap-2  items-center md:order-3 sm:mt-0">
                   <li>
                     <a
                       href=""
                       title=""
                       target="_blank"
-                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-slate-800 hover:text-white focus:text-white hover:bg-slate-800 hover:border-slate-800 focus:border-slate-800"
                     >
-                      <img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"
-                        className="w-4  h-4"
-                      />
+                      <FiPhoneCall className="contact_social_icon" />
                     </a>
                   </li>
 
@@ -176,12 +157,9 @@ export default function Contact() {
                       href=""
                       title=""
                       target="_blank"
-                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-slate-800 hover:text-white focus:text-white hover:bg-slate-800 hover:border-slate-800 focus:border-slate-800"
                     >
-                      <img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"
-                        className="w-4  h-4"
-                      />
+                      <FiMail className="contact_social_icon" />
                     </a>
                   </li>
                   <li>
@@ -189,12 +167,9 @@ export default function Contact() {
                       href=""
                       title=""
                       target="_blank"
-                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-slate-800 hover:text-white focus:text-white hover:bg-slate-800 hover:border-slate-800 focus:border-slate-800"
                     >
-                      <img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"
-                        className="w-4  h-4"
-                      />
+                      <FiLinkedin className="contact_social_icon" />
                     </a>
                   </li>
                 </ul>
@@ -217,18 +192,15 @@ export default function Contact() {
                 Chairperson
               </h4>
               <div className="flex mt-2 justify-center">
-                <ul className="flex px-3 z-50 gap-2  items-center md:order-3 sm:mt-0">
+              <ul className="flex px-3 z-50 gap-2  items-center md:order-3 sm:mt-0">
                   <li>
                     <a
                       href=""
                       title=""
                       target="_blank"
-                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-slate-800 hover:text-white focus:text-white hover:bg-slate-800 hover:border-slate-800 focus:border-slate-800"
                     >
-                      <img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"
-                        className="w-4  h-4"
-                      />
+                      <FiPhoneCall className="contact_social_icon" />
                     </a>
                   </li>
 
@@ -237,12 +209,9 @@ export default function Contact() {
                       href=""
                       title=""
                       target="_blank"
-                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-slate-800 hover:text-white focus:text-white hover:bg-slate-800 hover:border-slate-800 focus:border-slate-800"
                     >
-                      <img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"
-                        className="w-4  h-4"
-                      />
+                      <FiMail className="contact_social_icon" />
                     </a>
                   </li>
                   <li>
@@ -250,12 +219,9 @@ export default function Contact() {
                       href=""
                       title=""
                       target="_blank"
-                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-blue-600 hover:text-white focus:text-white hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600"
+                      className="flex items-center justify-center  transition-all duration-200 bg-transparent border border-gray-300 rounded-[8px] w-7 h-7 focus:bg-slate-800 hover:text-white focus:text-white hover:bg-slate-800 hover:border-slate-800 focus:border-slate-800"
                     >
-                      <img
-                        src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png"
-                        className="w-4  h-4"
-                      />
+                      <FiLinkedin className="contact_social_icon" />
                     </a>
                   </li>
                 </ul>
