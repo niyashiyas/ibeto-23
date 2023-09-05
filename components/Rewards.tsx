@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import "aos/dist/aos.css";
 import CountUp from 'react-countup';
 import Tilt from 'react-parallax-tilt';
+import VisibilitySensor from 'react-visibility-sensor';
 
 export default function Rewards() {
 
@@ -28,16 +29,16 @@ export default function Rewards() {
     <h1 className="lg:text-7xl text-center drop-shadow-2xl text-4xl  font-semibold" >
     <CountUp
 start={0}
-  end={100}
-  duration={8}
-  separator=" "
-  decimals={3}
+  end={100000}
+  redraw={true}
+  duration={2}
+  separator=","
   decimal=","
 prefix="₹">
-{({ countUpRef }) => (
-    <div>
-      <span ref={countUpRef} />
-    </div>
+{({ countUpRef,start }) => (
+    <VisibilitySensor onChange={start} delayedCall>
+    <span ref={countUpRef} />
+</VisibilitySensor>
   )}
 </CountUp>
     </h1>
