@@ -9,7 +9,7 @@ export default function Rewards() {
 
 
   return (
-    <div className=" z-10 rounded-b-[66px]   flex flex-col items-center relative bg-gradient-to-b from-[#B6C6FF] to-[#e7d2f4]  sm:py-16 lg:py-10 lg:pb-28 px-16">
+    <div className=" z-10 rounded-[66px]   flex flex-col items-center relative bg-gradient-to-b from-[#B6C6FF] to-[#e7d2f4]  sm:py-16 lg:py-10 lg:pb-28 px-16">
 
 <div className="absolute min-w-7xl inset-0">
         <img
