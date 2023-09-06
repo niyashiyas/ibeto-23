@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Faq() {
   return (
-    <section className="py-10 bg-[#dedef5]  rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24">
+    <section id="faq" className="py-10 pt-14 bg-[#dedef5] rounded-t-[40px] sm:rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24">
       <div className="absolute min-w-7xl inset-0">
         <img
           className="object-cover rounded-b-[66px] w-full h-full opacity-[15%]"
@@ -10,12 +10,12 @@ export default function Faq() {
           alt=""
         />
       </div>{" "}
-      <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
+      <div className="max-w-5xl px-6 mx-auto sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="mt-4 font-body2 text-black text-3xl font-normal text-blcak sm:text-4xl lg:text-5xl">
             Questions & Answers
           </h2>
-          <p className="max-w-xl font-normal font-body1 mx-auto mt-4 text-base leading-relaxed text-gray-800">
+          <p className="hidden sm:block max-w-xl font-normal font-body1 mx-auto mt-4 text-base leading-relaxed text-gray-800">
             Explore the common questions and answers about IBeTo
           </p>
         </div>
@@ -84,7 +84,7 @@ export default function Faq() {
 
         <div className="flex items-center z-40 relative justify-center mt-12 md:mt-28">
           <div className="px-10 py-4 text-center bg-gray-800 rounded-full">
-            <p className="text-gray-50 font-body2">
+            <p className="text-gray-50 font-body2 text-sm">
               Didn’t find the answer you are looking for?{" "}
               <a
                 href="#"
