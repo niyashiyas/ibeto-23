@@ -11,6 +11,7 @@ import Timeline from "@/components/Timeline";
 import Sponsors from "@/components/Sponsors";
 import Contact from "@/components/Contact";
 import Faq from "@/components/Faq";
+import Rewards from "@/components/Rewards";
 import Problem_stmnt from "@/components/Problem_stmtn";
 
 
@@ -26,7 +27,7 @@ export default function Home() {
       
   return (
     <>
-      <title>Ibeto</title>
+      <title>IBeTo | Excel 2023</title>
       <Navbar />
       <div className="fixed">
         <Home1 />
@@ -36,16 +37,15 @@ export default function Home() {
         <Roadmap />
         <Problem_stmnt />
         <Timeline />
+        <Rewards/>
 
         <Sponsors />
         <div className="absolute w-full z-50">
           <Faq />
           <Contact />
-
           <Footer />
         </div>
       </div>
     </>
   );
 }
-
