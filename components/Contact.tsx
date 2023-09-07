@@ -4,7 +4,7 @@ import { FiPhoneCall, FiLinkedin, FiMail } from "react-icons/fi";
 
 export default function Contact() {
   return (
-    <section className="py-12 rounded-[40px] sm:rounded-[66px] -mt-20 border-t-4 border-b-2 border-slate-600 sm:-mt-32 z-30 relative w-full bg-[#f7efff] sm:py-16 lg:py-20">
+    <section className="py-12 rounded-[40px] sm:rounded-[66px] -mt-24 border-t-4 border-b-2 border-slate-600 sm:-mt-32 z-30 relative w-full bg-[#f7efff] sm:py-16 lg:py-20">
       <div className="absolute min-w-7xl inset-0">
         <img
           className="object-cover rounded-b-[66px] w-full h-full opacity-10"
