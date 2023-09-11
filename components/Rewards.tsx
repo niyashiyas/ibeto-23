@@ -43,7 +43,7 @@ prefix="₹">
 </CountUp>
     </h1>
    
-          <div className="mt-7 lg:text-center text-xs lg:text-base ">
+          <div className="mt-4 lg:text-center text-xs lg:text-base ">
             <li className="pb-2">Internship opportunities for selected participants.</li>
             <li className="pb-2">Certificate of Participation for all teams upon reaching the Create phase.</li>
             <li className="pb-2">As per KTU regulations, socially relevant projects can avail upto 50 activity points.</li>
