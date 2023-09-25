@@ -1,6 +1,8 @@
 import React from "react";
 import useState from "react";
 import Link from "next/link";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { Drawer } from "@mui/material";
 import Image from "next/image";
 
 const Navbar = () => {
@@ -8,6 +10,10 @@ const Navbar = () => {
 
   const opening = () => {
     setOpen(!open);
+  };
+
+  const handleDrawerClose = () => {
+    setOpen(false);
   };
 
   const [dopen, setDopen] = React.useState(false);
@@ -25,22 +31,22 @@ const Navbar = () => {
 
   return (
     <header className="fixed  w-full rounded-b-[40px] sm:rounded-b-[66px] z-40 bg-gradient-to-b from-[#e1e8f7] to-[#dce1fc] sm:bg-gradient-to-b sm:from-[#e1e8f7] sm:to-[#dce1fc]">
-      <div className="absolute min-w-7xl inset-0">
+      <div className="absolute inset-0 min-w-7xl">
         <img
           className="object-cover rounded-b-[40px] sm:rounded-b-[66px] w-full h-full opacity-10"
-          src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png"
+          src="./noise.png"
           alt=""
         />
       </div>{" "}
-      <div className="px-0 py-1 sm:px-0 mx-auto sm:max-w-6xl 2xl:max-w-7xl">
+      <div className="px-0 py-1 mx-auto sm:px-0 sm:max-w-6xl 2xl:max-w-7xl">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
-          <nav className="relative flex items-center justify-between lg:justify-end h-20 lg:h-18">
-            <div className="lg:absolute lg:-translate-x-1 flex justify-center items-center lg:inset-y-5 lg:left-1">
+          <nav className="relative flex items-center justify-between h-20 lg:justify-end lg:h-18">
+            <div className="flex items-center justify-center lg:absolute lg:-translate-x-1 lg:inset-y-5 lg:left-1">
               <div className="flex-shrink-0">
-                <Link href="/" title="" className="flex">
+                <Link href="https://excelmec.org" title="" className="flex">
                   <img
-                    className="pl-2 w-auto h-12 sm:h-14 lg:h-16 lg:pl-0"
-                    src="https://ibeto.excelmec.org/static/media/excellogowithtext.5937280d5965b8c122a0.png"
+                    className="w-auto h-12 pl-2 sm:h-14 lg:h-16 lg:pl-0"
+                    src="./excellogo.png"
                     alt=""
                   />
                 </Link>
@@ -52,35 +58,7 @@ const Navbar = () => {
                 type="button"
                 className="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 focus:text-black hover:text-black hover:bg-gray-100"
               >
-                <svg
-                  className="block w-6 h-6 mr-3 "
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    stroke-width="2"
-                    d="M4 8h16M4 16h16"
-                  />
-                </svg>
-
-                <svg
-                  className="hidden w-6 h-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    stroke-width="2"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
-                </svg>
+                <RxHamburgerMenu size={25} color={"#0b0a26"} />
               </button>
             ) : (
               <button
@@ -103,28 +81,28 @@ const Navbar = () => {
               {/* <Link
                 href="/"
                 title=""
-                className="text-base font-body font-medium text-white"
+                className="text-base font-medium text-white font-body"
               >
                 Programs
               </Link> */}
               {/* <Link
                 href="/"
                 title=""
-                className="text-base font-body font-medium text-white"
+                className="text-base font-medium text-white font-body"
               >
                 Donate
               </Link>
               <Link
                 href="/volunteer"
                 title=""
-                className="text-base font-body font-medium text-white"
+                className="text-base font-medium text-white font-body"
               >
                 Volunteer
               </Link> */}
               {/* <Link
                 href="/"
                 title=""
-                className="text-base font-body font-medium text-white"
+                className="text-base font-medium text-white font-body"
               >
                 Collaboration
               </Link> */}
@@ -133,29 +111,29 @@ const Navbar = () => {
                   <Link href="#start">
                     <button
                       type="button"
-                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-3 py-2 text-black hover:text-cyan-600 "
+                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-cyan-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
                     >
                       About
                     </button>
-                    </Link>
+                  </Link>
                 </div>
               </div>
               <div className="relative inline-block text-left">
                 <div>
-                <Link href="#roadmap">
-                  <button
-                    type="button"
-                    className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-3 py-2 text-black hover:text-cyan-600 "
-                    id="menu-button"
-                    aria-expanded="true"
-                    aria-haspopup="true"
-                  >
-                    Roadmap
-                  </button>
-                </Link>
+                  <Link href="#roadmap">
+                    <button
+                      type="button"
+                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-cyan-600 "
+                      id="menu-button"
+                      aria-expanded="true"
+                      aria-haspopup="true"
+                    >
+                      Roadmap
+                    </button>
+                  </Link>
                 </div>
               </div>{" "}
               <div className="relative inline-block text-left">
@@ -163,7 +141,7 @@ const Navbar = () => {
                   <Link href="#timeline">
                     <button
                       type="button"
-                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-3 py-2 text-black hover:text-cyan-600 "
+                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-cyan-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
@@ -178,7 +156,7 @@ const Navbar = () => {
                   <Link href="#sponsors">
                     <button
                       type="button"
-                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-3 py-2 text-black hover:text-cyan-600 "
+                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-cyan-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
@@ -193,7 +171,7 @@ const Navbar = () => {
                   <Link href="#faq">
                     <button
                       type="button"
-                      className="inline-flex w-full justify-center rounded-md text-base font-body font-medium px-3 py-2 text-black hover:text-cyan-600 "
+                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-cyan-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
@@ -207,6 +185,58 @@ const Navbar = () => {
           </nav>
         </div>
       </div>
+      <Drawer
+        open={open}
+        onClick={handleDrawerClose}
+        onClose={(event, reason) => {
+          if (reason !== "backdropClick") {
+            handleDrawerClose();
+          }
+        }}
+        anchor="left"
+      >
+        <div className="nav__drawer">
+          <div className="nav__drawer_header">
+            <div
+              className="title_mob"
+              data-aos="fade-right"
+              data-aos-duration="600"
+            >
+              IEDC MEC COLLAB
+            </div>
+            <div
+              className="navbar_items_mob"
+              data-aos="fade-right"
+              data-aos-duration="600"
+            >
+              <Link
+                href="/projects"
+                className="nav_item_mob"
+                onClick={handleDrawerClose}
+              >
+                Projects
+              </Link>
+              <Link
+                href="/developers"
+                className="nav_item_mob"
+                onClick={handleDrawerClose}
+              >
+                Developers
+              </Link>
+              <Link
+                href="/ideas"
+                className="nav_item_mob"
+                onClick={handleDrawerClose}
+              >
+                Ideas
+              </Link>
+            </div>
+          </div>
+          <a href="https://www.mec.ac.in/" target="_blank" rel="noreferrer">
+            <img src="./meclogo.png" alt="" className="meclogo__mob" />
+          </a>
+        </div>
+      </Drawer>
     </header>
   );
 };

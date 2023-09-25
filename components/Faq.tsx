@@ -2,20 +2,23 @@ import React from "react";
 
 export default function Faq() {
   return (
-    <section id="faq" className="py-14 pt-14 bg-[#dedef5] rounded-t-[40px] sm:rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24">
-      <div className="absolute min-w-7xl inset-0">
+    <section
+      id="faq"
+      className="py-14 pt-14 bg-[#dedef5] rounded-t-[40px] sm:rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24"
+    >
+      {/* <div className="absolute inset-0 min-w-7xl">
         <img
           className="object-cover rounded-b-[66px] w-full h-full opacity-[15%]"
           src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png"
           alt=""
         />
-      </div>{" "}
-      <div className="max-w-5xl px-8 pr-9 sm:pr-0 mx-auto sm:px-6 lg:px-8">
+      </div>{" "} */}
+      <div className="max-w-5xl px-8 mx-auto pr-9 sm:pr-0 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="mt-4 font-body2 text-black text-3xl font-normal text-blcak sm:text-4xl lg:text-5xl">
+          <h2 className="mt-4 text-3xl font-normal text-black font-body2 text-blcak sm:text-4xl lg:text-5xl">
             Questions & Answers
           </h2>
-          <p className="hidden sm:block max-w-xl font-normal font-body1 mx-auto mt-4 text-base leading-relaxed text-gray-800">
+          <p className="hidden max-w-xl mx-auto mt-4 text-base font-normal leading-relaxed text-gray-800 sm:block font-body1">
             Explore the common questions and answers about IBeTo
           </p>
         </div>
@@ -26,10 +29,10 @@ export default function Faq() {
               <span className="text-lg font-semibold text-white">?</span>
             </div>
             <div className="ml-4">
-              <p className="text-xl font-body1 font-semibold text-gray-600">
+              <p className="text-xl font-semibold text-gray-600 font-body1">
                 Lorem ipsum dolor sit?
               </p>
-              <p className="mt-4 text-sm sm:text-base font-body1 font-light text-gray-500">
+              <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
               </p>
@@ -41,12 +44,12 @@ export default function Faq() {
               <span className="text-lg font-semibold text-white">?</span>
             </div>
             <div className="ml-4">
-              <p className="text-xl font-body1 font-semibold text-gray-600">
+              <p className="text-xl font-semibold text-gray-600 font-body1">
                 Lorem ipsum dolor sit?
               </p>
-              <p className="mt-4 text-sm sm:text-base font-body1 font-light text-gray-500">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
+              <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
               </p>
             </div>
           </div>
@@ -56,12 +59,12 @@ export default function Faq() {
               <span className="text-lg font-semibold text-white">?</span>
             </div>
             <div className="ml-4">
-              <p className="text-xl font-body1 font-semibold text-gray-600">
+              <p className="text-xl font-semibold text-gray-600 font-body1">
                 Lorem ipsum dolor sit?
               </p>
-              <p className="mt-4 text-sm sm:text-base font-body1 font-light text-gray-500">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
+              <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
               </p>
             </div>
           </div>
@@ -71,20 +74,20 @@ export default function Faq() {
               <span className="text-lg font-semibold text-white">?</span>
             </div>
             <div className="ml-4">
-              <p className="text-xl font-body1 font-semibold text-gray-600">
+              <p className="text-xl font-semibold text-gray-600 font-body1">
                 Lorem ipsum dolor sit?
               </p>
-              <p className="mt-4 text-sm sm:text-base font-body1 font-light text-gray-500">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
+              <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
               </p>
             </div>
           </div>
         </div>
 
-        <div className="flex items-center z-40 relative justify-center mt-12 md:mt-28">
+        <div className="relative z-40 flex items-center justify-center mt-12 md:mt-28">
           <div className="px-10 py-4 text-center bg-gray-800 rounded-full">
-            <p className="text-gray-50 font-body2 text-sm">
+            <p className="text-sm text-gray-50 font-body2">
               Didn’t find the answer you are looking for?{" "}
               <a
                 href="#"
