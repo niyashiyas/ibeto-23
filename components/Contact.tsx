@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="absolute min-w-7xl inset-0">
         <img
           className="object-cover rounded-b-[66px] w-full h-full opacity-10"
-          src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png"
+          src="./noise.png"
           alt=""
         />
       </div>{" "}
