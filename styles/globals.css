@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
 
 body::-webkit-scrollbar {
   display: none;
@@ -24,7 +27,11 @@ body::-webkit-scrollbar {
       #63255a57,
       transparent 400px
     ),
-    radial-gradient(farthest-corner at bottom right, #4820519b, transparent 800px),
+    radial-gradient(
+      farthest-corner at bottom right,
+      #4820519b,
+      transparent 800px
+    ),
     radial-gradient(farthest-side at top left, #27235aa9, transparent 900px),
     radial-gradient(farthest-corner at top right, #1d184dac, transparent 900px);
 }
@@ -35,9 +42,7 @@ body::-webkit-scrollbar {
       transparent 400px
     ),
     radial-gradient(farthest-corner at top right, #4820519b, transparent 800px);
-    background: linear-gradient(180deg,#b6cbff,rgba(218, 218, 218, 0));
-    
-   
+  background: linear-gradient(180deg, #b6cbff, rgba(218, 218, 218, 0));
 }
 .bg4 {
   background-image: radial-gradient(
@@ -45,11 +50,12 @@ body::-webkit-scrollbar {
       #30256357,
       transparent 400px
     ),
-    radial-gradient(farthest-corner at center center, #4820519b, transparent 800px);
-    
-   
+    radial-gradient(
+      farthest-corner at center center,
+      #4820519b,
+      transparent 800px
+    );
 }
-
 
 .bg5 {
   background-image: radial-gradient(
@@ -57,17 +63,23 @@ body::-webkit-scrollbar {
       #30256357,
       transparent 400px
     ),
-    radial-gradient(farthest-corner at center center, #4820519b, transparent 800px);
-    
-   
+    radial-gradient(
+      farthest-corner at center center,
+      #4820519b,
+      transparent 800px
+    );
 }
-.card{
-background-image: radial-gradient(
+.card {
+  background-image: radial-gradient(
       farthest-side at bottom left,
       #41256357,
       transparent 400px
     ),
-    radial-gradient(farthest-corner at bottom right, #4820519b, transparent 00px),
+    radial-gradient(
+      farthest-corner at bottom right,
+      #4820519b,
+      transparent 00px
+    ),
     radial-gradient(farthest-side at top left, #27235aa9, transparent 100px),
     radial-gradient(farthest-corner at top right, #1d184dac, transparent 100px);
   transition: background-image 3s ease-in-out;
@@ -76,28 +88,33 @@ background-image: radial-gradient(
   border: 1px solid #afbfe477;
 }
 
-
-.card:hover{
-    transition-delay: 5s; /* Add a delay of 0.5 seconds before the transition starts */
- background-image: radial-gradient(
-
+.card:hover {
+  transition-delay: 5s; /* Add a delay of 0.5 seconds before the transition starts */
+  background-image: radial-gradient(
       farthest-side at bottom left,
       #1c116457,
       transparent 600px
     ),
-    radial-gradient(farthest-corner at bottom right, #4820519b, transparent 100px),
+    radial-gradient(
+      farthest-corner at bottom right,
+      #4820519b,
+      transparent 100px
+    ),
     radial-gradient(farthest-side at top left, #27235aa9, transparent 100px),
     radial-gradient(farthest-corner at top right, #1d184dac, transparent 100px);
 }
 
-
-.card1{
-background-image: radial-gradient(
+.card1 {
+  background-image: radial-gradient(
       farthest-side at bottom left,
       #41256357,
       transparent 400px
     ),
-    radial-gradient(farthest-corner at bottom right, #4820519b, transparent 00px),
+    radial-gradient(
+      farthest-corner at bottom right,
+      #4820519b,
+      transparent 00px
+    ),
     radial-gradient(farthest-side at top left, #27235aa9, transparent 100px),
     radial-gradient(farthest-corner at top right, #1d184dac, transparent 100px);
   transition: background-image 3s ease-in-out;
@@ -105,16 +122,18 @@ background-image: radial-gradient(
   border: 1px solid #afbfe477;
 }
 
-
-.card1:hover{
-    transition-delay: 5s; /* Add a delay of 0.5 seconds before the transition starts */
- background-image: radial-gradient(
-
+.card1:hover {
+  transition-delay: 5s; /* Add a delay of 0.5 seconds before the transition starts */
+  background-image: radial-gradient(
       farthest-side at bottom left,
       #1c116457,
       transparent 600px
     ),
-    radial-gradient(farthest-corner at bottom right, #4820519b, transparent 100px),
+    radial-gradient(
+      farthest-corner at bottom right,
+      #4820519b,
+      transparent 100px
+    ),
     radial-gradient(farthest-side at top left, #27235aa9, transparent 100px),
     radial-gradient(farthest-corner at top right, #1d184dac, transparent 100px);
 }
@@ -125,14 +144,85 @@ background-image: radial-gradient(
   letter-spacing: -0.03rem;
 }
 
-.colo{
+.colo {
   stop-color: var(--color-cyan-500);
 }
-.colo1{
-stop-color: var(--color-purple-500);
+.colo1 {
+  stop-color: var(--color-purple-500);
 }
-.button{
-  background: linear-gradient(180deg,#120c20,rgba(36, 24, 98, 0));
+.button {
+  background: linear-gradient(180deg, #120c20, rgba(36, 24, 98, 0));
   border: 1px solid #afbfe477;
   transition: background 0.2s ease-in-out;
+}
+
+.meclogo__mob {
+  padding-top: auto;
+  padding-bottom: 2rem;
+  width: 120px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+.nav_item_mob:hover {
+  text-decoration: none;
+  color: #9e0000;
+}
+.nav__drawer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 330px;
+  padding: 1.5rem;
+}
+
+.nav__drawer_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar_items_mob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding-top: 3rem;
+  z-index: 9;
+}
+
+.nav_item_mob {
+  cursor: pointer;
+  text-decoration: none;
+  color: #9e0000;
+  font-size: 21px;
+  font-weight: 400;
+}
+.title_mob {
+  font-weight: 700;
+  font-size: 25px;
+  color: #9e0000;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 882px) {
+  .nav__drawer {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .meclogo__mob {
+    padding-bottom: 3.25rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .meclogo__mob {
+    padding-bottom: 2.25rem;
+  }
 }

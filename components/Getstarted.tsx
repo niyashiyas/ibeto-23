@@ -9,10 +9,10 @@ export default function Getstarted() {
     
   return (
     <div className="relative  bg-[#ffffff] rounded-t-[40px] sm:rounded-t-[60px]  ">
-      <div className="w-full font-sans  text-gray-900">
+      <div className="w-full font-sans text-gray-900">
         <div className="h-full  bg3 flex bg-white justify-center rounded-t-[40px] sm:rounded-t-[60px] ">
-          <section className="py-12 w-full bg-base-900 sm:py-16 mb-12 sm:mb-24 lg:py-20 xl:py-24">
-            <hr className="h-1 rounded-full -mt-1 sm:-mt-16 w-44 items-center mb-12 bg-gray-200 mx-auto" />
+          <section className="w-full py-12 mb-12 bg-base-900 sm:py-16 sm:mb-24 lg:py-20 xl:py-24">
+            <hr className="items-center h-1 mx-auto mb-12 -mt-1 bg-gray-200 rounded-full sm:-mt-16 w-44" />
             <div className="px-6 mx-auto -mt-2.5 sm:mt-0 sm:max-w-6xl 2xl:max-w-7xl sm:px-6 lg:px-8">
               <div
                 data-aos="zoom-in"
@@ -46,40 +46,40 @@ export default function Getstarted() {
                   </svg>
                 </div>
 
-                <div className="absolute min-w-7xl inset-0">
+                <div className="absolute inset-0 min-w-7xl">
                   <img
                     className="object-cover w-full h-full opacity-50"
-                    src="https://landingfoliocom.imgix.net/store/collection/dusk/images/noise.png"
+                    src="./noise.png"
                     alt=""
                   />
                 </div>
 
-                <div className="absolute inset-y-0  pr-12 right-0 hidden md:block">
+                <div className="absolute inset-y-0 right-0 hidden pr-12 md:block">
                   <img
-                    className="w-full max-w-md scale-125 mr-24 pr-12 transform translate-y-20"
+                    className="w-full max-w-md pr-12 mr-24 transform scale-125 translate-y-20"
                     src="https://ibetofrontend.pages.dev/static/media/ibetologo.89112a3a.svg"
                     alt=""
                   />
                 </div>
 
-                <div className="relative  w-full p-6 sm:pl-10 lg:py-24 lg:pl-20 md:w-1/2 lg:w-2/3">
-                  <h2 className="text-4xl font-body2 font-normal text-white sm:text-4xl lg:text-5xl">
+                <div className="relative w-full p-6 sm:pl-10 lg:py-24 lg:pl-20 md:w-1/2 lg:w-2/3">
+                  <h2 className="text-4xl font-normal text-white font-body2 sm:text-4xl lg:text-5xl">
                     About{" "}
                   </h2>
-                  <p className="max-w-sm mt-6 font-body1 text-base font-normal text-gray-300 sm:text-lg">
+                  <p className="max-w-sm mt-6 text-base font-normal text-gray-300 font-body1 sm:text-lg">
                     As part of the annual national-level technical symposium,
                     Excel 2022, Govt. Model Engineering College, Kochi hosts
                     Innovations for a Better Tomorrow (IBeTo), a competition
                     that fosters technical innovation. Ideas that reimagine the
                     technology we have and create meaningful impacts on a social
                   </p>
-                  <div className="relative  rounded-full inline-flex items-center justify-center mt-8 sm:mt-12 group">
+                  <div className="relative inline-flex items-center justify-center mt-8 rounded-full sm:mt-12 group">
                     <div className="absolute w-1/2 transition-all duration-200 rounded-full -inset-px "></div>
                     <Link
                       href=""
                       target="_blank"
                       title=""
-                      className="relative border-2 scale-95 border-r-0 pr-16  border-gray-400 text-md font-body2 font-normal inline-flex items-center justify-center px-8 py-2 text-base text-white  rounded-full"
+                      className="relative inline-flex items-center justify-center px-8 py-2 pr-16 text-base font-normal text-white scale-95 border-2 border-r-0 border-gray-400 rounded-full text-md font-body2"
                       role="button"
                     >
                       Guidelines{" "}
