@@ -26,7 +26,7 @@ export default function Footer() {
                 <a
                   href="#start"
                   title=""
-                  className="text-base font-medium text-black transition-all duration-200 font-body1 hover:-translate-y-1 hover:text-cyan-600 "
+                  className="sm:text-base text-sm  font-medium text-black transition-all duration-200 font-body1 hover:-translate-y-1 hover:text-cyan-600 "
                 >
                   About
                 </a>
@@ -34,7 +34,7 @@ export default function Footer() {
                 <a
                   href="#roadmap"
                   title=""
-                  className="text-base font-medium text-black transition-all duration-200 font-body1 hover:-translate-y-1 hover:text-cyan-600"
+                  className="sm:text-base text-sm  font-medium text-black transition-all duration-200 font-body1 hover:-translate-y-1 hover:text-cyan-600 "
                 >
                   Roadmap
                 </a>
@@ -42,7 +42,7 @@ export default function Footer() {
                 <a
                   href="#timeline"
                   title=""
-                  className="text-base font-medium text-black transition-all duration-200 font-body1 hover:-translate-y-1 hover:text-cyan-600"
+                  className="sm:text-base text-sm  font-medium text-black transition-all duration-200 font-body1 hover:-translate-y-1 hover:text-cyan-600 "
                 >
                   Timeline
                 </a>
@@ -50,7 +50,7 @@ export default function Footer() {
                 <a
                   href="#sponsors"
                   title=""
-                  className="text-base font-medium text-black transition-all duration-200 font-body1 hover:-translate-y-1 hover:text-cyan-600"
+                  className="sm:text-base text-sm  font-medium text-black transition-all duration-200 font-body1 hover:-translate-y-1 hover:text-cyan-600 "
                 >
                   Sponsors
                 </a>
@@ -155,7 +155,7 @@ export default function Footer() {
               >
                 <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path>
               </svg>{" "}
-              Excel 2023
+              <Link href="https://www.excelmec.org/"> Excel 2023</Link>
             </p>
           </div>
         </div>
