@@ -36,7 +36,7 @@ export default function Problem_stmnt() {
           <div className="px-0 grid grid-cols-1 g gap-12 mt-12 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3 lg:px-14 ">
             <div className="bg-white/40 p-6 rounded-3xl">
               <h3
-                className="text-lg font-bold font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-bold  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("Carbon")}
               >
                 Towards Zero Carbon Emission
@@ -358,13 +358,13 @@ function Modal({ title, content, onClose }: any) {
           <div className="relative flex w-full flex-col rounded-lg border-0 bg-white shadow-lg outline-none focus:outline-none">
             {/*header*/}
             <div className="flex items-start justify-between  border-b border-solid border-slate-200 p-5">
-              <h3 className="text-3xl f font-body2">{title}</h3>
+              <h3 className="text-xl mt-3 sm:text-2xl f font-body2">{title}</h3>
               <button
                 className=" ml-auto my-auto   border-0p-2 px-3  text-center  text-xl font-semibold leading-none text-white outline-none focus:outline-none"
                 onClick={onClose}
               >
                 <img
-                 className="w-12 sm:w-7"
+                 className="w-7 sm:w-7"
                   src="https://img.icons8.com/fluency/48/cancel.png"
                   alt="cancel"
                 />{" "}
