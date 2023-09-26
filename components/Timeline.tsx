@@ -69,7 +69,7 @@ export default function Timeline() {
   return (
     <section
       id="timeline"
-      className="py-4 z-10 relative  px-7 bg-gradient-to-b to-[#e2e8ff] from-[#EAE9FF]  bg- sm:py-16 lg:py-20 sm:px-16"
+      className="py-4 overflow-hidden z-10 relative  px-7 bg-gradient-to-b to-[#e2e8ff] from-[#EAE9FF]  bg- sm:py-16 lg:py-20 sm:px-16"
     >
       <div className="timeline border-t-1 border-slate-300/60">
         <div className="timeline__container">
