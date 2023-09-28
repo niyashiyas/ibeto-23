@@ -1,6 +1,39 @@
 import React from "react";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from 'react-accessible-accordion';
+
+// Demo styles, see 'Styles' section below for some notes on use.
+import 'react-accessible-accordion/dist/fancy-example.css';
+
 
 export default function Faq() {
+  const items= [
+      {
+        uuid: 1,
+        heading: "Lorem ipsum dolor sit ?",
+        content: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      },
+      {
+        uuid: 2,
+        heading: "Lorem ipsum dolor sit ?",
+        content: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      },
+      {
+        uuid: 3,
+        heading: "Lorem ipsum dolor sit ?",
+        content: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      },
+      {
+        uuid: 4,
+        heading: "Lorem ipsum dolor sit ?",
+        content: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      },
+  ]
   return (
     <section
       id="faq"
@@ -23,67 +56,93 @@ export default function Faq() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-14 sm:gap-y-16 gap-x-20">
-          <div className="flex items-start">
-            <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
-              <span className="text-lg font-semibold text-white">?</span>
+        <div className="flex sm:hidden">
+          <Accordion allowZeroExpanded allowMultipleExpanded className="grid pb-2 grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-14 sm:gap-y-16 gap-x-20">
+            {items.map((item) => (
+              <div className="flex items-start">
+                <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                  <span className="text-lg font-semibold text-white">?</span>
+                </div>
+                <div className="ml-4">
+                    <AccordionItem key={item.uuid}>
+                      <AccordionItemHeading>
+                          <AccordionItemButton className="text-xl font-semibold text-gray-600 font-body1">
+                              {item.heading}
+                          </AccordionItemButton>
+                      </AccordionItemHeading>
+                      <AccordionItemPanel className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                        {item.content}
+                      </AccordionItemPanel>
+                    </AccordionItem>
+                </div>
+              </div>
+            ))}
+          </Accordion>
+        </div> 
+        
+        <div className="hidden sm:flex">
+          <div className="grid grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-14 sm:gap-y-16 gap-x-20">
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4">
+                <p className="text-xl font-semibold text-gray-600 font-body1">
+                  Lorem ipsum dolor sit?
+                </p>
+                <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+              </div>
             </div>
-            <div className="ml-4">
-              <p className="text-xl font-semibold text-gray-600 font-body1">
-                Lorem ipsum dolor sit?
-              </p>
-              <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-              </p>
-            </div>
-          </div>
 
-          <div className="flex items-start">
-            <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
-              <span className="text-lg font-semibold text-white">?</span>
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4">
+                <p className="text-xl font-semibold text-gray-600 font-body1">
+                  Lorem ipsum dolor sit?
+                </p>
+                <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+              </div>
             </div>
-            <div className="ml-4">
-              <p className="text-xl font-semibold text-gray-600 font-body1">
-                Lorem ipsum dolor sit?
-              </p>
-              <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-              </p>
-            </div>
-          </div>
 
-          <div className="flex items-start">
-            <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
-              <span className="text-lg font-semibold text-white">?</span>
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4">
+                <p className="text-xl font-semibold text-gray-600 font-body1">
+                  Lorem ipsum dolor sit?
+                </p>
+                <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+              </div>
             </div>
-            <div className="ml-4">
-              <p className="text-xl font-semibold text-gray-600 font-body1">
-                Lorem ipsum dolor sit?
-              </p>
-              <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-              </p>
-            </div>
-          </div>
 
-          <div className="flex items-start">
-            <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
-              <span className="text-lg font-semibold text-white">?</span>
-            </div>
-            <div className="ml-4">
-              <p className="text-xl font-semibold text-gray-600 font-body1">
-                Lorem ipsum dolor sit?
-              </p>
-              <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-              </p>
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4">
+                <p className="text-xl font-semibold text-gray-600 font-body1">
+                  Lorem ipsum dolor sit?
+                </p>
+                <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+        </div>  
 
         <div className="relative z-40 flex items-center justify-center mt-12 md:mt-28">
           <div className="px-10 py-4 text-center bg-gray-800 rounded-full">
