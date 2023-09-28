@@ -33,6 +33,11 @@ export default function Faq() {
         heading: "Lorem ipsum dolor sit ?",
         content: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
       },
+      {
+        uuid: 5,
+        heading: "Lorem ipsum dolor sit ?",
+        content: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      },
   ]
   return (
     <section
@@ -60,17 +65,17 @@ export default function Faq() {
           <Accordion allowZeroExpanded allowMultipleExpanded className="grid pb-2 grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-14 sm:gap-y-16 gap-x-20">
             {items.map((item) => (
               <div className="flex items-start">
-                <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                {/* <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
                   <span className="text-lg font-semibold text-white">?</span>
-                </div>
+                </div> */}
                 <div className="ml-4">
                     <AccordionItem key={item.uuid}>
-                      <AccordionItemHeading>
-                          <AccordionItemButton className="text-xl font-semibold text-gray-600 font-body1">
-                              {item.heading}
+                      <AccordionItemHeading className="text-xl font-semibold text-gray-600 font-body1">
+                          <AccordionItemButton style={{backgroundColor:"inherit", padding:"0px"}}>
+                              {"  "+item.heading}
                           </AccordionItemButton>
                       </AccordionItemHeading>
-                      <AccordionItemPanel className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                      <AccordionItemPanel className="pl-7 mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
                         {item.content}
                       </AccordionItemPanel>
                     </AccordionItem>
