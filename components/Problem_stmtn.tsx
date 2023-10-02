@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 // import {
 //     Dialog,
@@ -24,7 +26,7 @@ export default function Problem_stmnt() {
 
   return (
     <>
-      <section className="py-12 bg-[#fdf7f9] rounded-t-[40px] sm:rounded-t-[60px] relative w-full -mt-14 sm:py-16 lg:py-20  sm:pb-16">
+      <section className="py-12 bg-[#EAE9FF] rounded-t-[40px] sm:rounded-t-[60px] relative w-full -mt-14 sm:py-16 lg:py-20  sm:pb-16">
         <div className="px-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-md mx-auto text-left sm:text-center">
             <h2 className="mt-4 text-center font-body2 text-3xl text-black font-normal text-blcak sm:text-3xl lg:text-4xl">
@@ -33,8 +35,8 @@ export default function Problem_stmnt() {
             {/* <p className="mt-4 text-base font-medium text-gray-500">In a creative workplace, employees responsibly try different solutions</p> */}
           </div>
 
-          <div className="px-0 grid grid-cols-1 g gap-12 mt-12 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3 lg:px-14 ">
-            <div className="bg-white p-6 rounded-3xl">
+          <div    className="px-0 grid grid-cols-1 g gap-12 mt-12 sm:mt-16 sm:grid-cols-2 lg:grid-cols-3 lg:px-14 ">
+            <div data-aos="zoom-in"  data-aos-delay="500" className="bg-white/40 p-6 rounded-3xl">
               <h3
                 className="text-lg font-bold  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("Carbon")}
@@ -78,7 +80,7 @@ export default function Problem_stmnt() {
                 </li>
               </ul>
             </div>
-            <div className="bg-white p-6 rounded-3xl">
+            <div data-aos="zoom-in"  data-aos-delay="800" className="bg-white/40 p-6 rounded-3xl">
               <h3
                 className="text-lg font-bold font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("waste")}
@@ -120,7 +122,7 @@ export default function Problem_stmnt() {
                 </li>
               </ul>
             </div>
-            <div className="bg-white p-6 rounded-3xl">
+            <div data-aos="zoom-in"  data-aos-delay="1000" className="bg-white/40 p-6 rounded-3xl">
               <h3
                 className="text-lg font-bold font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("disaster")}
@@ -164,7 +166,7 @@ export default function Problem_stmnt() {
                 </li>
               </ul>
             </div>
-            <div className="bg-white p-6 rounded-3xl">
+            <div data-aos="zoom-in"  data-aos-delay="1100" className="bg-white/40 p-6 rounded-3xl">
               <h3
                 className="text-lg font-bold font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("education")}
@@ -208,7 +210,7 @@ export default function Problem_stmnt() {
                 </li>
               </ul>
             </div>
-            <div className="bg-white p-6 rounded-3xl">
+            <div data-aos="zoom-in"  data-aos-delay="1200" className="bg-white/40 p-6 rounded-3xl">
               <h3
                 className="text-lg font-bold font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("finance")}
@@ -250,7 +252,7 @@ export default function Problem_stmnt() {
                 </li>
               </ul>
             </div>{" "}
-            <div className="bg-white p-6 rounded-3xl">
+            <div data-aos="zoom-in"  data-aos-delay="1400" className="bg-white/40 p-6 rounded-3xl">
               <h3
                 className="text-lg font-bold font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("open")}
@@ -358,13 +360,13 @@ function Modal({ title, content, onClose }: any) {
           <div className="relative flex w-full flex-col rounded-lg border-0 bg-white shadow-lg outline-none focus:outline-none">
             {/*header*/}
             <div className="flex items-start justify-between  border-b border-solid border-slate-200 p-5">
-              <h3 className="text-lg mt-3 sm:text-2xl f font-body2">{title}</h3>
+              <h3 className="text-xl mt-3 sm:text-2xl f font-body2">{title}</h3>
               <button
                 className=" ml-auto my-auto   border-0p-2 px-3  text-center  text-xl font-semibold leading-none text-white outline-none focus:outline-none"
                 onClick={onClose}
               >
                 <img
-                 className="w-6 sm:w-7"
+                 className="w-7 sm:w-7"
                   src="https://img.icons8.com/fluency/48/cancel.png"
                   alt="cancel"
                 />{" "}
@@ -372,7 +374,7 @@ function Modal({ title, content, onClose }: any) {
             </div>
             {/*body*/}
             <div className="relative flex flex-auto flex-col gap-2 p-6">
-              <p className=" font-normal font-body text-md  ">{content}</p>
+              <p className=" font-normal text-md f ">{content}</p>
             </div>
             {/*footer*/}
             <div className="flex items-center justify-end rounded-b border-t border-solid border-slate-200 p-6"></div>

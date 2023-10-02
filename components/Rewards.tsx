@@ -31,7 +31,10 @@ export default function Rewards() {
               alt="confetti"
             />
             Prize Worth{" "}
+<<<<<<< HEAD
 
+=======
+>>>>>>> a7e5a77b8bc9ae519acdd14e31f87f7c248f1138
           </h1>
 
           <h1 className="text-4xl font-semibold text-center hidden lg:block lg:text-7xl drop-shadow-2xl">
