@@ -41,7 +41,7 @@ export default function landingpagebanner() {
                 <div className="flex flex-col sm:flex-row gap-5 justify-center  items-start pt-5 sm:pt-5 space-x-6 md:justify-start">
                   <Link
                     href="#start"
-                    className="flex justify-center font-normal font-body2 text-md items-center py-3 px-9 hover:bg-[#501341] tracking-wide leading-7 text-white bg-[#ffbaf89f]	rounded-full hover:shadow-xl z-50"
+                    className="flex justify-center font-normal font-body2 text-md items-center py-3 px-9 hover:bg-[#45183a] tracking-wide leading-7 text-white bg-[#6d1544c8]	rounded-full hover:shadow-xl z-50"
                   >
                     Register Now
                   </Link>
