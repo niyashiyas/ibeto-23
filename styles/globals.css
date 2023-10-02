@@ -9,6 +9,8 @@ html {
 body::-webkit-scrollbar {
   display: none;
 }
+
+
 .bg1 {
   background-image: radial-gradient(
       farthest-side at bottom left,
@@ -164,9 +166,10 @@ body::-webkit-scrollbar {
   pointer-events: none;
 }
 
+
 .nav_item_mob:hover {
   text-decoration: none;
-  color: #9e0000;
+  color: #c2f4ff;
 }
 .nav__drawer {
   display: flex;
@@ -198,7 +201,7 @@ body::-webkit-scrollbar {
 .nav_item_mob {
   cursor: pointer;
   text-decoration: none;
-  color: #9e0000;
+  color: #1a1a1a;
   font-size: 21px;
   font-weight: 400;
 }
@@ -213,6 +216,20 @@ body::-webkit-scrollbar {
   .nav__drawer {
     width: 300px;
   }
+.bg2 {
+  background-image: radial-gradient(
+      farthest-side at bottom left,
+      #3925631b,
+      transparent 400px
+    ),
+    radial-gradient(
+      farthest-corner at bottom right,
+      #20365144,
+      transparent 300px
+    ),
+    radial-gradient(farthest-side at top left, #27235aa9, transparent 600px),
+    radial-gradient(farthest-corner at top right, #1d184dac, transparent 500px);
+}
 }
 
 @media screen and (max-width: 600px) {

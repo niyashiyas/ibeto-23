@@ -66,46 +66,15 @@ const Navbar = () => {
                 onClick={opening}
                 className="inline-flex p-2 px-4 text-white font-bold transition-all duration-200 rounded-md lg:hidden focus:bg-[#0b0a26] hover:text-cyan-600 hover:bg-gray-100"
               >
-                X
+                <img
+                  width="24"
+                  height="24"
+                  src="https://img.icons8.com/material-rounded/24/delete-sign.png"
+                  alt="delete-sign"
+                />
               </button>
             )}
             <div className="hidden lg:flex lg:items-center lg:space-x-10">
-              {/* <Link
-                href="/about"
-                title=""
-                className="text-base font-medium text-white"
-              >
-                {" "}
-                About Us{" "}
-              </Link> */}
-              {/* <Link
-                href="/"
-                title=""
-                className="text-base font-medium text-white font-body"
-              >
-                Programs
-              </Link> */}
-              {/* <Link
-                href="/"
-                title=""
-                className="text-base font-medium text-white font-body"
-              >
-                Donate
-              </Link>
-              <Link
-                href="/volunteer"
-                title=""
-                className="text-base font-medium text-white font-body"
-              >
-                Volunteer
-              </Link> */}
-              {/* <Link
-                href="/"
-                title=""
-                className="text-base font-medium text-white font-body"
-              >
-                Collaboration
-              </Link> */}
               <div className="relative inline-block text-left">
                 <div>
                   <Link href="#start">
@@ -186,6 +155,7 @@ const Navbar = () => {
         </div>
       </div>
       <Drawer
+        className=""
         open={open}
         onClick={handleDrawerClose}
         onClose={(event, reason) => {
@@ -198,38 +168,52 @@ const Navbar = () => {
         <div className="nav__drawer">
           <div className="nav__drawer_header">
             <div
-              className="title_mob"
+              className="title_mob rounded-2xl font-body text-black"
               data-aos="fade-right"
               data-aos-duration="600"
-            >
-              IEDC MEC COLLAB
-            </div>
+            ></div>
             <div
               className="navbar_items_mob"
               data-aos="fade-right"
               data-aos-duration="600"
             >
               <Link
-                href="/projects"
-                className="nav_item_mob"
+                href="#start"
+                className="nav_item_mob hover:text-blue-800 font-body"
                 onClick={handleDrawerClose}
               >
-                Projects
+                About
               </Link>
               <Link
-                href="/developers"
-                className="nav_item_mob"
+                href="#roadmap"
+                className="nav_item_mob hover:text-blue-800 font-body"
                 onClick={handleDrawerClose}
               >
-                Developers
+                Roadmap
               </Link>
               <Link
-                href="/ideas"
-                className="nav_item_mob"
+                href="#timeline"
+                className="nav_item_mob hover:text-blue-800 font-body"
                 onClick={handleDrawerClose}
               >
-                Ideas
+                Timeline
               </Link>
+              <Link
+                href="#sponsors"
+                className="nav_item_mob hover:text-blue-800 font-body"
+                onClick={handleDrawerClose}
+              >
+                Sponsors
+              </Link>
+              <Link
+                href="#faq"
+                className="nav_item_mob hover:text-blue-800 font-body"
+                onClick={handleDrawerClose}
+              >
+                FAQ
+              </Link>
+
+          
             </div>
           </div>
           <a href="https://www.mec.ac.in/" target="_blank" rel="noreferrer">

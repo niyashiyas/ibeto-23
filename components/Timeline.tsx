@@ -2,9 +2,9 @@ import React from 'react';
 import { useEffect } from "react";
 import Aos from "aos";
 import {
-    VerticalTimeline,
-    VerticalTimelineElement,
-  } from "react-vertical-timeline-component";
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
   import "react-vertical-timeline-component/style.min.css";
 
 export default function Timeline() {
@@ -67,24 +67,25 @@ export default function Timeline() {
     },
   ]
   return (
-    <section id="timeline" className="py-4 z-10 relative    bg-[#EAE9FF]  sm:py-16 lg:py-20 px-16">
-      <div 
-        className="timeline border-t-1 border-slate-300/60"
-      >
+    <section
+      id="timeline"
+      className="py-4 overflow-hidden z-10 relative  px-7 bg-gradient-to-b to-[#e2e8ff] from-[#EAE9FF]  bg- sm:py-16 lg:py-20 sm:px-16"
+    >
+      <div className="timeline border-t-1 border-slate-300/60">
         <div className="timeline__container">
-          <h2 className="font-body2 text-black text-center pb-3 sm:pb-12  mt-24 text-3xl font-normal text-blcak sm:text-4xl lg:text-5xl">
+          <h2 className="font-body2 text-black text-center pb-3 sm:pb-12  mt-20 sm:mt-16 text-3xl font-normal text-blcak sm:text-4xl lg:text-5xl">
             Timeline
           </h2>
 
-          {/* <div className="timeline__section" data-aos="zoom-in">
+          <div className="timeline__section" data-aos="zoom-in">
             <div className="ml-2 mr-4 sm:mx-0">
-              <VerticalTimeline lineColor="white" className="rounded-full">
+              <VerticalTimeline lineColor="#326d9754" className="rounded-full">
                 {timeline.map((t, i) => {
                   return (
                     <VerticalTimelineElement
                       key={i}
                       contentStyle={{ borderRadius: "25px" }}
-                      className="vertical-timeline-element--work"
+                      className="vertical-timeline-element--work font-body2 "
                       contentArrowStyle={{
                         borderRight: "7px solid  black",
                         borderRadius: "66px",
@@ -93,11 +94,11 @@ export default function Timeline() {
                     >
                       {t.title ? (
                         <React.Fragment>
-                          <h3 className="vertical-timeline-element-title font-bold">
+                          <h3 className="vertical-timeline-element-title font-body1 font-bold">
                             {t.title}
                           </h3>
                           <div className=""></div>
-                          <h6 className="py-3">{t.para}</h6>
+                          <h6 className="py-3 font-body1 text-sm">{t.para}</h6>
                         </React.Fragment>
                       ) : undefined}
                     </VerticalTimelineElement>
@@ -105,7 +106,7 @@ export default function Timeline() {
                 })}
               </VerticalTimeline>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </section>
