@@ -25,7 +25,7 @@ export default function landingpagebanner() {
         <source src="/bg.mp4" type="video/mp4" />
       </video>{" "}
       <div className="w-full z-40 absolute min-h-screen font-sans text-gray-900">
-        <div className="h-screen bg2 flex justify-center bg-[#260a0ace]  ">
+        <div className="h-screen bg2 flex justify-center bg-[#2b0606a9]  ">
           {/* <Model /> */}
           <div className="mt-0 sm:mt-0 px-0 absolute w-full h-full  flex justify-center py-2 sm:px-12 mx-auto sm:max-w-7xl 2xl:max-w-7xl">
             <div
