@@ -1,7 +1,5 @@
 import React from 'react'
 import { FiPhoneCall, FiLinkedin, FiMail } from "react-icons/fi";
-import "aos/dist/aos.css";
-import Aos from "aos";
 
 
 export default function Contact() {
@@ -22,7 +20,7 @@ export default function Contact() {
         </div>
 
         <div className="grid grid-cols-1 gap-32 mt-12 mb-24 px-12  sm:grid-cols-2 lg:grid-cols-4 sm:mt-16 sm:gap-6">
-          <div data-aos="zoom-in" data-aos-delay="200" className="relative h-full  bg-white m-2 rounded-[10px]  shadow-lg group">
+          <div className="relative h-full  bg-white m-2 rounded-[10px]  shadow-lg group">
             <div className="overflow-hidden aspect-w-4 aspect-h-3">
               <img
                 className="object-cover w-full h-52 transition-all rounded-[10px]  duration-300 group-hover:scale-110"
@@ -74,7 +72,7 @@ export default function Contact() {
               </div>
             </div>
           </div>{" "}
-          <div data-aos="zoom-in" data-aos-delay="400"  className="relative h-full  bg-white m-2 rounded-[10px] shadow-lg group">
+          <div className="relative h-full  bg-white m-2 rounded-[10px] shadow-lg group">
             <div className="overflow-hidden aspect-w-4 aspect-h-3">
               <img
                 className="object-cover w-full h-52  transition-all rounded-t-[10px] duration-300 group-hover:scale-110"
@@ -126,7 +124,7 @@ export default function Contact() {
               </div>
             </div>
           </div>{" "}
-          <div data-aos="zoom-in" data-aos-delay="600" className="relative h-full  bg-white m-2 rounded-[10px] shadow-lg group">
+          <div className="relative h-full  bg-white m-2 rounded-[10px] shadow-lg group">
             <div className="overflow-hidden aspect-w-4 aspect-h-3">
               <img
                 className="object-cover w-full h-52 transition-all rounded-[10px] duration-300 group-hover:scale-110"
@@ -178,7 +176,7 @@ export default function Contact() {
               </div>
             </div>
           </div>{" "}
-          <div data-aos="zoom-in" data-aos-delay="800" className="relative h-full  bg-white m-2 rounded-[10px] shadow-lg group">
+          <div className="relative h-full  bg-white m-2 rounded-[10px] shadow-lg group">
             <div className="overflow-hidden aspect-w-4 aspect-h-3">
               <img
                 className="object-cover w-full h-52 transition-all rounded-[10px] duration-300 group-hover:scale-110"

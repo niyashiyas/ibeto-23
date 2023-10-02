@@ -7,7 +7,7 @@ export default function Faq() {
   return (
     <section
       id="faq"
-      className="py-14 pt-14 bg-[#dedef5] rounded-t-[40px] sm:rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24"
+      className="py-14 pt-14 bg-[#fdf1fa] rounded-t-[40px] sm:rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24"
     >
       {/* <div className="absolute inset-0 min-w-7xl">
         <img
@@ -18,7 +18,10 @@ export default function Faq() {
       </div>{" "} */}
       <div className="max-w-5xl px-8 mx-auto pr-9 sm:pr-0 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 data-aos="fade-up" className="mt-4 text-3xl font-normal text-black font-body2 text-blcak sm:text-4xl lg:text-5xl">
+          <h2
+            data-aos="fade-up"
+            className="mt-4 text-3xl font-normal text-black font-body2 text-blcak sm:text-4xl lg:text-5xl"
+          >
             Questions & Answers
           </h2>
           <p className="hidden max-w-xl mx-auto mt-4 text-base font-normal leading-relaxed text-gray-800 sm:block font-body1">
