@@ -8,7 +8,7 @@ import VisibilitySensor from "react-visibility-sensor";
 
 export default function Rewards() {
   return (
-    <div className=" z-10 rounded-b-[66px] rounded-t-[-166px]  flex flex-col items-center relative bg-gradient-to-b from-[#e2e8ff] to-[#f9eeff]  py-3 pb-6 lg:py-10 lg:pb-28 px-16 ">
+    <div className=" z-10 rounded-b-[66px] rounded-t-[-166px]  flex flex-col items-center relative bg-gradient-to-b from-[#fcfaff] to-[#f9eeff]  py-3 pb-6 lg:py-10 lg:pb-28 px-16 ">
       <div className="absolute inset-0 min-w-7xl">
         <img
           className="object-cover rounded-b-[66px] w-full h-full opacity-10"
@@ -31,7 +31,6 @@ export default function Rewards() {
               alt="confetti"
             />
             Prize Worth{" "}
-           
           </h1>
 
           <h1 className="text-4xl font-semibold text-center lg:text-7xl drop-shadow-2xl">
