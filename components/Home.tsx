@@ -25,7 +25,7 @@ export default function landingpagebanner() {
         <source src="/bg.mp4" type="video/mp4" />
       </video>{" "}
       <div className="w-full z-40 absolute min-h-screen font-sans text-gray-900">
-        <div className="h-screen bg2 flex justify-center bg-[#00000086]  ">
+        <div className="h-screen bg2 flex justify-center bg-[#2b0606a9]  ">
           {/* <Model /> */}
           <div className="mt-0 sm:mt-0 px-0 absolute w-full h-full  flex justify-center py-2 sm:px-12 mx-auto sm:max-w-7xl 2xl:max-w-7xl">
             <div
@@ -41,7 +41,7 @@ export default function landingpagebanner() {
                 <div className="flex flex-col sm:flex-row gap-5 justify-center  items-start pt-5 sm:pt-5 space-x-6 md:justify-start">
                   <Link
                     href="#start"
-                    className="flex justify-center font-normal font-body2 text-md items-center py-3 px-9 hover:bg-[#441350] tracking-wide leading-7 text-white bg-[#bac7ff90]	rounded-full hover:shadow-xl z-50"
+                    className="flex justify-center font-normal font-body2 text-md items-center py-3 px-9 hover:bg-[#45183a] tracking-wide leading-7 text-white bg-[#6d1544c8]	rounded-full hover:shadow-xl z-50"
                   >
                     Register Now
                   </Link>
@@ -50,7 +50,7 @@ export default function landingpagebanner() {
               <div className="flex p-2 sm:p-2 items-center sm:w-2/3 w-full mt-3 border-gray-400">
                 <img
                   className="  scale-95 accent-neutral-100"
-                  src="/hero.png"
+                  src="/hero1.png"
                   alt=""
                 />
               </div>

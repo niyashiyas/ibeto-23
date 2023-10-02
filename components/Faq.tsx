@@ -1,10 +1,59 @@
-import React from "react";
+import React, {useState} from "react";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from 'react-accessible-accordion';
+
+// Demo styles, see 'Styles' section below for some notes on use.
+import 'react-accessible-accordion/dist/fancy-example.css';
+
 
 export default function Faq() {
+  const [state1, setState1] = useState(false); 
+  const [state2, setState2] = useState(false); 
+  const [state3, setState3] = useState(false); 
+  const [state4, setState4] = useState(false); 
+  const [state5, setState5] = useState(false); 
+  const [state6, setState6] = useState(false); 
+  const items= [
+      {
+        uuid: 1,
+        question: "When will the event be conducted ?",
+        answer: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      },
+      {
+        uuid: 2,
+        question: "Where will the event be held ?",
+        answer: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      },
+      {
+        uuid: 3,
+        question: "Lorem ipsum dolor sit ?",
+        answer: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      },
+      {
+        uuid: 4,
+        question: "Lorem ipsum dolor sit ?",
+        answer: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      },
+      // {
+      //   uuid: 5,
+      //   question: "Lorem ipsum dolor sit ?",
+      //   answer: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      // },
+      // {
+      //   uuid: 6,
+      //   question: "Lorem ipsum dolor sit ?",
+      //   answer: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+      // },
+  ]
   return (
     <section
       id="faq"
-      className="py-14 pt-14 bg-[#dedef5] rounded-t-[40px] sm:rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24"
+      className="py-14 pt-14 bg-[#fdf1fa] rounded-t-[40px] sm:rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24"
     >
       {/* <div className="absolute inset-0 min-w-7xl">
         <img
@@ -23,67 +72,154 @@ export default function Faq() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-14 sm:gap-y-16 gap-x-20">
-          <div className="flex items-start">
-            <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
-              <span className="text-lg font-semibold text-white">?</span>
-            </div>
-            <div className="ml-4">
-              <p className="text-xl font-semibold text-gray-600 font-body1">
-                Lorem ipsum dolor sit?
-              </p>
-              <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-              </p>
-            </div>
-          </div>
+       {/* ----------------For mobile view---------------- */}
+        <div className="flex sm:hidden w-full">
+          <div className="pb-2 grid grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-12 sm:gap-y-16 gap-x-20">
 
-          <div className="flex items-start">
-            <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
-              <span className="text-lg font-semibold text-white">?</span>
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4 w-full">
+                <div className="flex">
+                  <p className="mr-2 text-base font-semibold text-gray-600 font-body1">
+                    {items[0].question}
+                  </p>
+                  <div className="flex-1"></div>
+                  <p className="ml-1 text-xl font-body1 font-semibold text-gray-600" onClick={()=>setState1(!state1)}>
+                      {state1 ? "-" : "+"}
+                  </p>
+                </div>
+                {state1 && (
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">{items[0].answer}</p>
+                )} 
+              </div>
             </div>
-            <div className="ml-4">
-              <p className="text-xl font-semibold text-gray-600 font-body1">
-                Lorem ipsum dolor sit?
-              </p>
-              <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-              </p>
-            </div>
-          </div>
 
-          <div className="flex items-start">
-            <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
-              <span className="text-lg font-semibold text-white">?</span>
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4 w-full">
+                <div className="flex">
+                  <p className="mr-2 text-base font-semibold text-gray-600 font-body1">
+                    {items[1].question}
+                  </p>
+                  <div className="flex-1"></div>
+                  <p className="ml-1 text-xl font-body1 font-semibold text-gray-600" onClick={()=>setState2(!state2)}>
+                      {state2 ? "-" : "+"}
+                  </p>
+                </div>
+                {state2 && (
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">{items[1].answer}</p>
+                )}
+              </div>
             </div>
-            <div className="ml-4">
-              <p className="text-xl font-semibold text-gray-600 font-body1">
-                Lorem ipsum dolor sit?
-              </p>
-              <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-              </p>
-            </div>
-          </div>
 
-          <div className="flex items-start">
-            <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
-              <span className="text-lg font-semibold text-white">?</span>
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4 w-full">
+                <div className="flex">
+                  <p className="mr-2 text-base font-semibold text-gray-600 font-body1">
+                    {items[2].question}
+                  </p>
+                  <div className="flex-1"></div>
+                  <p className="ml-1 text-xl font-body1 font-semibold text-gray-600" onClick={()=>setState3(!state3)}>
+                      {state3 ? "-" : "+"}
+                  </p>
+                </div>
+                {state3 && (
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">{items[2].answer}</p>
+                )}
+              </div>
             </div>
-            <div className="ml-4">
-              <p className="text-xl font-semibold text-gray-600 font-body1">
-                Lorem ipsum dolor sit?
-              </p>
-              <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-              </p>
+
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4 w-full">
+                <div className="flex">
+                  <p className="mr-2 text-base font-semibold text-gray-600 font-body1">
+                    {items[3].question}
+                  </p>
+                  <div className="flex-1"></div>
+                  <p className="ml-1 text-xl font-body1 font-semibold text-gray-600" onClick={()=>setState4(!state4)}>
+                      {state4 ? "-" : "+"}
+                  </p>
+                </div>
+                {state4 && (
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">{items[3].answer}</p>
+                )}
+              </div>
             </div>
+
+            {/*-------------   IF THERE ARE QNS 5 AND 6    ----------------*/}
+            {/* <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4 w-full">
+                <div className="flex">
+                  <p className="mr-2 text-base font-semibold text-gray-600 font-body1">
+                    {items[4].question}
+                  </p>
+                  <div className="flex-1"></div>
+                  <p className="ml-1 text-xl font-body1 font-semibold text-gray-600" onClick={()=>setState5(!state5)}>
+                      {state5 ? "-" : "+"}
+                  </p>
+                </div>
+                {state5 && (
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">{items[4].answer}</p>
+                )}
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4 w-full">
+                <div className="flex">
+                  <p className="mr-2 text-base font-semibold text-gray-600 font-body1">
+                    {items[5].question}
+                  </p>
+                  <div className="flex-1"></div>
+                  <p className="ml-1 text-xl font-body1 font-semibold text-gray-600" onClick={()=>setState6(!state6)}>
+                      {state6 ? "-" : "+"}
+                  </p>
+                </div>
+                {state6 && (
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">{items[5].answer}</p>
+                )}
+              </div>
+            </div> */}
+
           </div>
-        </div>
+        </div> 
+        
+        {/* ----------------For Desktop View---------------- */}
+        <div className="hidden sm:flex">
+          <div className="grid grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-14 sm:gap-y-16 gap-x-20">
+            {items.map((item)=>( 
+              <div className="flex items-start">
+                <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                  <span className="text-lg font-semibold text-white">?</span>
+                </div>
+                <div className="ml-4">
+                  <p className="text-xl font-semibold text-gray-600 font-body1">
+                    {item.question}
+                  </p>
+                  <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                    {item.answer}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>  
 
         <div className="relative z-40 flex items-center justify-center mt-12 md:mt-28">
           <div className="px-10 py-4 text-center bg-gray-800 rounded-full">

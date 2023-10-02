@@ -4,7 +4,7 @@ import { FiPhoneCall, FiLinkedin, FiMail } from "react-icons/fi";
 
 export default function Contact() {
   return (
-    <section className="py-12 rounded-[40px] sm:rounded-[66px] -mt-24 border-t-4 border-b-2 border-slate-600 sm:-mt-32 z-30 relative w-full bg-[#f7efff] sm:py-16 lg:py-20">
+    <section className="py-12 rounded-[40px] sm:rounded-[66px] -mt-24 border-t-4 border-b-2 border-slate-600 sm:-mt-32 z-30 relative w-full bg-[#fcefff] sm:py-16 lg:py-20">
       <div className="absolute min-w-7xl inset-0">
         <img
           className="object-cover rounded-b-[66px] w-full h-full opacity-10"
@@ -24,7 +24,7 @@ export default function Contact() {
             <div className="overflow-hidden aspect-w-4 aspect-h-3">
               <img
                 className="object-cover w-full h-52 transition-all rounded-[10px]  duration-300 group-hover:scale-110"
-                src="https://ibeto.excelmec.org/static/media/nasreen.851a68c4332fc7496ddb.png"
+                src="ph (1).png"
                 alt=""
               />
             </div>
@@ -76,7 +76,7 @@ export default function Contact() {
             <div className="overflow-hidden aspect-w-4 aspect-h-3">
               <img
                 className="object-cover w-full h-52  transition-all rounded-t-[10px] duration-300 group-hover:scale-110"
-                src="/Vishnu.jpg"
+                src="/ph (4).png"
                 alt=""
               />
             </div>
@@ -128,7 +128,7 @@ export default function Contact() {
             <div className="overflow-hidden aspect-w-4 aspect-h-3">
               <img
                 className="object-cover w-full h-52 transition-all rounded-[10px] duration-300 group-hover:scale-110"
-                src="/Abhishek.jpg"
+                src="/ph (3).png"
                 alt=""
               />
             </div>
@@ -180,7 +180,7 @@ export default function Contact() {
             <div className="overflow-hidden aspect-w-4 aspect-h-3">
               <img
                 className="object-cover w-full h-52 transition-all rounded-[10px] duration-300 group-hover:scale-110"
-                src="https://ibeto.excelmec.org/static/media/nasreen.851a68c4332fc7496ddb.png"
+                src="/ph (2).png"
                 alt=""
               />
             </div>

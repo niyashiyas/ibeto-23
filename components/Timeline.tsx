@@ -69,15 +69,15 @@ export default function Timeline() {
   return (
     <section
       id="timeline"
-      className="py-4 overflow-hidden z-10 relative  px-7 bg-gradient-to-b to-[#e2e8ff] from-[#EAE9FF]  bg- sm:py-16 lg:py-20 sm:px-16"
+      className="py-4  z-10 relative  px-7 bg-gradient-to-b to-[#fcfaff] from-[#fdf7f9]  bg- sm:py-16 lg:py-20 sm:px-16"
     >
-      <div className="timeline border-t-1 border-slate-300/60">
+      <div className="timeline  border-t-1 border-slate-300/60">
         <div className="timeline__container">
           <h2 className="font-body2 text-black text-center pb-3 sm:pb-12  mt-20 sm:mt-16 text-3xl font-normal text-blcak sm:text-4xl lg:text-5xl">
             Timeline
           </h2>
 
-          <div className="timeline__section" data-aos="zoom-in">
+          <div className="timeline__section overflow-hidden" data-aos="zoom-in">
             <div className="ml-2 mr-4 sm:mx-0">
               <VerticalTimeline lineColor="#326d9754" className="rounded-full">
                 {timeline.map((t, i) => {

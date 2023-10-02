@@ -2,8 +2,11 @@ import React from "react";
 
 export default function Roadmap() {
   return (
-    <section id="roadmap" className="py-12 bg-[#EAE9FF] rounded-t-[40px] sm:rounded-t-[60px] relative w-full -mt-14 sm:py-16 lg:py-20 sm:pb-16">
-      <div className="px-6 mx-auto max-w-6xl sm:px-6 lg:px-8  mb-4 sm:mb-0" >
+    <section
+      id="roadmap"
+      className="py-12 bg-[#fdf7f9] rounded-t-[40px] sm:rounded-t-[60px] relative w-full -mt-14 sm:py-16 lg:py-20 sm:pb-16"
+    >
+      <div className="px-6 mx-auto max-w-6xl sm:px-6 lg:px-8  mb-4 sm:mb-0">
         <div className="text-center bg-white/80 border-2 border-b-0 border-gray-400 rounded-t-[30px] sm:rounded-t-[16px] py-3 pb-5 lg:text-center lg:flex lg:items-center  justify-center">
           <h2 className="mt-4 font-body2 text-3xl text-black font-normal text-blcak sm:text-3xl lg:text-4xl">
             Full Roadmap
@@ -21,7 +24,7 @@ export default function Roadmap() {
               </p>
 
               <ul className="space-y-3 mt-7">
-                <li className="flex items-center px-4 py-3 bg-blue-400/70  rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-red-400/60  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +45,7 @@ export default function Roadmap() {
                   </span>
                 </li>
 
-                <li className="flex items-center px-4 py-3 bg-green-400/70 rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-red-400/60  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +66,7 @@ export default function Roadmap() {
                   </span>
                 </li>
 
-                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-red-400/60  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +98,7 @@ export default function Roadmap() {
               </p>
 
               <ul className="space-y-3 mt-7">
-                <li className="flex items-center px-4 py-3 bg-pink-400/70  rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-red-400/60  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"
@@ -116,7 +119,7 @@ export default function Roadmap() {
                   </span>
                 </li>
 
-                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-red-400/60  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"
@@ -137,7 +140,7 @@ export default function Roadmap() {
                   </span>
                 </li>
 
-                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-red-400/60  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"
@@ -169,7 +172,7 @@ export default function Roadmap() {
               </p>
 
               <ul className="space-y-3 mt-7">
-                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-red-400/60  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"
@@ -190,7 +193,7 @@ export default function Roadmap() {
                   </span>
                 </li>
 
-                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-red-400/60  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"
@@ -211,7 +214,7 @@ export default function Roadmap() {
                   </span>
                 </li>
 
-                <li className="flex items-center px-4 py-3 bg-indigo-400/70  rounded-lg">
+                <li className="flex items-center px-4 py-3 bg-red-400/60  rounded-lg">
                   <svg
                     className="w-5 h-5 text-white shrink-0"
                     stroke="currentColor"

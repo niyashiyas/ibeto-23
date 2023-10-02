@@ -30,14 +30,14 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed  w-full rounded-b-[40px] sm:rounded-b-[66px] z-40 bg-gradient-to-b from-[#e1e8f7] to-[#dce1fc] sm:bg-gradient-to-b sm:from-[#e1e8f7] sm:to-[#dce1fc]">
+    <header className="fixed  w-full rounded-b-[40px] sm:rounded-b-[66px] z-40 bg-gradient-to-b from-[#fffdfc] to-[#fffafe]">
       <div className="absolute inset-0 min-w-7xl">
         <img
           className="object-cover rounded-b-[40px] sm:rounded-b-[66px] w-full h-full opacity-10"
           src="./noise.png"
           alt=""
         />
-      </div>{" "}
+      </div>
       <div className="px-0 py-1 mx-auto sm:px-0 sm:max-w-6xl 2xl:max-w-7xl">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
           <nav className="relative flex items-center justify-between h-20 lg:justify-end lg:h-18">
@@ -45,7 +45,7 @@ const Navbar = () => {
               <div className="flex-shrink-0">
                 <Link href="https://excelmec.org" title="" className="flex">
                   <img
-                    className="w-auto h-12 pl-2 sm:h-14 lg:h-16 lg:pl-0"
+                    className="w-auto h-16 pl-4 sm:h-14 lg:h-16 lg:pl-0"
                     src="./excellogo.png"
                     alt=""
                   />
@@ -212,8 +212,6 @@ const Navbar = () => {
               >
                 FAQ
               </Link>
-
-          
             </div>
           </div>
           <a href="https://www.mec.ac.in/" target="_blank" rel="noreferrer">
