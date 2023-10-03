@@ -34,7 +34,7 @@ export default function Faq() {
             <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
               <span className="text-lg font-semibold text-white">?</span>
             </div>
-            <div data-aos="fade-right" className="ml-4">
+            <div data-aos="zoom-in" data-aos-delay="500" className="ml-4">
               <p className="text-xl font-semibold text-gray-600 font-body1">
                 Lorem ipsum dolor sit?
               </p>
@@ -49,7 +49,7 @@ export default function Faq() {
             <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
               <span className="text-lg font-semibold text-white">?</span>
             </div>
-            <div data-aos="fade-left" className="ml-4">
+            <div data-aos="zoom-in" data-aos-delay="500" className="ml-4">
               <p className="text-xl font-semibold text-gray-600 font-body1">
                 Lorem ipsum dolor sit?
               </p>
@@ -64,7 +64,7 @@ export default function Faq() {
             <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
               <span className="text-lg font-semibold text-white">?</span>
             </div>
-            <div data-aos="fade-right" className="ml-4">
+            <div data-aos="zoom-in" data-aos-delay="500" className="ml-4">
               <p className="text-xl font-semibold text-gray-600 font-body1">
                 Lorem ipsum dolor sit?
               </p>
@@ -79,7 +79,7 @@ export default function Faq() {
             <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
               <span className="text-lg font-semibold text-white">?</span>
             </div>
-            <div data-aos="fade-left" className="ml-4">
+            <div data-aos="zoom-in" data-aos-delay="500" className="ml-4">
               <p className="text-xl font-semibold text-gray-600 font-body1">
                 Lorem ipsum dolor sit?
               </p>
