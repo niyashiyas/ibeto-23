@@ -14,7 +14,7 @@ export default function Contact() {
       </div>{" "}
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="text-center lg:text-center">
-          <h2 className="mt-4 font-body2 text-3xl font-normal text-blcak sm:text-4xl lg:text-5xl">
+          <h2 data-aos="fade-down" data-aos-delay="400" className="mt-4 font-body2 text-3xl font-normal text-blcak sm:text-4xl lg:text-5xl">
             Contact us
           </h2>
         </div>
