@@ -69,7 +69,7 @@ export default function Timeline() {
   return (
     <section
       id="timeline"
-      className="py-4  z-10 relative  px-7 bg-gradient-to-b to-[#fcfaff] from-[#fdf7f9]  bg- sm:pb-16 sm:pt-6 lg:pb-20 lg:pt-8 sm:px-16"
+      className="py-4 pb-16 z-10 relative  px-7 bg-gradient-to-b to-[#fcfaff] from-[#fdf7f9]  bg- sm:pb-16 sm:pt-6 lg:pb-20 lg:pt-8 sm:px-16"
     >
       <div className="timeline  border-t-1 border-slate-300/60">
         <div className="timeline__container">
@@ -79,7 +79,7 @@ export default function Timeline() {
 
           <div className="timeline__section overflow-hidden" data-aos="zoom-in">
             <div className="ml-2 mr-4 sm:mx-0">
-              <VerticalTimeline lineColor="#326d9754" className="rounded-full">
+              <VerticalTimeline lineColor="#e20c5d" className="vertical-timeline-custom-line">
                 {timeline.map((t, i) => {
                   return (
                     <VerticalTimelineElement
@@ -88,7 +88,6 @@ export default function Timeline() {
                       className="vertical-timeline-element--work font-body2 "
                       contentArrowStyle={{
                         borderRight: "7px solid  black",
-                        borderRadius: "66px",
                       }}
                       date={t.date}
                     >

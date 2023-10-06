@@ -43,7 +43,7 @@ export default function Faq() {
   return (
     <section
       id="faq"
-      className="py-14 pt-14 bg-[#dedef5] rounded-t-[40px] sm:rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24"
+      className="py-14 pt-14 bg-[#fdf1fa] rounded-t-[40px] sm:rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24"
     >
       {/* <div className="absolute inset-0 min-w-7xl">
         <img
