@@ -38,7 +38,7 @@ function ProblemStatementModal({
     >
       <DialogContent
         style={{ padding: 0, borderRadius: 10 }}
-        className="bg-[url('../public/elements.png')] bg-white sm:bg-[url('../public/elements.png')]  bg-no-repeat bg-cover bg-center"
+        className="bg-[url('../public/elements1.png')] bg-white sm:bg-[url('../public/elements.png')]  bg-no-repeat bg-cover bg-center"
         sx={{ "&::-webkit-scrollbar": { display: "none" } }}
       >
         <div className="psDialog">
