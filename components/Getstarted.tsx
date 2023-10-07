@@ -21,7 +21,7 @@ export default function Getstarted() {
             <div className="px-6 mx-auto -mt-2.5 sm:mt-0 sm:max-w-6xl 2xl:max-w-7xl sm:px-6 lg:px-8">
               <div
                 data-aos="zoom-in"
-                className="relative justify-between overflow-hidden sm:bg-gradient-to-r bg-gradient-to-b  from-[#b55779] to-[#f7b79e] md:flex rounded-3xl"
+                className="relative justify-between overflow-hidden border-2 border-rose-600 md:flex rounded-3xl"
               >
                 <div className="absolute right-0 transform -translate-y-1/2 translate-x-80 md:translate-x-36 top-1/2 md:top-0 md:-translate-y-24">
                   <svg
@@ -54,7 +54,7 @@ export default function Getstarted() {
 
                 <div className="absolute inset-0 min-w-7xl">
                   <img
-                    className="object-cover w-full h-full opacity-50"
+                    className="object-cover w-full h-full opacity-30"
                     src="./noise.png"
                     alt=""
                   />
@@ -69,10 +69,10 @@ export default function Getstarted() {
                 </div>
 
                 <div className="relative w-full p-6 sm:pl-10 lg:py-24 lg:pl-20 md:w-1/2 lg:w-2/3">
-                  <h2 className="text-4xl font-normal text-white font-body2 sm:text-4xl lg:text-5xl">
+                  <h2 className="text-4xl font-normal text-black font-body2 sm:text-4xl lg:text-5xl">
                     About{" "}
                   </h2>
-                  <p className="max-w-sm mt-6 text-base font-normal text-gray-200 font-body1 sm:text-lg">
+                  <p className="max-w-sm mt-6 text-base font-normal text-gray-800 font-body1 sm:text-lg">
                     As part of the annual national-level technical symposium,
                     Excel 2022, Govt. Model Engineering College, Kochi hosts
                     Innovations for a Better Tomorrow (IBeTo), a competition
@@ -85,7 +85,7 @@ export default function Getstarted() {
                       href=""
                       target="_blank"
                       title=""
-                      className="relative inline-flex items-center justify-center px-8 py-2 pr-16 text-base font-normal text-white scale-95 border-2 border-r-0 border-slate-200 rounded-full text-md font-body2"
+                      className="relative inline-flex items-center justify-center px-8 py-2 pr-16 text-base font-normal text-black scale-95 border-2 border-r-0 border-rose-900 rounded-full text-md font-body2"
                       role="button"
                     >
                       Guidelines{" "}

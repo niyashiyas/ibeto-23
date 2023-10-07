@@ -62,7 +62,7 @@ export default function Timeline() {
   return (
     <section
       id="timeline"
-      className="py-4 -mt-12  bg-[url('../public/elements1.png')] bg-white sm:bg-[url('../public/elements1.png')]  bg-no-repeat bg-cover bg-center  z-10 relative  px-7 bg-gradient-to-b to-[#fcfaff] from-[#fdf7f9]  bg- sm:py-16 lg:py-20 sm:px-16"
+      className="py-4 -mt-14  bg-[url('../public/elements1.png')] bg-white sm:bg-[url('../public/elements1.png')]  bg-no-repeat bg-cover bg-center  z-10 relative  px-7 bg-gradient-to-b to-[#fcfaff] from-[#fdf7f9]  bg- sm:py-16 lg:py-20 sm:px-16"
     >
       <div className="absolute z-0 inset-0 min-w-7xl">
         <img

@@ -10,7 +10,7 @@ export default function Rewards() {
     <div className=" z-10 rounded-b-[66px] rounded-t-[66px] -mt-16  flex flex-col items-center relative bg-gradient-to-b from-[#fffafd] to-[#ffeef9]  py-3 pb-6 lg:pt-20 lg:pb-28 px-16 ">
       <div className="absolute inset-0 min-w-7xl">
         <img
-          className="object-cover rounded-b-[66px] w-full h-full opacity-10"
+          className="object-cover rounded-b-[66px]  rounded-t-[66px] w-full h-full opacity-10"
           src="./noise.png"
           style={{
             pointerEvents: "none",
