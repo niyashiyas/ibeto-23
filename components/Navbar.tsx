@@ -45,8 +45,12 @@ const Navbar = () => {
               <div className="flex-shrink-0">
                 <Link href="https://excelmec.org" title="" className="flex">
                   <img
-                    className="w-auto h-16 pl-4 sm:h-14 lg:h-16 lg:pl-0"
-                    src="./excellogo.png"
+                    style={{
+                      width: "auto",
+                      height: "8rem",
+                      paddingLeft: "4px",
+                    }}
+                    src="./ibetologo.png"
                     alt=""
                   />
                 </Link>
@@ -214,8 +218,8 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
-          <a href="https://www.mec.ac.in/" target="_blank" rel="noreferrer">
-            <img src="./meclogo.png" alt="" className="meclogo__mob" />
+          <a href="https://ibeto.excelmec.org/" target="_blank" rel="noreferrer">
+            <img src="./ibetologo.png" alt="" className="meclogo__mob" />
           </a>
         </div>
       </Drawer>
