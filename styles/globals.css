@@ -26,6 +26,18 @@ body::-webkit-scrollbar {
       transparent 1000px
     );
 }
+.bg11 {
+  background-image: radial-gradient(
+      farthest-side at bottom left,
+      #d7a3683b,
+      transparent 900px
+    ),
+    radial-gradient(
+      farthest-corner at bottom right,
+      #f4aeca73,
+      transparent 1000px
+    );
+}
 .bg2 {
   background-image: radial-gradient(
       farthest-side at bottom left,
@@ -52,13 +64,13 @@ body::-webkit-scrollbar {
 .bg4 {
   background-image: radial-gradient(
       farthest-side at bottom center,
-      #30256357,
+      #63253957,
       transparent 400px
     ),
     radial-gradient(
       farthest-corner at center center,
-      #4820519b,
-      transparent 800px
+      #27091b9b,
+      transparent 400px
     );
 }
 
@@ -231,6 +243,18 @@ body::-webkit-scrollbar {
     ),
     radial-gradient(farthest-side at top left, #9c1654e2, transparent 900px),
     radial-gradient(farthest-corner at top right, #c0873273, transparent 900px);
+}
+.bg11 {
+  background-image: radial-gradient(
+      farthest-side at bottom left,
+      #d7a3683b,
+      transparent 300px
+    ),
+    radial-gradient(
+      farthest-corner at bottom right,
+      #f4aeca73,
+      transparent 300px
+    );
 }
 }
 

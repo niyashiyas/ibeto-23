@@ -21,7 +21,7 @@ export default function Getstarted() {
             <div className="px-6 mx-auto -mt-2.5 sm:mt-0 sm:max-w-6xl 2xl:max-w-7xl sm:px-6 lg:px-8">
               <div
                 data-aos="zoom-in"
-                className="relative justify-between overflow-hidden bg-gradient-to-r from-[#b75c7d] to-[#f7b79e] md:flex rounded-3xl"
+                className="relative justify-between overflow-hidden sm:bg-gradient-to-r bg-gradient-to-b  from-[#b75c7d] to-[#f7b79e] md:flex rounded-3xl"
               >
                 <div className="absolute right-0 transform -translate-y-1/2 translate-x-80 md:translate-x-36 top-1/2 md:top-0 md:-translate-y-24">
                   <svg

@@ -46,7 +46,7 @@ export default function Faq() {
   return (
     <section
       id="faq"
-      className="py-14 pt-14 bg-[#dedef5] rounded-t-[40px] sm:rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24"
+      className="py-14 pt-14 bg-[#fff7fb] rounded-t-[40px] sm:rounded-t-[66px] relative -mt-12 sm:py-16 lg:py-24"
     >
       {/* <div className="absolute inset-0 min-w-7xl">
         <img
@@ -72,7 +72,7 @@ export default function Faq() {
         <div className="flex sm:hidden w-full">
           <div className="pb-2 grid grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-12 sm:gap-y-16 gap-x-20">
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400  rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4 w-full">
@@ -97,7 +97,7 @@ export default function Faq() {
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400  rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4 w-full">
@@ -122,7 +122,7 @@ export default function Faq() {
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400  rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4 w-full">
@@ -147,7 +147,7 @@ export default function Faq() {
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400  rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4 w-full">
@@ -173,7 +173,7 @@ export default function Faq() {
 
             {/*-------------   IF THERE ARE QNS 5 AND 6    ----------------*/}
             {/* <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400  rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4 w-full">
@@ -192,7 +192,7 @@ export default function Faq() {
               </div>
             </div>
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400  rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div className="ml-4 w-full">
@@ -217,7 +217,7 @@ export default function Faq() {
         <div className="hidden sm:flex">
           <div className="grid grid-cols-1 mt-12 md:mt-20 md:grid-cols-2 gap-y-14 sm:gap-y-16 gap-x-20">
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400  rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div data-aos="zoom-in" data-aos-delay="500" className="ml-4">
@@ -231,7 +231,7 @@ export default function Faq() {
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400  rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div data-aos="zoom-in" data-aos-delay="500" className="ml-4">
@@ -245,7 +245,7 @@ export default function Faq() {
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400 rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div data-aos="zoom-in" data-aos-delay="500" className="ml-4">
@@ -259,7 +259,7 @@ export default function Faq() {
             </div>
 
             <div className="flex items-start">
-              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400  rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
               <div data-aos="zoom-in" data-aos-delay="500" className="ml-4">
@@ -278,7 +278,7 @@ export default function Faq() {
           <div className="px-10 py-4 text-center bg-gray-800 rounded-full">
             <p className="text-sm text-gray-50 font-body2">
               Didn’t find the answer you are looking for?{" "}
-              <span className="text-yellow-300 transition-all duration-200 hover:text-yellow-400 focus:text-yellow-400 hover:underline">
+              <span className="text-yellow-300 transition-all duration-200 hover:text-yellow-400 focus:text-yellow-400 ">
                 Contact Us
               </span>
             </p>

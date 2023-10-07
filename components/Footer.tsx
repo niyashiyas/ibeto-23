@@ -5,13 +5,18 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <>
-      <footer className="py-12  z-40 bg1 -mt-8 sm:-mt-16 bg-[#fffafd] sm:pt-28 lg:pt-32">
+      <footer className="py-12  z-40 bg11 -mt-8 sm:-mt-16 bg-[#fffafd] sm:pt-28 lg:pt-32">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
           <div className="flex flex-col items-center space-y-10 lg:justify-between lg:space-y-0 lg:flex-row">
-            <div className="shrink-0">
+            <div className="shrink-0 px-4 pt-6 pb-3 flex justify-between  w-full sm:w-fit ">
               <a href="https://excelmec.org" title="" className="flex">
                 <img className="w-auto h-16" src="./excellogo.png" alt="" />
               </a>
+              <div className=" sm:hidden block">
+                <a href="https://mec.ac.in" title="" className="flex">
+                  <img className="w-auto h-16" src="./meclogo.png" alt="" />
+                </a>
+              </div>
             </div>
             <div
               style={{
@@ -110,7 +115,7 @@ export default function Footer() {
                 </p>
               </div>
             </div>
-            <div className="shrink-0">
+            <div className="shrink-0 hidden sm:block">
               <a href="https://mec.ac.in" title="" className="flex">
                 <img className="w-auto h-16" src="./meclogo.png" alt="" />
               </a>
