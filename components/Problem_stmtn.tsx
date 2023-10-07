@@ -47,15 +47,15 @@ export default function Problem_stmnt() {
             <div
               data-aos="zoom-in"
               data-aos-delay="500"
-              className="bg-white/70 p-6 rounded-3xl"
+              className="bg-white/70 p-6 rounded-3xl border border-rose-300"
             >
               <h3
-                className="text-lg font-bold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-semibold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("Carbon")}
               >
                 Towards Zero Carbon Emission
               </h3>
-              <hr className="mt-4 border-t-2 border-slate-800" />
+              <hr className="mt-4 border-t-1 border-rose-600" />
 
               <ul className="mt-6 space-y-6">
                 <li className="flex items-start">
@@ -83,7 +83,7 @@ export default function Problem_stmnt() {
                     Is it possible for local bodies to go completely off-grid?
                   </span>
                 </li>
-                <li className="flex border-b-2 ml-3 mt-1 w-fit border-black/60 items-start">
+                <li className="flex border-b-2 ml-3 mt-1 w-fit border-rose-500/60 items-start">
                   <button onClick={() => openModal("Carbon")}>
                     <span className="font-body text-[#06061a] text-sm">
                       View Full
@@ -95,15 +95,15 @@ export default function Problem_stmnt() {
             <div
               data-aos="zoom-in"
               data-aos-delay="800"
-              className="bg-white/70 p-6 rounded-3xl"
+              className="bg-white/70 p-6 rounded-3xl border border-rose-300"
             >
               <h3
-                className="text-lg font-bold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-semibold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("waste")}
               >
                 Waste Management
               </h3>
-              <hr className="mt-4 border-t-2 border-gray-900" />
+              <hr className="mt-4 border-t-1 border-rose-600" />
 
               <ul className="mt-6 space-y-6">
                 <li className="flex items-start">
@@ -129,7 +129,7 @@ export default function Problem_stmnt() {
                     What products can be created from waste materials?{" "}
                   </span>
                 </li>
-                <li className="flex  border-b-2 ml-3 mt-1 w-fit border-blue-950/60 items-start">
+                <li className="flex border-b-2 ml-3 mt-1 w-fit border-rose-500/60 items-start">
                   <button onClick={() => openModal("waste")}>
                     <span className="font-body text-[#06061a] text-sm">
                       View Full
@@ -141,15 +141,15 @@ export default function Problem_stmnt() {
             <div
               data-aos="zoom-in"
               data-aos-delay="1000"
-              className="bg-white/70 p-6 rounded-3xl"
+              className="bg-white/70 p-6 rounded-3xl border border-rose-300"
             >
               <h3
-                className="text-lg font-bold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-semibold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("disaster")}
               >
                 Disaster Management
               </h3>
-              <hr className="mt-4 border-t-2 border-gray-900" />
+              <hr className="mt-4 border-t-1 border-rose-600" />
 
               <ul className="mt-6 space-y-6">
                 <li className="flex items-start">
@@ -177,7 +177,7 @@ export default function Problem_stmnt() {
                     fires?{" "}
                   </span>
                 </li>
-                <li className="flex border-b-2 ml-3 mt-1 w-fit border-black/60 items-start">
+                <li className="flex border-b-2 ml-3 mt-1 w-fit border-rose-500/60 items-start">
                   <button onClick={() => openModal("disaster")}>
                     <span className="font-body text-[#06061a] text-sm">
                       View Full
@@ -189,15 +189,15 @@ export default function Problem_stmnt() {
             <div
               data-aos="zoom-in"
               data-aos-delay="1100"
-              className="bg-white/70 p-6 rounded-3xl"
+              className="bg-white/70 p-6 rounded-3xl border border-rose-300"
             >
               <h3
-                className="text-lg font-bold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-semibold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("education")}
               >
                 Education For All
               </h3>
-              <hr className="mt-4 border-t-2 border-gray-900" />
+              <hr className="mt-4 border-t-1 border-rose-600" />
 
               <ul className="mt-6 space-y-6">
                 <li className="flex items-start">
@@ -225,7 +225,7 @@ export default function Problem_stmnt() {
                     differently-abled students in learning?{" "}
                   </span>
                 </li>
-                <li className="flex border-b-2 ml-3 mt-1 w-fit border-black/60 items-start">
+                <li className="flex border-b-2 ml-3 mt-1 w-fit border-rose-500/60 items-start">
                   <button onClick={() => openModal("education")}>
                     <span className="font-body text-[#06061a] text-sm">
                       View Full
@@ -237,15 +237,15 @@ export default function Problem_stmnt() {
             <div
               data-aos="zoom-in"
               data-aos-delay="1200"
-              className="bg-white/70 p-6 rounded-3xl"
+              className="bg-white/70 p-6 rounded-3xl border border-rose-300"
             >
               <h3
-                className="text-lg font-bold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-semibold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("finance")}
               >
                 Transforming Finance
               </h3>
-              <hr className="mt-4 border-t-2 border-gray-900" />
+              <hr className="mt-4 border-t-1 border-rose-600" />
 
               <ul className="mt-6 space-y-6">
                 <li className="flex items-start">
@@ -271,7 +271,7 @@ export default function Problem_stmnt() {
                     How can we make banking more secure?{" "}
                   </span>
                 </li>
-                <li className="flex border-b-2 ml-3 mt-1 w-fit border-black/60 items-start">
+                <li className="flex border-b-2 ml-3 mt-1 w-fit border-rose-500/60 items-start">
                   <button onClick={() => openModal("finance")}>
                     <span className="font-body text-[#06061a] text-sm">
                       View Full
@@ -283,15 +283,15 @@ export default function Problem_stmnt() {
             <div
               data-aos="zoom-in"
               data-aos-delay="1400"
-              className="bg-white/70 p-6 rounded-3xl"
+              className="bg-white/70 p-6 rounded-3xl border border-rose-300"
             >
               <h3
-                className="text-lg font-bold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-semibold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("open")}
               >
                 Open Innovation
               </h3>
-              <hr className="mt-4 border-t-2 border-gray-900" />
+              <hr className="mt-4 border-t-1 border-rose-600" />
 
               <ul className="mt-6 space-y-6">
                 <li className="flex items-start">
@@ -319,7 +319,7 @@ export default function Problem_stmnt() {
                     differently-abled students in learning?{" "}
                   </span>
                 </li>
-                <li className="flex border-b-2 ml-3 mt-1 w-fit border-black/60 items-start">
+                <li className="flex border-b-2 ml-3 mt-1 w-fit border-rose-500/60 items-start">
                   <button onClick={() => openModal("open")}>
                     <span className="font-body text-[#06061a] text-sm">
                       View Full
@@ -407,7 +407,7 @@ export default function Problem_stmnt() {
 //             <div className="flex items-start justify-between  border-b border-solid border-slate-200 p-5">
 //               <h3 className="text-xl mt-3 sm:text-2xl f font-body2">{title}</h3>
 //               <button
-//                 className=" ml-auto my-auto   border-0p-2 px-3  text-center  text-xl font-semibold leading-none text-white outline-none focus:outline-none"
+//                 className=" ml-auto my-auto   border-0p-2 px-3  text-center  text-xl font-semisemibold leading-none text-white outline-none focus:outline-none"
 //                 onClick={onClose}
 //               >
 //                 <img

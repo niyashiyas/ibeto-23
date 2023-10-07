@@ -88,7 +88,7 @@ export default function Timeline() {
                       {t.title ? (
                         <React.Fragment>
                           <h3
-                            className="vertical-timeline-element-title font-body1 font-bold"
+                            className="vertical-timeline-element-title font-body1 font-semibold"
                             style={{
                               background:
                                 "linear-gradient(90deg, #e10c5d 0%, #f9681c 100%)",
