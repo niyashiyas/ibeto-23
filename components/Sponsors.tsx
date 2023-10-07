@@ -6,7 +6,7 @@ import Aos from "aos";
 
 export default function Sponsors() {
   return (
-    <div id="sponsors ">
+    <div id="sponsors">
       <video
         autoPlay
         loop

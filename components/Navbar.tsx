@@ -206,6 +206,13 @@ const Navbar = () => {
                 Roadmap
               </Link>
               <Link
+                href="#problem"
+                className="nav_item_mob hover:text-rose-800 font-body"
+                onClick={handleDrawerClose}
+              >
+                Problem Statements
+              </Link>
+              <Link
                 href="#timeline"
                 className="nav_item_mob hover:text-rose-800 font-body"
                 onClick={handleDrawerClose}

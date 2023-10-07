@@ -27,7 +27,7 @@ export default function Problem_stmnt() {
 
   return (
     <>
-      <section className="py-12 z-30 bg-[#fdf7f9] rounded-t-[40px] sm:rounded-t-[60px] sm:rounded-b-[60px]  relative w-full -mt-14 sm:py-16 lg:py-20  sm:pb-16">
+      <section id="problem" className="py-12 z-30 bg-[#fdf7f9] rounded-t-[40px] sm:rounded-t-[60px] sm:rounded-b-[60px]  relative w-full -mt-14 sm:py-16 lg:py-20  sm:pb-16">
         <div className="absolute  inset-0 min-w-7xl">
           <img
             className="object-cover sm:rounded-b-[60px] w-full h-full opacity-10"
