@@ -7,7 +7,7 @@ import VisibilitySensor from "react-visibility-sensor";
 
 export default function Rewards() {
   return (
-    <div className=" z-10 rounded-b-[66px] rounded-t-[66px] -mt-16  flex flex-col items-center relative bg-gradient-to-b from-[#fffafd] to-[#ffeef9]  py-3 pb-6 lg:pt-20 lg:pb-28 px-16 ">
+    <div className=" z-10 rounded-b-[66px] rounded-t-[66px] -mt-16  flex flex-col items-center relative bg-gradient-to-b from-[#fffafd] to-[#ffeef9]  py-3 pb-6 lg:pt-20 lg:pb-28 px-10 ">
       <div className="absolute inset-0 min-w-7xl">
         <img
           className="object-cover rounded-b-[66px]  rounded-t-[66px] w-full h-full opacity-10"
@@ -100,10 +100,10 @@ export default function Rewards() {
           </div>
         </div>
       </div>
-      <div className="rounded-[30px] bg-[#ffffff1a] border-t-[1px] border-l-[1px] border-[#ffffff80] border-solid shadow-[0_10px_20px_-15px_rgba(0,0,0,0.3)] lg:hidden  font-body2  lg:py-24 py-20 max-[300px]:px-5 max-[300px]:py-12 lg:px-48 px-10 w-fit mb-6 ">
-        <h1 className="text-xl  mb-3 text-center lg:text-5xl font-100 z-100 drop-shadow-2xl">
+      <div className="rounded-[30px] bg-[#ffffff1a] border-t-[1px] border-l-[1px] border-[#ffffff80] border-solid shadow-[0_10px_20px_-15px_rgba(0,0,0,0.3)] lg:hidden  font-body2  lg:py-24 py-20 max-[300px]:px-5 max-[300px]:py-12 lg:px-48 px-7 w-fit mb-6 ">
+        <h1 className="text-2xl gap-3 flex flex-col items-center mb-3 text-center lg:text-5xl font-100 z-100 drop-shadow-2xl">
           <img
-            className="inline-block mr-2 w-10 lg:w-12"
+            className="sm:inline-block flex justify-center mr-2 w-16 lg:w-12"
             src="https://img.icons8.com/3d-fluency/94/confetti.png"
             alt="confetti"
           />
@@ -130,7 +130,7 @@ export default function Rewards() {
             )}
           </CountUp>
         </h1>
-        <h1 className="text-4xl from-orange-500 to-pink-600 bg-gradient-to-r bg-clip-text text-transparent  font-800 text-center lg:hidden  drop-shadow-2xl">
+        <h1 className="text-5xl from-orange-500 font-semibold to-pink-600 bg-gradient-to-r bg-clip-text text-transparent text-center lg:hidden  drop-shadow-2xl">
           ₹1,00,000
         </h1>
 
