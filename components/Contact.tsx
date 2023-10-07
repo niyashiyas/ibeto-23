@@ -1,6 +1,5 @@
-import React from 'react'
+import React from "react";
 import { FiPhoneCall, FiLinkedin, FiMail } from "react-icons/fi";
-
 
 export default function Contact() {
   return (
@@ -14,28 +13,32 @@ export default function Contact() {
       </div>{" "}
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="text-center lg:text-center">
-          <h2 data-aos="fade-down" data-aos-delay="400" className="mt-4 font-body2 text-3xl font-normal text-blcak sm:text-4xl lg:text-5xl">
-            Contact us
+          <h2
+            data-aos="fade-down"
+            data-aos-delay="400"
+            className="mt-4 font-body2 text-3xl font-normal text-blcak sm:text-4xl lg:text-5xl"
+          >
+            Contact Us
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 gap-32 mt-12 mb-24 px-12  sm:grid-cols-2 lg:grid-cols-4 sm:mt-16 sm:gap-6">
-          <div className="relative h-full  bg-white m-2 rounded-[10px]  shadow-lg group">
-            <div className="overflow-hidden aspect-w-4 aspect-h-3">
+        <div className="grid grid-cols-1 justify-center  gap-24 mt-12 mb-24 sm:px-12  px-10  sm:grid-cols-2  sm:max-w-lg  md:max-w-none  mx-auto  sm:gap-y-32  lg:grid-cols-4 sm:mt-16 sm:gap-6">
+          <div className="relative h-full  bg-white m-2 rounded-[10px] max-w-sm  shadow-lg group">
+            <div className="overflow-hidden  aspect-square">
               <img
-                className="object-cover w-full h-52 transition-all rounded-[10px]  duration-300 group-hover:scale-110"
+                className="object-cover w-full transition-all rounded-[10px]  duration-300 group-hover:scale-110"
                 src="ph (1).png"
                 alt=""
               />
             </div>
-            <div className="px-5 py-5   text-center bg-white -mt-6 absolute w-full rounded-t-[23px]">
+            <div className="px-5 py-3   text-center bg-white -mt-8 absolute w-full rounded-t-[14px]">
               <h3 className="text-base font-semibold font-body1 text-gray-900">
                 Mathew Davis{" "}
               </h3>{" "}
-              <h4 className="text-sm font-normal mt-1 font-body1 text-gray-600">
+              <h4 className="text-sm font-normal  mb-0.5 font-body1 text-gray-600">
                 Chairperson
               </h4>
-              <div className="flex mt-2 justify-center">
+              <div className="flex mt-3 justify-center">
                 <ul className="flex px-3 z-50 gap-2  items-center md:order-3 sm:mt-0">
                   <li>
                     <a
@@ -72,22 +75,22 @@ export default function Contact() {
               </div>
             </div>
           </div>{" "}
-          <div className="relative h-full  bg-white m-2 rounded-[10px] shadow-lg group">
-            <div className="overflow-hidden aspect-w-4 aspect-h-3">
+          <div className="relative h-full max-w-sm  bg-white m-2 rounded-[10px] shadow-lg group">
+            <div className="overflow-hidden  aspect-square">
               <img
-                className="object-cover w-full h-52  transition-all rounded-t-[10px] duration-300 group-hover:scale-110"
+                className="object-cover w-full transition-all rounded-[10px]  duration-300 group-hover:scale-110"
                 src="/ph (4).png"
                 alt=""
               />
             </div>
-            <div className="px-5 py-5 text-center bg-white -mt-6 absolute w-full rounded-t-[23px]">
+            <div className="px-5 py-3   text-center bg-white -mt-8 absolute w-full rounded-t-[14px]">
               <h3 className="text-base font-semibold font-body1 text-gray-900">
-              Vishnu S{" "}
+                Vishnu S{" "}
               </h3>{" "}
-              <h4 className="text-sm font-normal mt-1 font-body1 text-gray-600">
-              General Secretary
+              <h4 className="text-sm font-normal  mb-0.5 font-body1 text-gray-600">
+                General Secretary
               </h4>
-              <div className="flex mt-2 justify-center">
+              <div className="flex mt-3 justify-center">
                 <ul className="flex px-3 z-50 gap-2  items-center md:order-3 sm:mt-0">
                   <li>
                     <a
@@ -124,22 +127,22 @@ export default function Contact() {
               </div>
             </div>
           </div>{" "}
-          <div className="relative h-full  bg-white m-2 rounded-[10px] shadow-lg group">
-            <div className="overflow-hidden aspect-w-4 aspect-h-3">
+          <div className="relative h-full max-w-sm  bg-white m-2 rounded-[10px] shadow-lg group">
+            <div className="overflow-hidden  aspect-square">
               <img
-                className="object-cover w-full h-52 transition-all rounded-[10px] duration-300 group-hover:scale-110"
+                className="object-cover w-full transition-all rounded-[10px]  duration-300 group-hover:scale-110"
                 src="/ph (3).png"
                 alt=""
               />
             </div>
-            <div className="px-5 py-5   text-center bg-white -mt-6 absolute w-full rounded-t-[23px]">
+            <div className="px-5 py-3   text-center bg-white -mt-8 absolute w-full rounded-t-[14px]">
               <h3 className="text-base font-semibold font-body1 text-gray-900">
-              Abhishek P{" "}
+                Abhishek P{" "}
               </h3>{" "}
-              <h4 className="text-sm font-normal mt-1 font-body1 text-gray-600">
-              Joint Secretary
+              <h4 className="text-sm font-normal  mb-0.5 font-body1 text-gray-600">
+                Joint Secretary
               </h4>
-              <div className="flex mt-2 justify-center">
+              <div className="flex mt-3 justify-center">
                 <ul className="flex px-3 z-50 gap-2  items-center md:order-3 sm:mt-0">
                   <li>
                     <a
@@ -176,22 +179,22 @@ export default function Contact() {
               </div>
             </div>
           </div>{" "}
-          <div className="relative h-full  bg-white m-2 rounded-[10px] shadow-lg group">
-            <div className="overflow-hidden aspect-w-4 aspect-h-3">
+          <div className="relative h-full max-w-sm  bg-white m-2 rounded-[10px] shadow-lg group">
+            <div className="overflow-hidden  aspect-square">
               <img
-                className="object-cover w-full h-52 transition-all rounded-[10px] duration-300 group-hover:scale-110"
+                className="object-cover w-full transition-all rounded-[10px]  duration-300 group-hover:scale-110"
                 src="/ph (2).png"
                 alt=""
               />
             </div>
-            <div className="px-5 py-5   text-center bg-white -mt-6 absolute w-full rounded-t-[23px]">
+            <div className="px-5 py-3   text-center bg-white -mt-8 absolute w-full rounded-t-[14px]">
               <h3 className="text-base font-semibold font-body1 text-gray-900">
-              Cijo Jose{" "}
+                Cijo Jose{" "}
               </h3>{" "}
-              <h4 className="text-sm font-normal mt-1 font-body1 text-gray-600">
+              <h4 className="text-sm font-normal  mb-0.5 font-body1 text-gray-600">
                 Social Initiatives Manager
               </h4>
-              <div className="flex mt-2 justify-center">
+              <div className="flex mt-3 justify-center">
                 <ul className="flex px-3 z-50 gap-2  items-center md:order-3 sm:mt-0">
                   <li>
                     <a

@@ -5,8 +5,6 @@ import "aos/dist/aos.css";
 import Link from "next/link";
 
 export default function Getstarted() {
-
-    
   return (
     <div className="relative  bg-[#ffffff] rounded-t-[40px] sm:rounded-t-[60px]  ">
       <div className="absolute inset-0 min-w-7xl">
@@ -63,8 +61,8 @@ export default function Getstarted() {
 
                 <div className="absolute inset-y-0  right-0 w-1/2 hidden pr-12 md:block">
                   <img
-                    className="w-full max-w-md  transform  translate-y-14 ml-12"
-                    src="ibeto.png"
+                    className="w-full max-w-md pr-12 mr-24 transform scale-125 translate-y-20"
+                    src="https://ibetofrontend.pages.dev/static/media/ibetologo.89112a3a.svg"
                     alt=""
                   />
                 </div>
@@ -95,7 +93,7 @@ export default function Getstarted() {
                       href=""
                       target="_blank"
                       title=""
-                      className="relative hover:scale-110 text-md -ml-12 font-body2 font-normal inline-flex items-center justify-center px-8 scale-105 py-2 text-base text-white bg-gradient-to-r from-[#f9681c] to-[#e80a5a] rounded-full"
+                      className="relative hover:scale-110 text-md -ml-12 font-body2 font-normal inline-flex items-center justify-center px-8 scale-105 py-2 text-base text-white bg-gradient-to-r from-[#7383d3] to-purple-500  rounded-full"
                       role="button"
                     >
                       Register
@@ -106,12 +104,12 @@ export default function Getstarted() {
                 <div className="relative md:hidden">
                   <img
                     className="hidden lg:block w-full h-[70%]"
-                    src="ibeto.png"
+                    src="https://ibetofrontend.pages.dev/static/media/ibetologo.89112a3a.svg"
                     alt=""
                   />
                   <img
                     className="lg:hidden p-4 block w-full h-[70%]"
-                    src="ibeto.png"
+                    src="https://ibetofrontend.pages.dev/static/media/ibetologo.89112a3a.svg"
                     alt=""
                   />
                 </div>

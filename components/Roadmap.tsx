@@ -41,7 +41,14 @@ export default function Roadmap() {
                   data-aos="zoom-in"
                   data-aos-delay="200"
                   data-aos-duration="1000"
-                  className="flex items-center px-4 py-3 bg-[#b75c7d] bg5  rounded-lg"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    padding: "0.75rem",
+                    background:
+                      "linear-gradient(90deg, rgba(225, 12, 93, 0.7) 0%, rgba(249, 104, 28, 0.7) 100%)",
+                    borderRadius: "0.5rem",
+                  }}
                 >
                   <svg
                     className="w-5 h-5 text-white shrink-0"
@@ -67,7 +74,14 @@ export default function Roadmap() {
                   data-aos="zoom-in"
                   data-aos-delay="400"
                   data-aos-duration="1000"
-                  className="flex items-center px-4 py-3 bg-[#b75c7d] bg5  rounded-lg"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    padding: "0.75rem",
+                    background:
+                      "linear-gradient(90deg, rgba(225, 12, 93, 0.7) 0%, rgba(249, 104, 28, 0.7) 100%)",
+                    borderRadius: "0.5rem",
+                  }}
                 >
                   <svg
                     className="w-5 h-5 text-white shrink-0"
@@ -93,7 +107,14 @@ export default function Roadmap() {
                   data-aos="zoom-in"
                   data-aos-duration="1000"
                   data-aos-delay="800"
-                  className="flex items-center px-4 py-3 bg-[#b75c7d] bg5  rounded-lg"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    padding: "0.75rem",
+                    background:
+                      "linear-gradient(90deg, rgba(225, 12, 93, 0.7) 0%, rgba(249, 104, 28, 0.7) 100%)",
+                    borderRadius: "0.5rem",
+                  }}
                 >
                   <svg
                     className="w-5 h-5 text-white shrink-0"
@@ -130,7 +151,14 @@ export default function Roadmap() {
                   data-aos="zoom-in"
                   data-aos-duration="1300"
                   data-aos-delay="900"
-                  className="flex items-center px-4 py-3 bg-[#b75c7d] bg5  rounded-lg"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    padding: "0.75rem",
+                    background:
+                      "linear-gradient(90deg, rgba(225, 12, 93, 0.7) 0%, rgba(249, 104, 28, 0.7) 100%)",
+                    borderRadius: "0.5rem",
+                  }}
                 >
                   <svg
                     className="w-5 h-5 text-white shrink-0"
@@ -156,7 +184,14 @@ export default function Roadmap() {
                   data-aos="zoom-in"
                   data-aos-duration="1300"
                   data-aos-delay="1000"
-                  className="flex items-center px-4 py-3 bg-[#b75c7d] bg5  rounded-lg"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    padding: "0.75rem",
+                    background:
+                      "linear-gradient(90deg, rgba(225, 12, 93, 0.7) 0%, rgba(249, 104, 28, 0.7) 100%)",
+                    borderRadius: "0.5rem",
+                  }}
                 >
                   <svg
                     className="w-5 h-5 text-white shrink-0"
@@ -182,7 +217,14 @@ export default function Roadmap() {
                   data-aos="zoom-in"
                   data-aos-duration="1300"
                   data-aos-delay="1100"
-                  className="flex items-center px-4 py-3 bg-[#b75c7d] bg5  rounded-lg"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    padding: "0.75rem",
+                    background:
+                      "linear-gradient(90deg, rgba(225, 12, 93, 0.7) 0%, rgba(249, 104, 28, 0.7) 100%)",
+                    borderRadius: "0.5rem",
+                  }}
                 >
                   <svg
                     className="w-5 h-5 text-white shrink-0"
@@ -219,7 +261,14 @@ export default function Roadmap() {
                   data-aos="zoom-in"
                   data-aos-duration="1500"
                   data-aos-delay="1300"
-                  className="flex items-center px-4 py-3 bg-[#b75c7d] bg5  rounded-lg"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    padding: "0.75rem",
+                    background:
+                      "linear-gradient(90deg, rgba(225, 12, 93, 0.7) 0%, rgba(249, 104, 28, 0.7) 100%)",
+                    borderRadius: "0.5rem",
+                  }}
                 >
                   <svg
                     className="w-5 h-5 text-white shrink-0"
@@ -245,7 +294,14 @@ export default function Roadmap() {
                   data-aos="zoom-in"
                   data-aos-duration="1700"
                   data-aos-delay="1500"
-                  className="flex items-center px-4 py-3 bg-[#b75c7d] bg5  rounded-lg"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    padding: "0.75rem",
+                    background:
+                      "linear-gradient(90deg, rgba(225, 12, 93, 0.7) 0%, rgba(249, 104, 28, 0.7) 100%)",
+                    borderRadius: "0.5rem",
+                  }}
                 >
                   <svg
                     className="w-5 h-5 text-white shrink-0"
@@ -271,7 +327,14 @@ export default function Roadmap() {
                   data-aos="zoom-in"
                   data-aos-duration="1700"
                   data-aos-delay="1700"
-                  className="flex items-center px-4 py-3 bg-[#b75c7d] bg5  rounded-lg"
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    padding: "0.75rem",
+                    background:
+                      "linear-gradient(90deg, rgba(225, 12, 93, 0.7) 0%, rgba(249, 104, 28, 0.7) 100%)",
+                    borderRadius: "0.5rem",
+                  }}
                 >
                   <svg
                     className="w-5 h-5 text-white shrink-0"
