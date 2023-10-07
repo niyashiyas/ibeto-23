@@ -74,7 +74,7 @@ export default function Getstarted() {
                   </h2>
                   <p className="max-w-sm mt-6 text-base font-normal text-gray-800 font-body1 sm:text-lg">
                     As part of the annual national-level technical symposium,
-                    Excel 2022, Govt. Model Engineering College, Kochi hosts
+                    Excel 2023, Govt. Model Engineering College, Kochi hosts
                     Innovations for a Better Tomorrow (IBeTo), a competition
                     that fosters technical innovation. Ideas that reimagine the
                     technology we have and create meaningful impacts on a social
