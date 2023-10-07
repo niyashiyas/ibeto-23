@@ -62,15 +62,22 @@ export default function Timeline() {
   return (
     <section
       id="timeline"
-      className="py-4  z-10 relative  px-7 bg-gradient-to-b to-[#fcfaff] from-[#fdf7f9]  bg- sm:py-16 lg:py-20 sm:px-16"
+      className="py-4 -mt-12  bg-[url('../public/elements1.png')] bg-white sm:bg-[url('../public/elements1.png')]  bg-no-repeat bg-cover bg-center  z-10 relative  px-7 bg-gradient-to-b to-[#fcfaff] from-[#fdf7f9]  bg- sm:py-16 lg:py-20 sm:px-16"
     >
+      <div className="absolute z-0 inset-0 min-w-7xl">
+        <img
+          className="object-cover w-full h-full opacity-5"
+          src="./noise.png"
+          alt=""
+        />
+      </div>{" "}
       <div className="timeline  border-t-1 border-slate-300/60">
         <div className="timeline__container">
           <h2 className="font-body2 text-black text-center pb-3 sm:pb-12  mt-20 sm:mt-16 text-3xl font-normal text-blcak sm:text-4xl lg:text-5xl">
             Timeline
           </h2>
 
-          <div className="timeline__section overflow-hidden" data-aos="zoom-in">
+          <div className="timeline__section pb-24 overflow-hidden" data-aos="zoom-in">
             <div className="ml-2 mr-4 sm:mx-0">
               <VerticalTimeline lineColor="#F74670" className="rounded-full">
                 {timeline.map((t, i) => {

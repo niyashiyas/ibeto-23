@@ -11,11 +11,11 @@ export default function Sponsors() {
         autoPlay
         loop
         muted
-        className="absolute -mt-12 z-0 opacity-[14%] w-full h-fit object-cover max-w-none"
+        className="absolute -mt-12 z-0 opacity-[15%] w-full h-fit object-cover max-w-none"
       >
         <source src="/bg.mp4" type="video/mp4" />
       </video>
-      <section className="py-16 -mt-12  bg4 bg-[#270819] sm:py-18 lg:py-24 xl:py-28">
+      <section className="py-16 -mt-12  bg5 bg-[#2c0a1c] sm:py-18 lg:py-24 xl:py-28">
         <div className="px-4 mx-auto  max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
             <div className="text-center sm:text-center">

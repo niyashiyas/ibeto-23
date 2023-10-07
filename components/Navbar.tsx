@@ -193,35 +193,35 @@ const Navbar = () => {
             >
               <Link
                 href="#start"
-                className="nav_item_mob hover:text-blue-800 font-body"
+                className="nav_item_mob hover:text-rose-800 font-body"
                 onClick={handleDrawerClose}
               >
                 About
               </Link>
               <Link
                 href="#roadmap"
-                className="nav_item_mob hover:text-blue-800 font-body"
+                className="nav_item_mob hover:text-rose-800 font-body"
                 onClick={handleDrawerClose}
               >
                 Roadmap
               </Link>
               <Link
                 href="#timeline"
-                className="nav_item_mob hover:text-blue-800 font-body"
+                className="nav_item_mob hover:text-rose-800 font-body"
                 onClick={handleDrawerClose}
               >
                 Timeline
               </Link>
               <Link
                 href="#sponsors"
-                className="nav_item_mob hover:text-blue-800 font-body"
+                className="nav_item_mob hover:text-rose-800 font-body"
                 onClick={handleDrawerClose}
               >
                 Sponsors
               </Link>
               <Link
                 href="#faq"
-                className="nav_item_mob hover:text-blue-800 font-body"
+                className="nav_item_mob hover:text-rose-800 font-body"
                 onClick={handleDrawerClose}
               >
                 FAQ

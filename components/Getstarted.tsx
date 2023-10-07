@@ -17,23 +17,24 @@ export default function Getstarted() {
       <div className="w-full font-sans text-gray-900">
         <div className="h-full  bg3 flex bg-white justify-center rounded-t-[40px] sm:rounded-t-[60px] ">
           <section className="w-full py-12 mb-12 bg-base-900 sm:py-16 sm:mb-24 lg:py-20 xl:py-24">
-            <hr className="items-center h-1 mx-auto mb-12 -mt-1 bg-pink-300 rounded-full sm:-mt-16 w-44" />
+            <hr className="items-center h-1 mx-auto mb-12 -mt-1 bg-pink-500 rounded-full sm:-mt-16 w-44" />
             <div className="px-6 mx-auto -mt-2.5 sm:mt-0 sm:max-w-6xl 2xl:max-w-7xl sm:px-6 lg:px-8">
               <div
                 data-aos="zoom-in"
-                className="relative justify-between overflow-hidden sm:bg-gradient-to-r bg-gradient-to-b  from-[#b75c7d] to-[#f7b79e] md:flex rounded-3xl"
+                className="relative justify-between overflow-hidden sm:bg-gradient-to-r bg-gradient-to-b  from-[#b55779] to-[#f7b79e] md:flex rounded-3xl"
               >
                 <div className="absolute right-0 transform -translate-y-1/2 translate-x-80 md:translate-x-36 top-1/2 md:top-0 md:-translate-y-24">
                   <svg
-                    className="blur-3xl opacity-10 backdrop-blur-65  filter"
+                    className="blur-3xl opacity-20 backdrop-blur-64  filter"
                     width="518"
+                    
                     height="337"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
                       d="M297.629 36.521C425.034 36.521 518-55.783 518 53.097S184.03 337 56.625 337c-127.406 0 0-175.023 0-283.903 0-108.88 113.599-16.576 241.004-16.576Z"
-                      fill="url(#a)"
+                      fill="url(#FFFFFF-1)"
                     />
                     <defs>
                       <linearGradient

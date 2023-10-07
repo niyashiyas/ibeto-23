@@ -33,7 +33,7 @@ export default function landingpagebanner() {
               className="flex w-full flex-col-reverse gap-1 sm:gap-8 items-center justify-start md:flex-row lg:items-center"
             >
               <div className="pt-6 sm:px-5 pr-0 w-full items-center sm:pr-8 pb-24 text-left px-10 md:pb-12 md:w-2/3 sm:text-left">
-                <h1 className="relative fonts   font-body2 font-normal z-10 text-white font-display">
+                <h1 className="relative fonts   font-body2  z-10 text-white font-display">
                   Innovations for a Better Tomorrow{" "}
                 </h1>
                 <p className="pt-4 sm:pt-6 font-body1 text-sm sm:text-[1.2rem] leading-relaxed text-white md:max-w-md md:text-lg">
@@ -42,7 +42,7 @@ export default function landingpagebanner() {
                 <div className="flex flex-col sm:flex-row gap-5 justify-center  items-start pt-5 sm:pt-5 space-x-6 md:justify-start">
                   <Link
                     href="#start"
-                    className="flex justify-center font-normal font-body2 text-md items-center py-3 px-9 hover:bg-[#45183a] tracking-wide leading-7 text-white bg-[#a22e5c]	rounded-full hover:shadow-xl z-50"
+                    className="flex justify-center font-normal font-body2 text-md items-center py-3 px-9 hover:bg-[#c63e74] tracking-wide leading-7 text-white bg-[#8b254e]	rounded-full hover:shadow-xl z-50"
                   >
                     Register Now
                   </Link>

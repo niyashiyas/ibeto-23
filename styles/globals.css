@@ -76,13 +76,18 @@ body::-webkit-scrollbar {
 
 .bg5 {
   background-image: radial-gradient(
-      farthest-side at top center,
-      #b5036b57,
+      farthest-side at top left,
+      #b5036b22,
       transparent 400px
     ),
     radial-gradient(
-      farthest-corner at center center,
-      #e6975b77,
+      farthest-corner at top left,
+      #e6975b2d,
+      transparent 800px
+    ),
+    radial-gradient(
+      farthest-corner at top right,
+      #e65ba330,
       transparent 800px
     );
 }
@@ -176,7 +181,7 @@ body::-webkit-scrollbar {
 .meclogo__mob {
   padding-top: auto;
   padding-bottom: 2rem;
-  width: 120px;
+  width: 160px;
   flex-shrink: 0;
   pointer-events: none;
 }

@@ -6,7 +6,7 @@ export default function Contact() {
     <section className="py-12 rounded-[40px] sm:rounded-[66px] -mt-24 border-t-4 border-b-2 border-slate-600 sm:-mt-32 z-30 relative w-full bg-[#ffeff8] sm:py-16 lg:py-20">
       <div className="absolute min-w-7xl inset-0">
         <img
-          className="object-cover rounded-b-[66px] w-full h-full opacity-10"
+          className="object-cover rounded-b-[66px] w-full h-full opacity-5"
           src="./noise.png"
           alt=""
         />
