@@ -26,16 +26,16 @@ body::-webkit-scrollbar {
 .bg2 {
   background-image: radial-gradient(
       farthest-side at bottom left,
-      #63255a57,
+      #be387b57,
       transparent 400px
     ),
     radial-gradient(
       farthest-corner at bottom right,
-      #4820519b,
+      #8e2e5bc7,
       transparent 800px
     ),
-    radial-gradient(farthest-side at top left, #5a2357a9, transparent 900px),
-    radial-gradient(farthest-corner at top right, #43184d73, transparent 900px);
+    radial-gradient(farthest-side at top left, #9c1654e2, transparent 900px),
+    radial-gradient(farthest-corner at top right, #c0873273, transparent 900px);
 }
 .bg3 {
   background-image: radial-gradient(
@@ -62,12 +62,12 @@ body::-webkit-scrollbar {
 .bg5 {
   background-image: radial-gradient(
       farthest-side at top center,
-      #30256357,
+      #b5036b57,
       transparent 400px
     ),
     radial-gradient(
       farthest-corner at center center,
-      #4820519b,
+      #e6975b77,
       transparent 800px
     );
 }

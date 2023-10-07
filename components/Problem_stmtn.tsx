@@ -27,6 +27,13 @@ export default function Problem_stmnt() {
   return (
     <>
       <section className="py-12 bg-[#fdf7f9] rounded-t-[40px] sm:rounded-t-[60px] relative w-full -mt-14 sm:py-16 lg:py-20  sm:pb-16">
+        <div className="absolute inset-0 min-w-7xl">
+          <img
+            className="object-cover w-full h-full opacity-10"
+            src="./noise.png"
+            alt=""
+          />
+        </div>{" "}
         <div className="px-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-md mx-auto text-left sm:text-center">
             <h2 className="mt-4 text-center font-body2 text-3xl text-black font-normal text-blcak sm:text-3xl lg:text-4xl">
@@ -39,10 +46,10 @@ export default function Problem_stmnt() {
             <div
               data-aos="zoom-in"
               data-aos-delay="500"
-              className="bg-white/40 p-6 rounded-3xl"
+              className="bg-white/70 p-6 rounded-3xl"
             >
               <h3
-                className="text-lg font-bold  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-bold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("Carbon")}
               >
                 Towards Zero Carbon Emission
@@ -87,10 +94,10 @@ export default function Problem_stmnt() {
             <div
               data-aos="zoom-in"
               data-aos-delay="800"
-              className="bg-white/40 p-6 rounded-3xl"
+              className="bg-white/70 p-6 rounded-3xl"
             >
               <h3
-                className="text-lg font-bold font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-bold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("waste")}
               >
                 Waste management
@@ -133,10 +140,10 @@ export default function Problem_stmnt() {
             <div
               data-aos="zoom-in"
               data-aos-delay="1000"
-              className="bg-white/40 p-6 rounded-3xl"
+              className="bg-white/70 p-6 rounded-3xl"
             >
               <h3
-                className="text-lg font-bold font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-bold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("disaster")}
               >
                 Disaster Management
@@ -181,10 +188,10 @@ export default function Problem_stmnt() {
             <div
               data-aos="zoom-in"
               data-aos-delay="1100"
-              className="bg-white/40 p-6 rounded-3xl"
+              className="bg-white/70 p-6 rounded-3xl"
             >
               <h3
-                className="text-lg font-bold font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-bold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("education")}
               >
                 Education for all
@@ -229,10 +236,10 @@ export default function Problem_stmnt() {
             <div
               data-aos="zoom-in"
               data-aos-delay="1200"
-              className="bg-white/40 p-6 rounded-3xl"
+              className="bg-white/70 p-6 rounded-3xl"
             >
               <h3
-                className="text-lg font-bold font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-bold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("finance")}
               >
                 Transforming Finance
@@ -275,10 +282,10 @@ export default function Problem_stmnt() {
             <div
               data-aos="zoom-in"
               data-aos-delay="1400"
-              className="bg-white/40 p-6 rounded-3xl"
+              className="bg-white/70 p-6 rounded-3xl"
             >
               <h3
-                className="text-lg font-bold font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
+                className="text-lg font-bold text-center  font-body1 text-gray-900 transition ease-in-out delay-150 cursor-pointer  hover:text-indigo-900 "
                 onClick={() => openModal("open")}
               >
                 Open Innovation

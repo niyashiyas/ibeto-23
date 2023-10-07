@@ -151,6 +151,17 @@ const Navbar = () => {
                 </div>
               </div>
             </div>
+            <div className="flex items-center justify-center lg:absolute lg:-translate-x-1 lg:inset-y-5 lg:left-1">
+              <div className="flex-shrink-0">
+                <Link href="https://excelmec.org" title="" className="flex">
+                  <img
+                    className="w-auto h-16 pl-4 sm:h-14 lg:h-16 lg:pl-0"
+                    src="./excellogo.png"
+                    alt=""
+                  />
+                </Link>
+              </div>
+            </div>
           </nav>
         </div>
       </div>
