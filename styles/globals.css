@@ -10,6 +10,9 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+* {
+  font-family: "Poppins", sans-serif !important;
+}
 
 .bg1 {
   background-image: radial-gradient(
@@ -166,7 +169,6 @@ body::-webkit-scrollbar {
   pointer-events: none;
 }
 
-
 .nav_item_mob:hover {
   text-decoration: none;
   color: #c2f4ff;
@@ -216,20 +218,24 @@ body::-webkit-scrollbar {
   .nav__drawer {
     width: 300px;
   }
-.bg2 {
-  background-image: radial-gradient(
-      farthest-side at bottom left,
-      #3925631b,
-      transparent 400px
-    ),
-    radial-gradient(
-      farthest-corner at bottom right,
-      #20365144,
-      transparent 300px
-    ),
-    radial-gradient(farthest-side at top left, #27235aa9, transparent 600px),
-    radial-gradient(farthest-corner at top right, #1d184dac, transparent 500px);
-}
+  .bg2 {
+    background-image: radial-gradient(
+        farthest-side at bottom left,
+        #3925631b,
+        transparent 400px
+      ),
+      radial-gradient(
+        farthest-corner at bottom right,
+        #20365144,
+        transparent 300px
+      ),
+      radial-gradient(farthest-side at top left, #27235aa9, transparent 600px),
+      radial-gradient(
+        farthest-corner at top right,
+        #1d184dac,
+        transparent 500px
+      );
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -241,5 +247,132 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 400px) {
   .meclogo__mob {
     padding-bottom: 2.25rem;
+  }
+}
+
+/*Dialog Problem Statement CSS*/
+
+.problemStmtCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 250px;
+  height: 300px;
+  /* background: linear-gradient(90deg, #094C83, #B1D89F), #EFFFEC; */
+  background: linear-gradient(180deg, rgba(9, 76, 131, 0.75) 0%, #21b8cb 100%),
+    #efffec;
+  /* filter: blur(2.5px); */
+  box-shadow: 0.8px 0.8px 4px 0.5px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  gap: 1rem;
+}
+
+.psDialog {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 5rem;
+  font-family: var(--secondary-font);
+  position: relative;
+}
+.psDialog__close {
+  position: absolute;
+  font-size: 2rem;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.dialog_vector1 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.dialog_vector2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+.psDialog__header {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1.5rem;
+}
+
+.psDialog__header h2 {
+  background: linear-gradient(90deg, #e10c5d 0%, #f9681c 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.psDialog__content {
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.psDialog__content h4 {
+  font-size: 1.15rem;
+  color: #c25013 ;
+  font-weight: 500;
+}
+.psDialog__content p {
+  font-size: 1rem;
+  color: #1e1e1e;
+}
+
+.psDialog__content ul li {
+  font-size: 1rem;
+  color: #1e1e1e;
+}
+
+@media (min-device-width: 20px) and (max-device-width: 500px) {
+  .psDialog__header h2 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .psDialog__close {
+    font-size: 1.5rem;
+    top: 0.8rem;
+    right: 0.8rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .psDialog__header h2 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .problemStmtCard {
+    width: 209px;
+  }
+  .psDialog__header h2 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .psDialog__header h2 {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .psDialog__header h2 {
+    font-size: 1.25rem;
   }
 }

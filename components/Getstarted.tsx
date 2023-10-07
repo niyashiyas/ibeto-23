@@ -5,8 +5,6 @@ import "aos/dist/aos.css";
 import Link from "next/link";
 
 export default function Getstarted() {
-
-    
   return (
     <div className="relative  bg-[#ffffff] rounded-t-[40px] sm:rounded-t-[60px]  ">
       <div className="w-full font-sans text-gray-900">
@@ -17,7 +15,7 @@ export default function Getstarted() {
               <div
                 data-aos="zoom-in"
                 className="relative   overflow-hidden bg-gradient-to-b from-[#435686ad] to-[#000c27bd] md:flex rounded-3xl"
-                >
+              >
                 <div className="absolute right-0 transform -translate-y-1/2 translate-x-80 md:translate-x-36 top-1/2 md:top-0 md:-translate-y-24">
                   <svg
                     className="blur-3xl backdrop-blur-65 opacity-40 filter"
@@ -57,7 +55,7 @@ export default function Getstarted() {
                 <div className="absolute inset-y-0 right-0 hidden pr-12 md:block">
                   <img
                     className="w-full max-w-md pr-12 mr-24 transform scale-125 translate-y-20"
-                    src="https://ibetofrontend.pages.dev/static/media/ibetologo.89112a3a.svg"
+                    src="./ibetologowithouttext.png"
                     alt=""
                   />
                 </div>
@@ -88,7 +86,11 @@ export default function Getstarted() {
                       href=""
                       target="_blank"
                       title=""
-                      className="relative hover:scale-110 text-md -ml-12 font-body2 font-normal inline-flex items-center justify-center px-8 scale-105 py-2 text-base text-white bg-gradient-to-r from-[#7383d3] to-purple-500  rounded-full"
+                      className="relative hover:scale-110 text-md -ml-12 font-body2 font-normal inline-flex items-center justify-center px-8 scale-105 py-2 text-base text-white  rounded-full"
+                      style={{
+                        background:
+                          "linear-gradient(90deg, rgba(225, 12, 93, 0.7) 0%, rgba(249, 104, 28, 0.7) 100%)",
+                      }}
                       role="button"
                     >
                       Register
@@ -99,12 +101,12 @@ export default function Getstarted() {
                 <div className="relative md:hidden">
                   <img
                     className="hidden lg:block w-full h-[70%]"
-                    src="https://ibetofrontend.pages.dev/static/media/ibetologo.89112a3a.svg"
+                    src="./ibetologowithouttext.png"
                     alt=""
                   />
                   <img
                     className="lg:hidden p-4 block w-full h-[70%]"
-                    src="https://ibetofrontend.pages.dev/static/media/ibetologo.89112a3a.svg"
+                    src="./ibetologowithouttext.png"
                     alt=""
                   />
                 </div>
