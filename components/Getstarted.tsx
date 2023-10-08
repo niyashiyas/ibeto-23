@@ -21,7 +21,7 @@ export default function Getstarted() {
             <div className="px-6 mx-auto -mt-2.5 sm:mt-0 sm:max-w-6xl 2xl:max-w-7xl sm:px-6 lg:px-8">
               <div
                 data-aos="zoom-in"
-                className="relative justify-between overflow-hidden border-2 border-rose-600 md:flex rounded-3xl"
+                className="relative justify-between bg-rose-50 overflow-hidden border-2 border-rose-200 md:flex rounded-3xl"
               >
                 <div className="absolute right-0 transform -translate-y-1/2 translate-x-80 md:translate-x-36 top-1/2 md:top-0 md:-translate-y-24">
                   <svg
@@ -85,7 +85,7 @@ export default function Getstarted() {
                       href=""
                       target="_blank"
                       title=""
-                      className="relative inline-flex items-center justify-center px-8 py-2 pr-16 text-base font-normal text-black scale-95 border-2 border-r-0 border-rose-900 rounded-full text-md font-body2"
+                      className="relative inline-flex items-center justify-center px-8 py-2 pr-16 text-base font-normal text-black scale-95 border-2 border-r-0 border-rose-600 rounded-full text-md font-body2"
                       role="button"
                     >
                       Guidelines{" "}

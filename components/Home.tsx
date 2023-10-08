@@ -24,8 +24,8 @@ export default function landingpagebanner() {
       >
         <source src="/bg.mp4" type="video/mp4" />
       </video>{" "} */}
-      <div className="w-full z-40  bg-[#b75c7d]  absolute min-h-screen font-sans text-gray-900">
-        <div className="h-screen bg2 flex justify-center  ">
+      <div className="w-full z-40  bg-[#ca88a0]  absolute min-h-screen font-sans text-gray-900">
+        <div className="h-screen  flex justify-center  ">
           {/* <Model /> */}
           <div className="mt-0 sm:mt-0 px-0 absolute w-full h-full  flex justify-center py-2 sm:px-12 mx-auto sm:max-w-7xl 2xl:max-w-7xl">
             <div
@@ -49,11 +49,14 @@ export default function landingpagebanner() {
                 </div>
               </div>
               <div className="flex p-2 sm:p-2 items-center sm:w-2/3 w-full mt-3 border-gray-400">
-                <img
-                  className="  scale-95 accent-neutral-100"
-                  src="/hero1.png"
-                  alt=""
-                />
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  className="w-full h-full object-cover"
+                >
+                  <source src="/earth.mp4" type="video/mp4" />
+                </video>
               </div>
             </div>
           </div>

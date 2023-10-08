@@ -89,7 +89,7 @@ export default function Faq() {
                   </p>
                 </div>
                 {state1 && (
-                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-700 sm:text-base font-body1">
                     {items[0].answer}
                   </p>
                 )}
@@ -114,7 +114,7 @@ export default function Faq() {
                   </p>
                 </div>
                 {state2 && (
-                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-700 sm:text-base font-body1">
                     {items[1].answer}
                   </p>
                 )}
@@ -139,7 +139,7 @@ export default function Faq() {
                   </p>
                 </div>
                 {state3 && (
-                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-700 sm:text-base font-body1">
                     {items[2].answer}
                   </p>
                 )}
@@ -164,7 +164,7 @@ export default function Faq() {
                   </p>
                 </div>
                 {state4 && (
-                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-700 sm:text-base font-body1">
                     {items[3].answer}
                   </p>
                 )}
@@ -187,7 +187,7 @@ export default function Faq() {
                   </p>
                 </div>
                 {state5 && (
-                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">{items[4].answer}</p>
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-700 sm:text-base font-body1">{items[4].answer}</p>
                 )}
               </div>
             </div>
@@ -206,7 +206,7 @@ export default function Faq() {
                   </p>
                 </div>
                 {state6 && (
-                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">{items[5].answer}</p>
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-700 sm:text-base font-body1">{items[5].answer}</p>
                 )}
               </div>
             </div> */}
@@ -224,7 +224,7 @@ export default function Faq() {
                 <p className="text-xl font-normal text-gray-600 font-body1">
                   {items[0].question}
                 </p>
-                <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                <p className="mt-4 text-sm font-light text-gray-700 sm:text-base font-body1">
                   {items[0].answer}
                 </p>
               </div>
@@ -238,7 +238,7 @@ export default function Faq() {
                 <p className="text-xl font-normal text-gray-600 font-body1">
                   {items[1].question}
                 </p>
-                <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                <p className="mt-4 text-sm font-light text-gray-700 sm:text-base font-body1">
                   {items[1].answer}
                 </p>
               </div>
@@ -252,7 +252,7 @@ export default function Faq() {
                 <p className="text-xl font-normal text-gray-600 font-body1">
                   {items[2].question}
                 </p>
-                <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                <p className="mt-4 text-sm font-light text-gray-700 sm:text-base font-body1">
                   {items[2].answer}
                 </p>
               </div>
@@ -266,7 +266,7 @@ export default function Faq() {
                 <p className="text-xl font-normal text-gray-600 font-body1">
                   {items[3].question}
                 </p>
-                <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                <p className="mt-4 text-sm font-[300] text-gray-700 sm:text-base font-body1">
                   {items[3].answer}
                 </p>
               </div>
