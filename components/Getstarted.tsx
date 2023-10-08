@@ -109,8 +109,8 @@ export default function Getstarted() {
                     alt=""
                   />
                   <img
-                    className="lg:hidden p-4 block w-full h-[70%]"
-                    src="ibeto.png"
+                    className="lg:hidden  block w-full h-[80%]"
+                    src="ibetof.png"
                     alt=""
                   />
                 </div>
