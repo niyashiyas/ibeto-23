@@ -55,7 +55,7 @@ export default function landingpagebanner() {
                   muted
                   className="w-full h-full object-cover"
                 >
-                  <source src="/earth.mp4" type="video/mp4" />
+                  <source src="/compressedNew.mp4" type="video/mp4" />
                 </video>
               </div>
             </div>

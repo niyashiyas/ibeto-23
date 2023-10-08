@@ -66,7 +66,7 @@ export default function Roadmap() {
                   </svg>
                   <span className="flex-1 ml-2 text-base font-medium text-white">
                     {" "}
-                    Launching Time{" "}
+                    Time of start of Ideate{" "}
                   </span>
                 </li>
 
@@ -99,7 +99,7 @@ export default function Roadmap() {
                   </svg>
                   <span className="flex-1 ml-2 text-base font-medium text-white">
                     {" "}
-                    Social Launch{" "}
+                    Where bright minds ignite innovation. Start with an idea, shape the future.{" "}
                   </span>
                 </li>
 
@@ -132,7 +132,7 @@ export default function Roadmap() {
                   </svg>
                   <span className="flex-1 ml-2 text-base font-medium text-white">
                     {" "}
-                    Giveways & Promos{" "}
+                    Time of end of Ideate{" "}
                   </span>
                 </li>
               </ul>
@@ -176,7 +176,7 @@ export default function Roadmap() {
                   </svg>
                   <span className="flex-1 ml-2 text-base font-medium text-white">
                     {" "}
-                    Publish Whitepaper{" "}
+                    Time of start of Innovate{" "}
                   </span>
                 </li>
 
@@ -209,7 +209,7 @@ export default function Roadmap() {
                   </svg>
                   <span className="flex-1 ml-2 text-base font-medium text-white">
                     {" "}
-                    Website Launch{" "}
+                    Transform your vision into reality. Innovate, iterate, and make an impact{" "}
                   </span>
                 </li>
 
@@ -242,7 +242,7 @@ export default function Roadmap() {
                   </svg>
                   <span className="flex-1 ml-2 text-base font-medium text-white">
                     {" "}
-                    Mega Advertisement{" "}
+                    Time of end of Innovate{" "}
                   </span>
                 </li>
               </ul>
@@ -286,7 +286,7 @@ export default function Roadmap() {
                   </svg>
                   <span className="flex-1 ml-2 text-base font-medium text-white">
                     {" "}
-                    Opening Collections{" "}
+                    Time of start of Showcase{" "}
                   </span>
                 </li>
 
@@ -319,7 +319,7 @@ export default function Roadmap() {
                   </svg>
                   <span className="flex-1 ml-2 text-base font-medium text-white">
                     {" "}
-                    Influencer Marketing{" "}
+                    Step into the spotlight. Present your creation to experts and change-makers{" "}
                   </span>
                 </li>
 
@@ -352,7 +352,7 @@ export default function Roadmap() {
                   </svg>
                   <span className="flex-1 ml-2 text-base font-medium text-white">
                     {" "}
-                    Public Release{" "}
+                    Time of end of Showcase{" "}
                   </span>
                 </li>
               </ul>

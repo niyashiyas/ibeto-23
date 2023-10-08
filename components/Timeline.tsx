@@ -14,24 +14,24 @@ export default function Timeline() {
 
   const timeline = [
     {
-      date: "7th October",
+      date: "oct 11th",
       title: "IBeTo Launch - Registration Opens",
-      para: "IBeTo registration opens. Students can register by submitting their ideas by filling the form in the website.",
+      para: "IBeTo registration opens. Students can register by submitting their ideas by filling out the form on the website.",
     },
     {
       date: "21st October",
       title: "Detailed Abstract Submission Open",
-      para: "Detailed Abstract Submission opens for registered IBeTo participants. The registration is still open via the form in the website.",
+      para: "Detailed Abstract Submission opens for registered IBeTo participants. Registration is still open via the form on the website.",
     },
     {
-      date: "24th October",
-      title: "IBeTo Registration Closes",
-      para: "IBeTo registration closes. Teams selected for detailed abstract submission will be announced.",
+      date: "11th November",
+      title: "Registration closes",
+      para: "IBeTo registration closes.",
     },
     {
-      date: "29th October",
-      title: "Detailed Abstract Submission Closes",
-      para: "Detailed Abstract Submission closes. This marks the end of the ideate phase.",
+      date: "25th November",
+      title: "Selection of ideas",
+      para: "Revealing of phase 1 teams that are selected to the next level.",
     },
     {
       date: "3rd November",
