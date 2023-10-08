@@ -120,7 +120,7 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>{" "}
-              <div className="relative inline-block text-left">
+              {/* <div className="relative inline-block text-left">
                 <div>
                   <Link href="#sponsors">
                     <button
@@ -134,7 +134,7 @@ const Navbar = () => {
                     </button>
                   </Link>
                 </div>
-              </div>{" "}
+              </div>{" "} */}
               <div className="relative inline-block text-left">
                 <div>
                   <Link href="#faq">
@@ -219,13 +219,13 @@ const Navbar = () => {
               >
                 Timeline
               </Link>
-              <Link
+              {/* <Link
                 href="#sponsors"
                 className="nav_item_mob hover:text-rose-800 font-body"
                 onClick={handleDrawerClose}
               >
                 Sponsors
-              </Link>
+              </Link> */}
               <Link
                 href="#faq"
                 className="nav_item_mob hover:text-rose-800 font-body"
