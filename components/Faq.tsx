@@ -229,7 +229,7 @@ export default function Faq() {
                 <p className="text-xl font-normal text-gray-600 font-body1">
                   {items[0].question}
                 </p>
-                <p className="mt-4 text-sm font-light text-gray-700 sm:text-base font-body1">
+                <p className="mt-4 text-sm font-default text-gray-700 sm:text-base font-body1">
                   {items[0].answer}
                 </p>
               </div>
@@ -243,7 +243,7 @@ export default function Faq() {
                 <p className="text-xl font-normal text-gray-600 font-body1">
                   {items[1].question}
                 </p>
-                <p className="mt-4 text-sm font-light text-gray-700 sm:text-base font-body1">
+                <p className="mt-4 text-sm font-default text-gray-700 sm:text-base font-body1">
                   {items[1].answer}
                 </p>
               </div>
@@ -257,7 +257,7 @@ export default function Faq() {
                 <p className="text-xl font-normal text-gray-600 font-body1">
                   {items[2].question}
                 </p>
-                <p className="mt-4 text-sm font-light text-gray-700 sm:text-base font-body1">
+                <p className="mt-4 text-sm font-default text-gray-700 sm:text-base font-body1">
                   {items[2].answer}
                 </p>
               </div>
@@ -271,7 +271,7 @@ export default function Faq() {
                 <p className="text-xl font-normal text-gray-600 font-body1">
                   {items[3].question}
                 </p>
-                <p className="mt-4 text-sm font-[300] text-gray-700 sm:text-base font-body1">
+                <p className="mt-4 text-sm font-default text-gray-700 sm:text-base font-body1">
                   {items[3].answer}
                 </p>
               </div>
