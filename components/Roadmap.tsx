@@ -33,7 +33,7 @@ export default function Roadmap() {
                 Phase 1
               </p>
               <p className="mt-3 text-xl font-semibold font-body2  text-rose-800">
-                Launch
+                Ideate
               </p>
 
               <ul className="space-y-3 mt-7">
@@ -143,7 +143,7 @@ export default function Roadmap() {
                 Phase 2
               </p>
               <p className="mt-3 text-xl font-semibold font-body2  text-rose-700">
-                Investment
+                Innovate
               </p>
 
               <ul className="space-y-3 mt-7">
@@ -253,7 +253,7 @@ export default function Roadmap() {
                 Phase 3
               </p>
               <p className="mt-3 text-xl font-semibold font-body2  text-orange-800">
-                Growing
+                Showcase
               </p>
 
               <ul className="space-y-3 mt-7">

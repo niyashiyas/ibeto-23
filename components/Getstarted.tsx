@@ -27,7 +27,6 @@ export default function Getstarted() {
                   <svg
                     className="blur-3xl opacity-20 backdrop-blur-64  filter"
                     width="518"
-                    
                     height="337"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -72,12 +71,16 @@ export default function Getstarted() {
                   <h2 className="text-4xl font-normal text-black font-body2 sm:text-4xl lg:text-5xl">
                     About{" "}
                   </h2>
-                  <p className="max-w-sm mt-6 text-base font-normal text-gray-800 font-body1 sm:text-lg">
-                    As part of the annual national-level technical symposium,
-                    Excel 2023, Govt. Model Engineering College, Kochi hosts
-                    Innovations for a Better Tomorrow (IBeTo), a competition
-                    that fosters technical innovation. Ideas that reimagine the
-                    technology we have and create meaningful impacts on a social
+                  <p className="max-w-sm mt-6 text-base font-normal text-gray-800 font-body1 sm:text-md">
+                    Introducing IBeTo - Innovations for a Better Tomorrow, the
+                    flagship event of Excel 2023, the annual national-level
+                    technical symposium of Govt. Model Engineering College,
+                    Thrikkakara.</p><p className="max-w-sm mt-6 text-base font-normal text-gray-800 font-body1 sm:text-md">
+                    
+                    IBeTo is a unique platform where participants
+                    tackle leading societal issues with creative innovations
+                    under the guidance of our expert mentors. Join us as we
+                    present solutions that shape a brighter future.
                   </p>
                   <div className="relative inline-flex items-center justify-center mt-8 rounded-full sm:mt-12 group">
                     <div className="absolute w-1/2 transition-all duration-200 rounded-full -inset-px "></div>
