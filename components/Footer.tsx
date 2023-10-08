@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-
+import heart from '../public/heart.svg'
 export default function Footer() {
   return (
     <>
@@ -99,18 +99,19 @@ export default function Footer() {
               <div className=" text-center">
                 <p className="inline-flex gap-1 font-normal text-black text-2sm font-body1">
                   Made with{" "}
-                  <svg
-                    stroke="currentColor"
-                    fill="currentColor"
-                    stroke-width="0"
-                    viewBox="0 0 512 512"
-                    className="mt-1 text-red-600"
-                    height="1em"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"></path>
-                  </svg>{" "}
+                  <svg width="20" height="20" viewBox="0 0 242 243" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="teenyicons:heart-solid">
+                      <path id="Vector" d="M65.8449 16.2C53.0193 16.1992 40.4814 20.0335 29.817 27.2178C19.1526 34.4022 10.8406 44.6139 5.93237 56.5616C1.02409 68.5093 -0.260064 81.6563 2.24231 94.3399C4.74468 107.023 10.9212 118.674 19.9907 127.818L115.812 224.435C116.559 225.189 117.445 225.788 118.421 226.196C119.397 226.604 120.443 226.814 121.5 226.814C122.557 226.814 123.603 226.604 124.579 226.196C125.555 225.788 126.441 225.189 127.187 224.435L223.009 127.802C234.841 115.474 241.394 98.9515 241.255 81.7969C241.115 64.6423 234.295 48.2301 222.264 36.0996C210.233 23.969 193.956 17.092 176.943 16.9515C159.929 16.811 143.543 23.4182 131.317 35.3484L121.5 45.2304L111.699 35.3484C105.675 29.2752 98.524 24.4582 90.6535 21.1727C82.7829 17.8871 74.3634 16.1974 65.8449 16.2Z" fill="url(#paint0_linear_526_2)" />
+                    </g>
+                    <defs>
+                      <linearGradient id="paint0_linear_526_2" x1="121.126" y1="16.2" x2="121.126" y2="226.814" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#C21D05" />
+                        <stop offset="1" stop-color="#29304D" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+
+
                   <Link href="https://www.excelmec.org/"> Excel 2023</Link>
                 </p>
               </div>
