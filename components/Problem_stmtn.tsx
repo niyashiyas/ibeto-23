@@ -38,7 +38,7 @@ export default function Problem_stmnt() {
         <div className="px-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-md mx-auto text-left sm:text-center">
             <h2 className="mt-4 text-center font-body2 text-3xl text-black font-normal text-blcak sm:text-3xl lg:text-4xl">
-              Problem Statement
+              Problem Statements
             </h2>
             {/* <p className="mt-4 text-base font-medium text-gray-500">In a creative workplace, employees responsibly try different solutions</p> */}
           </div>
