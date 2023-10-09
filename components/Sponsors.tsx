@@ -11,7 +11,7 @@ export default function Sponsors() {
         autoPlay
         loop
         muted
-        className="absolute -mt-12 z-0 opacity-[15%] w-full h-fit object-cover max-w-none"
+        className="absolute -mt-12 z-0 opacity-[15%] h-screen w-full object-cover max-w-none"
       >
         <source src="/bg.mp4" type="video/mp4" />
       </video>
@@ -33,7 +33,7 @@ export default function Sponsors() {
               data-aos="flip-right"
               className="flex mb-8 w-full justify-center"
             >
-              <div className="inline-grid grid-cols-2 gap-8 mb-5 mt-8 sm:gap-x-12 sm:gap-y-10 sm:grid-cols-4 sm:mt-12">
+              <div className="inline-grid grid-cols-1 gap-8 mb-5 mt-8 sm:gap-x-12 sm:gap-y-10 sm:grid-cols-4 sm:mt-12">
                 <div className="flex justify-center gap-2 flex-col w-full">
                   <img
                     className="collaborator__img"
