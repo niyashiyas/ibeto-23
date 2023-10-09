@@ -39,7 +39,7 @@ export default function Home() {
         <Timeline />
         <Rewards/>
 
-        {/* <Sponsors /> */}
+        <Sponsors />
         <div className="absolute w-full z-50">
           <Faq />
           <Contact />

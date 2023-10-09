@@ -34,17 +34,17 @@ export default function Sponsors() {
               className="flex mb-8 w-full justify-center"
             >
               <div className="inline-grid grid-cols-2 gap-8 mb-5 mt-8 sm:gap-x-12 sm:gap-y-10 sm:grid-cols-4 sm:mt-12">
-                <div className="flex justify-center gap-2 flex-col ">
+                <div className="flex justify-center gap-2 flex-col w-full">
                   <img
-                    className="object-contain h-8 max-w-full sm:h-10 w-32 sm:w-44"
-                    src="https://landingfoliocom.imgix.net/store/collection/dusk/images/cloud-logos/1/logo-waverio.svg"
-                    alt=""
+                    className="collaborator__img"
+                    src="./careerLauncher.png"
+                    alt="cl"
                   />
-                  <h2 className="text-sm font-body1 text-center font-medium text-white">
-                    Tinkerhub{" "}
+                  <h2 className="sponsor__name">
+                    Career Launcher{" "}
                   </h2>
                 </div>
-                <div className="flex justify-center gap-2 flex-col ">
+                {/* <div className="flex justify-center gap-2 flex-col ">
                   <img
                     className="object-contain h-8 max-w-full sm:h-10 w-32 sm:w-44"
                     src="https://landingfoliocom.imgix.net/store/collection/dusk/images/cloud-logos/1/logo-logoipsum.svg"
@@ -53,8 +53,8 @@ export default function Sponsors() {
                   <h2 className="text-sm font-body1 text-center font-medium text-white">
                     Tinkerhub{" "}
                   </h2>
-                </div>
-                <div className="flex justify-center gap-2 flex-col ">
+                </div> */}
+                {/* <div className="flex justify-center gap-2 flex-col ">
                   <img
                     className="object-contain h-8 max-w-full sm:h-10 w-32 sm:w-44"
                     src="https://landingfoliocom.imgix.net/store/collection/dusk/images/cloud-logos/1/logo-alterbone.svg"
@@ -63,8 +63,8 @@ export default function Sponsors() {
                   <h2 className="text-sm font-body1 text-center font-medium text-white">
                     Tinkerhub{" "}
                   </h2>
-                </div>
-                <div className="flex justify-center gap-2 flex-col ">
+                </div> */}
+                {/* <div className="flex justify-center gap-2 flex-col ">
                   <img
                     className="object-contain h-8 max-w-full sm:h-10 w-32 sm:w-44"
                     src="https://landingfoliocom.imgix.net/store/collection/dusk/images/cloud-logos/1/logo-carbonia.svg"
@@ -73,7 +73,7 @@ export default function Sponsors() {
                   <h2 className="text-sm font-body1 text-center font-medium text-white">
                     Tinkerhub{" "}
                   </h2>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
