@@ -302,8 +302,7 @@ export default function Problem_stmnt() {
                   />
 
                   <span className="ml-3 text-sm font-body font-medium text-gray-500">
-                    What difficulty is faced by dyslexic students that we can
-                    solve with technology? What about students with ADD?
+                    This is the problem statement for all free thinkers who do not wish to be tied to a single issue of social relevance and innovation.
                   </span>
                 </li>
 
@@ -315,8 +314,7 @@ export default function Problem_stmnt() {
                   />
 
                   <span className="ml-3 text-sm font-body font-medium text-gray-500">
-                    What technologies could we build that will aid
-                    differently-abled students in learning?{" "}
+                    Inviting you to carve your solution and make an impact in essential sectors that govern our day-to-day life.{" "}
                   </span>
                 </li>
                 <li className="flex border-b-2 ml-3 mt-1 w-fit border-rose-500/60 items-start">
