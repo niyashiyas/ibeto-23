@@ -107,6 +107,21 @@ const Navbar = () => {
               </div>{" "}
               <div className="relative inline-block text-left">
                 <div>
+                  <Link href="#problem">
+                    <button
+                      type="button"
+                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-rose-600 "
+                      id="menu-button"
+                      aria-expanded="true"
+                      aria-haspopup="true"
+                    >
+                      Problem Statements
+                    </button>
+                  </Link>
+                </div>
+              </div>{" "}
+              <div className="relative inline-block text-left">
+                <div>
                   <Link href="#timeline">
                     <button
                       type="button"
