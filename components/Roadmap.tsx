@@ -52,17 +52,17 @@ export default function Roadmap() {
                 >
                   <svg
                     className="w-5 h-5 text-white shrink-0"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
                     stroke="currentColor"
-                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
+                    <circle
+                      cx="12.5"
+                      cy="11.5"
+                      r="8.75"
+                      stroke-width="1.5"
+                    ></circle>
                   </svg>
                   <span className="flex-1 ml-2 text-base font-medium text-white">
                     {" "}
@@ -85,17 +85,17 @@ export default function Roadmap() {
                 >
                   <svg
                     className="w-5 h-5 text-white shrink-0"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
                     stroke="currentColor"
-                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
+                    <circle
+                      cx="12.5"
+                      cy="11.5"
+                      r="8.75"
+                      stroke-width="1.5"
+                    ></circle>
                   </svg>
                   <span className="flex-1 ml-2 text-base font-medium text-white">
                     {" "}
@@ -118,17 +118,17 @@ export default function Roadmap() {
                 >
                   <svg
                     className="w-5 h-5 text-white shrink-0"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
                     stroke="currentColor"
-                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    ></path>
+                    <circle
+                      cx="12.5"
+                      cy="11.5"
+                      r="8.75"
+                      stroke-width="1.5"
+                    ></circle>
                   </svg>
                   <span className="flex-1 ml-2 text-base font-medium text-white">
                     {" "}
