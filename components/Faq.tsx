@@ -24,7 +24,7 @@ export default function Faq() {
       uuid: 3,
       question: "Why should you Participate?",
       answer:
-        "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+        "Exclusive perks for all the 30 shortlisted teams. Exclusive perks for all the 30 shortlisted teams.",
     },
     {
       uuid: 4,

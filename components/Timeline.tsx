@@ -43,11 +43,11 @@ export default function Timeline() {
       title: "Project Development Begins",
       para: "Create Phase begins. Teams are encouraged to start working on their projects..",
     },
-    {
-      date: "10th January",
-      title: "Meet The Mentor Session",
-      para: "The teams are given an opportunity to interact with their mentors and obtain advice on how to further develop their project.",
-    },
+    // {
+    //   date: "10th January",
+    //   title: "Meet The Mentor Session",
+    //   para: "The teams are given an opportunity to interact with their mentors and obtain advice on how to further develop their project.",
+    // },
     {
       date: "20th January",
       title: "Project Plan",

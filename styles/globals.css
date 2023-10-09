@@ -305,6 +305,14 @@ body::-webkit-scrollbar {
   font-family: var(--secondary-font);
   position: relative;
 }
+.collaborator__img{
+  width: 15rem;
+}
+.sponsor__name{
+  font-size: 1.2rem;
+  color: #ffff;
+  text-align: center;
+}
 .psDialog__close {
   position: absolute;
   font-size: 2rem;
