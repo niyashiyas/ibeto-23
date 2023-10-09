@@ -14,56 +14,62 @@ export default function Timeline() {
 
   const timeline = [
     {
-      date:"7th October",
+      date:"11th October",
       title: "IBeTo Launch - Registration Opens",
       para: "IBeTo registration opens. Students can register by submitting their ideas by filling the form in the website.",
 
     },
     {
-      date:"21st October",
+      date:"",
       title: "Detailed Abstract Submission Open",
       para: "Detailed Abstract Submission opens for registered IBeTo participants. The registration is still open via the form in the website.",
 
     },
     {
-      date:"24th October",
-      title: "IBeTo Registration Closes",
-      para: "IBeTo registration closes. Teams selected for detailed abstract submission will be announced.",
+      date:"11th November",
+      title: "Registration Closes",
+      para: "IBeTo registration closes",
 
     },
     {
-      date:"29th October",
-      title: "Detailed Abstract Submission Closes",
-      para: "Detailed Abstract Submission closes. This marks the end of the ideate phase.",
+      date:"25th November",
+      title: "Selection of Ideas",
+      para: "Revealing of phase 1 teams that are selected to the next level",
 
     },
     {
-      date:"3rd November",
-      title: "Announcement of Shortlisted Teams",
-      para: "Announcement of Shortlisted Teams.",
+      date:"25th November - 15th December",
+      title: "Detailed abstract submission",
+      para: "The selected teams will have to submit a detailed abstract regarding the topic by Dec 15th.",
 
     },
     {
-      date:"4th November",
+      date:"22nd December",
+      title: "Announcement of Shortlisted teams",
+      para: "The best 30 teams will be selected and announced for the next level.",
+
+    },
+    {
+      date:"22nd December - 2nd February",
       title: "Project Development Begins",
-      para: "Create Phase begins. Teams are encouraged to start working on their projects..",
+      para: "The Create Phase begins. Teams are encouraged to start working on their projects",
 
     },
     {
-      date:"1st - 10th December",
+      date:"",
       title: "Meet The Mentor Session",
-      para: "The teams are given an opportunity to interact with their mentors and obtain advice on how to further develop their project.",
+      para: "The teams are given an opportunity to interact with their mentors and obtain advice on how to develop their project further. ",
 
     },
     {
-      date:"23rd December",
+      date:"",
       title: "Project Plan",
-      para: "The teams are required to submit their project plan - detailing their project creation process.",
+      para: "The teams must submit their project plan - detailing their project creation process.",
     },
     {
-      date:"Final Day",
+      date:"2nd February",
       title: "IBeTo Finale",
-      para: "Teams should give a presentation on their project along with a demonstration of their working prototype in front of the judges on the finale of the event. The winners will be announced on the same day.",
+      para: "Teams should give a presentation on their project along with a demonstration of their working prototype in front of the judges at the finale of the event. The winners will be announced on the same day.",
     },
   ]
   return (

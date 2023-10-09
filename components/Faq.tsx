@@ -8,37 +8,43 @@ export default function Faq() {
   const [state4, setState4] = useState(false); 
   const [state5, setState5] = useState(false); 
   const [state6, setState6] = useState(false); 
+  const [state7, setState7] = useState(false); 
   const items= [
       {
         uuid: 1,
-        question: "When will the event be conducted ?",
-        answer: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+        question: "Who could participate in Ibeto?",
+        answer: "Participants can be undergraduates/postgraduates, including those who are currently pursuing the degree, with an upper age limit of 30 years",
       },
       {
         uuid: 2,
-        question: "Where will the event be held ?",
-        answer: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+        question: "Will there be registration fees to participate in Ibeto 2023?",
+        answer: "The event is completely free of cost",
       },
       {
         uuid: 3,
-        question: "Lorem ipsum dolor sit ?",
-        answer: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+        question: "Why should you Participate?        ",
+        answer: "You should join this program because, by networking with like-minded individuals, you're likely to scale your project with industry support and avail mentors to improve your skills and clear doubts.        ",
       },
       {
         uuid: 4,
-        question: "Lorem ipsum dolor sit ?",
-        answer: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+        question: "Should all team members be from the same institution or college?",
+        answer: "No. A team can have members from different colleges or institutions.        ",
       },
-      // {
-      //   uuid: 5,
-      //   question: "Lorem ipsum dolor sit ?",
-      //   answer: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-      // },
-      // {
-      //   uuid: 6,
-      //   question: "Lorem ipsum dolor sit ?",
-      //   answer: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-      // },
+      {
+        uuid: 5,
+        question: "From which phase will I be eligible for a Certificate of Participation?",
+        answer: "Participants in the create phase shall receive a Certificate of Participation and winners will receive a Certificate of Merit in addition to this.",
+      },
+      {
+        uuid: 6,
+        question: "Will I be eligible for KTU activity points if I take part in IBeTo 2023?",
+        answer: "As per KTU regulations, socially beneficial projects can avail up to 50 activity points.",
+      },
+      {
+        uuid: 7,
+        question: "What is the team size limit?",
+        answer: "Participants can take part individually or form a team. The maximum number of members allowed in a team is 4.",
+      },
   ]
   return (
     <section
@@ -150,7 +156,7 @@ export default function Faq() {
             </div>
 
             {/*-------------   IF THERE ARE QNS 5 AND 6    ----------------*/}
-            {/* <div className="flex items-start">
+            <div className="flex items-start">
               <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
                 <span className="text-lg font-semibold text-white">?</span>
               </div>
@@ -187,7 +193,26 @@ export default function Faq() {
                   <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">{items[5].answer}</p>
                 )}
               </div>
-            </div> */}
+            </div>
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div className="ml-4 w-full">
+                <div className="flex" data-aos="zoom-in" data-aos-delay="500">
+                  <p className="mr-2 text-base font-semibold text-gray-600 font-body1">
+                    {items[6].question}
+                  </p>
+                  <div className="flex-1"></div>
+                  <p className="ml-1 text-xl font-body1 font-semibold text-gray-600" onClick={()=>setState7(!state7)}>
+                      {state7 ? "-" : "+"}
+                  </p>
+                </div>
+                {state7 && (
+                  <p className="mt-3 mr-3 text-sm font-light text-gray-500 sm:text-base font-body1">{items[6].answer}</p>
+                )}
+              </div>
+            </div>
 
           </div>
         </div> 
@@ -247,6 +272,48 @@ export default function Faq() {
                   </p>
                   <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
                     {items[3].answer}
+                  </p>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div data-aos="zoom-in" data-aos-delay="500" className="ml-4">
+                <p className="text-xl font-semibold text-gray-600 font-body1">
+                    {items[4].question}
+                  </p>
+                  <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                    {items[4].answer}
+                  </p>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div data-aos="zoom-in" data-aos-delay="500" className="ml-4">
+                <p className="text-xl font-semibold text-gray-600 font-body1">
+                    {items[5].question}
+                  </p>
+                  <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                    {items[5].answer}
+                  </p>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-gray-700 rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div data-aos="zoom-in" data-aos-delay="500" className="ml-4">
+                <p className="text-xl font-semibold text-gray-600 font-body1">
+                    {items[6].question}
+                  </p>
+                  <p className="mt-4 text-sm font-light text-gray-500 sm:text-base font-body1">
+                    {items[6].answer}
                   </p>
               </div>
             </div>
