@@ -75,12 +75,13 @@ export default function Getstarted() {
                     Introducing IBeTo - Innovations for a Better Tomorrow, the
                     flagship event of Excel 2023, the annual national-level
                     technical symposium of Govt. Model Engineering College,
-                    Thrikkakara.</p><p className="max-w-sm mt-6 text-base font-normal text-gray-800 font-body1 sm:text-md">
-                    
-                    IBeTo is a unique platform where participants
-                    tackle leading societal issues with creative innovations
-                    under the guidance of our expert mentors. Join us as we
-                    present solutions that shape a brighter future.
+                    Thrikkakara.
+                  </p>
+                  <p className="max-w-sm mt-6 text-base font-normal text-gray-800 font-body1 sm:text-md">
+                    IBeTo is a unique platform where participants tackle leading
+                    societal issues with creative innovations under the guidance
+                    of our expert mentors. Join us as we present solutions that
+                    shape a brighter future.
                   </p>
                   <div className="relative inline-flex items-center justify-center mt-8 rounded-full sm:mt-12 group">
                     <div className="absolute w-1/2 transition-all duration-200 rounded-full -inset-px "></div>
@@ -113,7 +114,7 @@ export default function Getstarted() {
                   />
                   <img
                     className="lg:hidden  block w-full h-[80%]"
-                    src="ibetologo.png"
+                    src="ibetologowithouttext.png"
                     alt=""
                   />
                 </div>
