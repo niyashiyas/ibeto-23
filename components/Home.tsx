@@ -39,11 +39,16 @@ export default function landingpagebanner() {
       >
         <source src="/bg.mp4" type="video/mp4" />
       </video>{" "}
-      <div className="w-full z-40 bg-[#3b091bc7]  absolute min-h-screen font-sans text-gray-900" style={{
-        // background: "linear-gradient(45deg, #e91155, transparent)",
-        // background: "#e91155",
-        // opacity:"0.5"
-      }}>
+      <div
+        className="w-full z-40  sm:bg-[#280512c7] bg-[#19020ac7]  absolute min-h-screen font-sans text-gray-900"
+        style={
+          {
+            // background: "linear-gradient(45deg, #e91155, transparent)",
+            // background: "#e91155",
+            // opacity:"0.5"
+          }
+        }
+      >
         <div className="h-screen bg2 flex justify-center  ">
           {/* <Model /> */}
           <div className="mt-0 sm:mt-0 px-0 absolute w-full h-full  flex justify-center py-2 sm:px-12 mx-auto sm:max-w-7xl 2xl:max-w-7xl">
@@ -82,7 +87,11 @@ export default function landingpagebanner() {
                   autoplay={true}
                   style={{ width: animationSize, height: animationSize }}
                   /> */}
-                  <img className="landing__img" src="./ibetologo.png" alt="" />
+                <img
+                  className="landing__img translate-y-20 sm:translate-y-0 scale-90"
+                  src="./ibetologo.png"
+                  alt=""
+                />
               </div>
             </div>
           </div>
