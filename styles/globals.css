@@ -165,7 +165,9 @@ body::-webkit-scrollbar {
   line-height: 100%;
   letter-spacing: -0.03rem;
 }
-
+.landing__img{
+  width: 40rem;
+}
 .colo {
   stop-color: var(--color-cyan-500);
 }

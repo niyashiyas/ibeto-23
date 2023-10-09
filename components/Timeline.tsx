@@ -14,7 +14,7 @@ export default function Timeline() {
 
   const timeline = [
     {
-      date: "oct 11th",
+      date: "11th October",
       title: "IBeTo Launch - Registration Opens",
       para: "IBeTo registration opens. Students can register by submitting their ideas by filling out the form on the website.",
     },
@@ -24,7 +24,7 @@ export default function Timeline() {
       para: "Detailed Abstract Submission opens for registered IBeTo participants. Registration is still open via the form on the website.",
     },
     {
-      date: "11th November",
+      date: "1st November",
       title: "Registration closes",
       para: "IBeTo registration closes.",
     },
@@ -34,22 +34,22 @@ export default function Timeline() {
       para: "Revealing of phase 1 teams that are selected to the next level.",
     },
     {
-      date: "3rd November",
+      date: "22nd December",
       title: "Announcement of Shortlisted Teams",
       para: "Announcement of Shortlisted Teams.",
     },
     {
-      date: "4th November",
+      date: "22nd December - 2nd February",
       title: "Project Development Begins",
       para: "Create Phase begins. Teams are encouraged to start working on their projects..",
     },
     {
-      date: "1st - 10th December",
+      date: "10th January",
       title: "Meet The Mentor Session",
       para: "The teams are given an opportunity to interact with their mentors and obtain advice on how to further develop their project.",
     },
     {
-      date: "23rd December",
+      date: "20th January",
       title: "Project Plan",
       para: "The teams are required to submit their project plan - detailing their project creation process.",
     },

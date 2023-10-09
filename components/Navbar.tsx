@@ -160,7 +160,7 @@ const Navbar = () => {
                     paddingLeft: "4px",
                   }}
                   className="w-auto h-16 pl-4 sm:h-14 lg:h-16 lg:pl-0"
-                  src="./ibetof.png"
+                  src="./ibetologo.png"
                   alt=""
                 />
               </Link>

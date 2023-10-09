@@ -276,6 +276,48 @@ export default function Faq() {
                 </p>
               </div>
             </div>
+
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400  rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div data-aos="zoom-in" data-aos-delay="300" className="ml-4">
+                <p className="text-xl font-normal text-gray-600 font-body1">
+                  {items[4].question}
+                </p>
+                <p className="mt-4 text-sm font-default text-gray-700 sm:text-base font-body1">
+                  {items[4].answer}
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400  rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div data-aos="zoom-in" data-aos-delay="300" className="ml-4">
+                <p className="text-xl font-normal text-gray-600 font-body1">
+                  {items[5].question}
+                </p>
+                <p className="mt-4 text-sm font-default text-gray-700 sm:text-base font-body1">
+                  {items[5].answer}
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <div className="flex items-center justify-center flex-shrink-0 w-8 h-8 bg-rose-400  rounded-full">
+                <span className="text-lg font-semibold text-white">?</span>
+              </div>
+              <div data-aos="zoom-in" data-aos-delay="300" className="ml-4">
+                <p className="text-xl font-normal text-gray-600 font-body1">
+                  {items[6].question}
+                </p>
+                <p className="mt-4 text-sm font-default text-gray-700 sm:text-base font-body1">
+                  {items[6].answer}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 

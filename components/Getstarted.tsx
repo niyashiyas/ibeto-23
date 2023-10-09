@@ -62,7 +62,7 @@ export default function Getstarted() {
                 <div className="absolute inset-y-0  right-0 w-1/2 hidden pr-12 md:block">
                   <img
                     className="w-full max-w-md  transform  translate-y-14 ml-12"
-                    src="ibeto.png"
+                    src="./ibetologowithouttext.png"
                     alt=""
                   />
                 </div>
@@ -108,12 +108,12 @@ export default function Getstarted() {
                 <div className="relative md:hidden">
                   <img
                     className="hidden lg:block w-full h-[70%]"
-                    src="ibeto.png"
+                    src="ibetologowithouttext.png"
                     alt=""
                   />
                   <img
                     className="lg:hidden  block w-full h-[80%]"
-                    src="ibetof.png"
+                    src="ibetologo.png"
                     alt=""
                   />
                 </div>

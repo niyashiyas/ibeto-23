@@ -30,7 +30,7 @@ export default function Footer() {
               <div className="flex items-center justify-end space-x-3">
                 <div>
                   <a
-                    href="#"
+                    href="https://twitter.com/excelmec"
                     title=""
                     className="inline-flex items-center justify-center w-8 h-8 text-white transition-all duration-200 bg-gray-800 rounded-full hover:bg-rose-500"
                     target="_blank"
@@ -42,7 +42,7 @@ export default function Footer() {
 
                 <div>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/excelmec/"
                     title=""
                     className="inline-flex items-center justify-center w-8 h-8 text-white transition-all duration-200 bg-gray-800 rounded-full hover:bg-rose-500"
                     target="_blank"
@@ -61,7 +61,7 @@ export default function Footer() {
 
                 <div>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/excelmec/"
                     title=""
                     className="inline-flex items-center justify-center w-8 h-8 text-white transition-all duration-200 bg-gray-800 rounded-full hover:bg-rose-500"
                     target="_blank"
@@ -82,7 +82,7 @@ export default function Footer() {
 
                 <div>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/company/excelmec/mycompany/"
                     title=""
                     className="inline-flex items-center justify-center w-8 h-8 text-white transition-all duration-200 bg-gray-800 rounded-full hover:bg-rose-500"
                     target="_blank"

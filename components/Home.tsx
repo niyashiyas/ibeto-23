@@ -1,12 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Aos from "aos";
-import { useEffect } from "react";
 import "aos/dist/aos.css";
 import Link from "next/link";
 import Social from "./Social";
 import Navbar from "./Navbar";
+import { useScreenWidth } from '../hooks/useScreenWidth'
+import Lottie from 'lottie-react'
+import bulb from '../animations/two_gear.json'
 
 export default function landingpagebanner() {
+  const size = useScreenWidth();
+  const [animationSize, setAnimationSize] = useState<number>();
+  useEffect(() => {
+    if (size[0] > 600) {
+      setAnimationSize(450);
+    } else if (size[0] > 500) {
+      setAnimationSize(450);
+    } else if (size[0] > 400) {
+      setAnimationSize(400);
+    } else {
+      setAnimationSize(300);
+    }
+  }, [size]);
   useEffect(() => {
     Aos.init({
       offset: 50,
@@ -16,16 +31,20 @@ export default function landingpagebanner() {
   return (
     <div className="mt-0  fixed w-full bg-hero h-screen bg-no-repeat bg-cover bg-center">
       <div className="right-0 hidden l-0 bottom-[30%] absolute h-full sm:flex mr-4 items-end pb-8"></div>{" "}
-      {/* <video
+      <video
         autoPlay
         loop
         muted
-        className="absolute z-10 opacity-90 sm:opacity-40 w-screen h-screen object-cover max-w-none"
+        className="absolute z-10 sm: w-screen h-screen object-cover max-w-none"
       >
         <source src="/bg.mp4" type="video/mp4" />
-      </video>{" "} */}
-      <div className="w-full z-40  bg-[#ca88a0]  absolute min-h-screen font-sans text-gray-900">
-        <div className="h-screen  flex justify-center  ">
+      </video>{" "}
+      <div className="w-full z-40 bg-[#3b091bc7]  absolute min-h-screen font-sans text-gray-900" style={{
+        // background: "linear-gradient(45deg, #e91155, transparent)",
+        // background: "#e91155",
+        // opacity:"0.5"
+      }}>
+        <div className="h-screen bg2 flex justify-center  ">
           {/* <Model /> */}
           <div className="mt-0 sm:mt-0 px-0 absolute w-full h-full  flex justify-center py-2 sm:px-12 mx-auto sm:max-w-7xl 2xl:max-w-7xl">
             <div
@@ -49,14 +68,21 @@ export default function landingpagebanner() {
                 </div>
               </div>
               <div className="flex p-2 sm:p-2 items-center sm:w-2/3 w-full mt-3 border-gray-400">
-                <video
+                {/* <video
                   autoPlay
                   loop
                   muted
                   className="w-full h-full object-cover"
                 >
                   <source src="/compressedNew.mp4" type="video/mp4" />
-                </video>
+                </video> */}
+                {/* <Lottie
+                  animationData={bulb}
+                  loop={true}
+                  autoplay={true}
+                  style={{ width: animationSize, height: animationSize }}
+                  /> */}
+                  <img className="landing__img" src="./ibetologo.png" alt="" />
               </div>
             </div>
           </div>
