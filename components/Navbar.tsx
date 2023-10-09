@@ -40,8 +40,8 @@ const Navbar = () => {
       </div>
       <div className="px-0 py-1 mx-auto sm:px-0 sm:max-w-6xl 2xl:max-w-7xl">
         <div className="px-4 mx-auto sm:px-6 lg:px-8">
-          <nav className="relative flex items-center justify-between h-20 lg:justify-end lg:h-18">
-            <div className="flex items-center justify-center lg:absolute lg:-translate-x-1 lg:inset-y-5 lg:left-1">
+          <nav className="relative flex items-center justify-between h-20 lg:justify-between lg:h-18">
+            <div className="flex items-center justify-center ">
               <div className="flex-shrink-0">
                 <Link href="https://excelmec.org" title="" className="flex">
                   <img
@@ -64,7 +64,7 @@ const Navbar = () => {
               <button
                 type="button"
                 onClick={opening}
-                className="inline-flex p-2 px-4 text-white font-bold transition-all duration-200 rounded-md lg:hidden focus:bg-[#0b0a26] hover:text-cyan-600 hover:bg-gray-100"
+                className="inline-flex p-2 px-4 text-white font-bold transition-all duration-200 rounded-md lg:hidden focus:bg-[#0b0a26] hover:text-rose-600 hover:bg-gray-100"
               >
                 <img
                   width="24"
@@ -80,7 +80,7 @@ const Navbar = () => {
                   <Link href="#start">
                     <button
                       type="button"
-                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-cyan-600 "
+                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-rose-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
@@ -95,7 +95,7 @@ const Navbar = () => {
                   <Link href="#roadmap">
                     <button
                       type="button"
-                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-cyan-600 "
+                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-rose-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
@@ -110,7 +110,7 @@ const Navbar = () => {
                   <Link href="#timeline">
                     <button
                       type="button"
-                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-cyan-600 "
+                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-rose-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
@@ -120,12 +120,12 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>{" "}
-              <div className="relative inline-block text-left">
+              {/* <div className="relative inline-block text-left">
                 <div>
                   <Link href="#sponsors">
                     <button
                       type="button"
-                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-cyan-600 "
+                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-rose-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
@@ -134,13 +134,13 @@ const Navbar = () => {
                     </button>
                   </Link>
                 </div>
-              </div>{" "}
+              </div>{" "} */}
               <div className="relative inline-block text-left">
                 <div>
                   <Link href="#faq">
                     <button
                       type="button"
-                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-cyan-600 "
+                      className="inline-flex justify-center w-full px-3 py-2 text-base font-medium text-black rounded-md font-body hover:text-rose-600 "
                       id="menu-button"
                       aria-expanded="true"
                       aria-haspopup="true"
@@ -150,6 +150,20 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>
+            </div>
+            <div className="hidden lg:flex lg:items-center">
+              <Link href="https://excelmec.org" title="" className="flex">
+                <img
+                  style={{
+                    width: "auto",
+                    height: "8rem",
+                    paddingLeft: "4px",
+                  }}
+                  className="w-auto h-16 pl-4 sm:h-14 lg:h-16 lg:pl-0"
+                  src="./ibetologo.png"
+                  alt=""
+                />
+              </Link>
             </div>
           </nav>
         </div>
@@ -179,44 +193,55 @@ const Navbar = () => {
             >
               <Link
                 href="#start"
-                className="nav_item_mob hover:text-blue-800 font-body"
+                className="nav_item_mob hover:text-rose-800 font-body"
                 onClick={handleDrawerClose}
               >
                 About
               </Link>
               <Link
                 href="#roadmap"
-                className="nav_item_mob hover:text-blue-800 font-body"
+                className="nav_item_mob hover:text-rose-800 font-body"
                 onClick={handleDrawerClose}
               >
                 Roadmap
               </Link>
               <Link
+                href="#problem"
+                className="nav_item_mob hover:text-rose-800 font-body"
+                onClick={handleDrawerClose}
+              >
+                Problem Statements
+              </Link>
+              <Link
                 href="#timeline"
-                className="nav_item_mob hover:text-blue-800 font-body"
+                className="nav_item_mob hover:text-rose-800 font-body"
                 onClick={handleDrawerClose}
               >
                 Timeline
               </Link>
-              <Link
+              {/* <Link
                 href="#sponsors"
-                className="nav_item_mob hover:text-blue-800 font-body"
+                className="nav_item_mob hover:text-rose-800 font-body"
                 onClick={handleDrawerClose}
               >
                 Sponsors
-              </Link>
+              </Link> */}
               <Link
                 href="#faq"
-                className="nav_item_mob hover:text-blue-800 font-body"
+                className="nav_item_mob hover:text-rose-800 font-body"
                 onClick={handleDrawerClose}
               >
                 FAQ
               </Link>
             </div>
           </div>
-          <a href="https://www.mec.ac.in/" target="_blank" rel="noreferrer">
-            <img src="./meclogo.png" alt="" className="meclogo__mob" />
-          </a>
+          <Link
+            href="https://ibeto.excelmec.org/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src="./ibetologo.png" alt="" className="meclogo__mob" />
+          </Link>
         </div>
       </Drawer>
     </header>
