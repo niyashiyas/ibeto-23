@@ -85,7 +85,7 @@ export default function Getstarted() {
                   </p>
                   <div className="relative inline-flex items-center justify-center mt-8 rounded-full sm:mt-12 group">
                     <div className="absolute w-1/2 transition-all duration-200 rounded-full -inset-px "></div>
-                    <Link
+                    {/* <Link
                       href=""
                       target="_blank"
                       title=""
@@ -93,7 +93,7 @@ export default function Getstarted() {
                       role="button"
                     >
                       Guidelines{" "}
-                    </Link>{" "}
+                    </Link>{" "} */}
                     <Link
                       href="https://docs.google.com/forms/d/e/1FAIpQLSdJPPsZuJovs10vnA0IZ1Qb0QMr5Nyn1Bw8wM-TpVcFYjC8wA/viewform"
                       target="_blank"
