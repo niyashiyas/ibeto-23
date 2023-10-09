@@ -67,7 +67,7 @@ export default function Rewards() {
               width={20}
               className="mr-2 pointer-events-none" // Add margin-right for spacing between the icon and text
             />
-            Exclusive perks for all the 30 shortlisted teams.
+            Internship opportunities for selected participants.
           </div>
           <div className="flex items-center pb-3">
             <img
