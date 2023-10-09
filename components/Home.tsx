@@ -35,12 +35,12 @@ export default function landingpagebanner() {
         autoPlay
         loop
         muted
-        className="absolute z-10 sm: w-screen h-screen object-cover max-w-none"
+        className="absolute z-10 sm: sm:w-screen h-screen object-cover max-w-none"
       >
         <source src="/bg.mp4" type="video/mp4" />
       </video>{" "}
       <div
-        className="w-full z-40  sm:bg-[#280512c7] bg-[#19020ac7]  absolute min-h-screen font-sans text-gray-900"
+        className="w-full z-40  sm:bg-[#280512c7] bg-[#1b020ac7]  absolute min-h-screen font-sans text-gray-900"
         style={
           {
             // background: "linear-gradient(45deg, #e91155, transparent)",
