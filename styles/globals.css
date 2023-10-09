@@ -46,8 +46,8 @@ body::-webkit-scrollbar {
     ),
     radial-gradient(
       farthest-corner at bottom right,
-      #8e2e5bc7,
-      transparent 800px
+      #8e2e5b5f,
+      transparent 600px
     ),
     radial-gradient(farthest-side at top left, #9c1654e2, transparent 900px),
     radial-gradient(farthest-corner at top right, #c0873273, transparent 900px);
@@ -244,16 +244,16 @@ body::-webkit-scrollbar {
 .bg2 {
   background-image: radial-gradient(
       farthest-side at bottom left,
-      #be387b57,
-      transparent 400px
+      #7d174a57,
+      transparent 100px
     ),
     radial-gradient(
       farthest-corner at bottom right,
-      #8e2e5bc7,
-      transparent 800px
+      #4e0125c7,
+      transparent 500px
     ),
-    radial-gradient(farthest-side at top left, #9c1654e2, transparent 900px),
-    radial-gradient(farthest-corner at top right, #c0873273, transparent 900px);
+    radial-gradient(farthest-side at top left, #500024a1, transparent 300px),
+    radial-gradient(farthest-corner at top right, #c0873273, transparent 200px);
 }
 .bg11 {
   background-image: radial-gradient(
