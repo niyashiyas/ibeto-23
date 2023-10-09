@@ -83,6 +83,7 @@ export default function Timeline() {
                 {timeline.map((t, i) => {
                   return (
                     <VerticalTimelineElement
+                    iconClassName="bg-rose-500"
                       key={i}
                       contentStyle={{ borderRadius: "25px" }}
                       className="vertical-timeline-element--work font-body2 "
