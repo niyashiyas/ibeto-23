@@ -94,9 +94,9 @@ export default function Getstarted() {
                       Guidelines{" "}
                     </Link>{" "}
                     <Link
-                      href=""
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSdJPPsZuJovs10vnA0IZ1Qb0QMr5Nyn1Bw8wM-TpVcFYjC8wA/viewform"
                       target="_blank"
-                      title=""
+                      title="register_Ibeto"
                       className="relative hover:scale-110 text-md -ml-12 font-body2 font-normal inline-flex items-center justify-center px-8 scale-105 py-2 text-base text-white bg-gradient-to-r from-[#f9681c] to-[#e80a5a] rounded-full"
                       role="button"
                     >
